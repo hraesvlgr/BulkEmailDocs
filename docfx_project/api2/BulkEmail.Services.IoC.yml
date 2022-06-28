@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.IoC
+  commentId: N:BulkEmail.Services.IoC
+  id: BulkEmail.Services.IoC
+  children:
+  - BulkEmail.Services.IoC.TypeNamingConvention
+  langs:
+  - csharp
+  - vb
+  name: BulkEmail.Services.IoC
+  nameWithType: BulkEmail.Services.IoC
+  fullName: BulkEmail.Services.IoC
+  type: Namespace
+  assemblies:
+  - BulkEmail.Services
+references:
+- uid: BulkEmail.Services.IoC.TypeNamingConvention
+  commentId: T:BulkEmail.Services.IoC.TypeNamingConvention
+  name: TypeNamingConvention
+  nameWithType: TypeNamingConvention
+  fullName: BulkEmail.Services.IoC.TypeNamingConvention

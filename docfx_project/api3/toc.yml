@@ -1,0 +1,63 @@
+### YamlMime:TableOfContent
+- uid: BulkEmail.UI
+  name: BulkEmail.UI
+  items:
+  - uid: BulkEmail.UI.EnumAction
+    name: EnumAction
+  - uid: BulkEmail.UI.GridNavigationPage
+    name: GridNavigationPage
+  - uid: BulkEmail.UI.Main
+    name: Main
+  - uid: BulkEmail.UI.UIData
+    name: UIData
+- uid: BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  items:
+  - uid: BulkEmail.UI.Actors.CleanUpReportActor
+    name: CleanUpReportActor
+  - uid: BulkEmail.UI.Actors.EmailBodyReceiverActor
+    name: EmailBodyReceiverActor
+  - uid: BulkEmail.UI.Actors.EmailSentReceiverActor
+    name: EmailSentReceiverActor
+  - uid: BulkEmail.UI.Actors.EmailToSendComposerActor
+    name: EmailToSendComposerActor
+  - uid: BulkEmail.UI.Actors.LabelProgressActor
+    name: LabelProgressActor
+  - uid: BulkEmail.UI.Actors.ProgressActor
+    name: ProgressActor
+  - uid: BulkEmail.UI.Actors.UnlockFormActor
+    name: UnlockFormActor
+  - uid: BulkEmail.UI.Actors.ValidationResultReceiverActor
+    name: ValidationResultReceiverActor
+- uid: BulkEmail.UI.Command
+  name: BulkEmail.UI.Command
+  items:
+  - uid: BulkEmail.UI.Command.FormCommand
+    name: FormCommand
+  - uid: BulkEmail.UI.Command.MessageStyle
+    name: MessageStyle
+- uid: BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  items:
+  - uid: BulkEmail.UI.Forms.formAuthenticate
+    name: formAuthenticate
+  - uid: BulkEmail.UI.Forms.formBrowse
+    name: formBrowse
+  - uid: BulkEmail.UI.Forms.formEMailMapping
+    name: formEMailMapping
+  - uid: BulkEmail.UI.Forms.formEmailTemplate
+    name: formEmailTemplate
+  - uid: BulkEmail.UI.Forms.formEmailTemplateEdit
+    name: formEmailTemplateEdit
+  - uid: BulkEmail.UI.Forms.formExcelValidationDialog
+    name: formExcelValidationDialog
+  - uid: BulkEmail.UI.Forms.formNotification
+    name: formNotification
+  - uid: BulkEmail.UI.Forms.formPreviewAndSend
+    name: formPreviewAndSend
+  - uid: BulkEmail.UI.Forms.formReport
+    name: formReport
+  - uid: BulkEmail.UI.Forms.formSaveAsDialog
+    name: formSaveAsDialog
+  - uid: BulkEmail.UI.Forms.formSettings
+    name: formSettings

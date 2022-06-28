@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Messages
+  commentId: N:BulkEmail.Services.Messages
+  id: BulkEmail.Services.Messages
+  children:
+  - BulkEmail.Services.Messages.BaseExcelRowMapping
+  - BulkEmail.Services.Messages.BaseResult`1
+  - BulkEmail.Services.Messages.BreakerClose
+  - BulkEmail.Services.Messages.BreakerOpen
+  - BulkEmail.Services.Messages.Complete
+  - BulkEmail.Services.Messages.EmailBody
+  - BulkEmail.Services.Messages.EmailFieldMapForValidation
+  - BulkEmail.Services.Messages.EmailSent
+  - BulkEmail.Services.Messages.EmailToSend
+  - BulkEmail.Services.Messages.ExcelColumnsMapping
+  - BulkEmail.Services.Messages.ExcelRowAndRtfTemplate
+  - BulkEmail.Services.Messages.ExcelRowCount
+  - BulkEmail.Services.Messages.ExcelRowEmailAddressMapping
+  - BulkEmail.Services.Messages.ExcelRowFilePathMapping
+  - BulkEmail.Services.Messages.Failed`1
+  - BulkEmail.Services.Messages.KillThis
+  - BulkEmail.Services.Messages.Progress
+  - BulkEmail.Services.Messages.ReliableDeliveryAck`1
+  - BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  - BulkEmail.Services.Messages.SetPrerequisite
+  - BulkEmail.Services.Messages.Start
+  - BulkEmail.Services.Messages.SubjectColumnsMapping
+  - BulkEmail.Services.Messages.Success`1
+  - BulkEmail.Services.Messages.ValidatedFieldMap
+  langs:
+  - csharp
+  - vb
+  name: BulkEmail.Services.Messages
+  nameWithType: BulkEmail.Services.Messages
+  fullName: BulkEmail.Services.Messages
+  type: Namespace
+  assemblies:
+  - BulkEmail.Services
+references:
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  commentId: T:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  name: ReliableDeliveryEnvelope<TMessage>
+  nameWithType: ReliableDeliveryEnvelope<TMessage>
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage)
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage)
+  name.vb: ReliableDeliveryEnvelope(Of TMessage)
+  spec.csharp:
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.ReliableDeliveryAck`1
+  commentId: T:BulkEmail.Services.Messages.ReliableDeliveryAck`1
+  name: ReliableDeliveryAck<TMessage>
+  nameWithType: ReliableDeliveryAck<TMessage>
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryAck<TMessage>
+  nameWithType.vb: ReliableDeliveryAck(Of TMessage)
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryAck(Of TMessage)
+  name.vb: ReliableDeliveryAck(Of TMessage)
+  spec.csharp:
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryAck`1
+    name: ReliableDeliveryAck
+    nameWithType: ReliableDeliveryAck
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryAck
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryAck`1
+    name: ReliableDeliveryAck
+    nameWithType: ReliableDeliveryAck
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryAck
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.BaseResult`1
+  commentId: T:BulkEmail.Services.Messages.BaseResult`1
+  name: BaseResult<T>
+  nameWithType: BaseResult<T>
+  fullName: BulkEmail.Services.Messages.BaseResult<T>
+  nameWithType.vb: BaseResult(Of T)
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T)
+  name.vb: BaseResult(Of T)
+  spec.csharp:
+  - uid: BulkEmail.Services.Messages.BaseResult`1
+    name: BaseResult
+    nameWithType: BaseResult
+    fullName: BulkEmail.Services.Messages.BaseResult
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BulkEmail.Services.Messages.BaseResult`1
+    name: BaseResult
+    nameWithType: BaseResult
+    fullName: BulkEmail.Services.Messages.BaseResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.BreakerClose
+  commentId: T:BulkEmail.Services.Messages.BreakerClose
+  parent: BulkEmail.Services.Messages
+  name: BreakerClose
+  nameWithType: BreakerClose
+  fullName: BulkEmail.Services.Messages.BreakerClose
+- uid: BulkEmail.Services.Messages.BreakerOpen
+  commentId: T:BulkEmail.Services.Messages.BreakerOpen
+  parent: BulkEmail.Services.Messages
+  name: BreakerOpen
+  nameWithType: BreakerOpen
+  fullName: BulkEmail.Services.Messages.BreakerOpen
+- uid: BulkEmail.Services.Messages.Complete
+  commentId: T:BulkEmail.Services.Messages.Complete
+  parent: BulkEmail.Services.Messages
+  name: Complete
+  nameWithType: Complete
+  fullName: BulkEmail.Services.Messages.Complete
+- uid: BulkEmail.Services.Messages.EmailBody
+  commentId: T:BulkEmail.Services.Messages.EmailBody
+  parent: BulkEmail.Services.Messages
+  name: EmailBody
+  nameWithType: EmailBody
+  fullName: BulkEmail.Services.Messages.EmailBody
+- uid: BulkEmail.Services.Messages.EmailFieldMapForValidation
+  commentId: T:BulkEmail.Services.Messages.EmailFieldMapForValidation
+  name: EmailFieldMapForValidation
+  nameWithType: EmailFieldMapForValidation
+  fullName: BulkEmail.Services.Messages.EmailFieldMapForValidation
+- uid: BulkEmail.Services.Messages.EmailSent
+  commentId: T:BulkEmail.Services.Messages.EmailSent
+  name: EmailSent
+  nameWithType: EmailSent
+  fullName: BulkEmail.Services.Messages.EmailSent
+- uid: BulkEmail.Services.Messages.EmailToSend
+  commentId: T:BulkEmail.Services.Messages.EmailToSend
+  parent: BulkEmail.Services.Messages
+  name: EmailToSend
+  nameWithType: EmailToSend
+  fullName: BulkEmail.Services.Messages.EmailToSend
+- uid: BulkEmail.Services.Messages.ExcelRowAndRtfTemplate
+  commentId: T:BulkEmail.Services.Messages.ExcelRowAndRtfTemplate
+  parent: BulkEmail.Services.Messages
+  name: ExcelRowAndRtfTemplate
+  nameWithType: ExcelRowAndRtfTemplate
+  fullName: BulkEmail.Services.Messages.ExcelRowAndRtfTemplate
+- uid: BulkEmail.Services.Messages.ExcelRowEmailAddressMapping
+  commentId: T:BulkEmail.Services.Messages.ExcelRowEmailAddressMapping
+  name: ExcelRowEmailAddressMapping
+  nameWithType: ExcelRowEmailAddressMapping
+  fullName: BulkEmail.Services.Messages.ExcelRowEmailAddressMapping
+- uid: BulkEmail.Services.Messages.ExcelRowFilePathMapping
+  commentId: T:BulkEmail.Services.Messages.ExcelRowFilePathMapping
+  name: ExcelRowFilePathMapping
+  nameWithType: ExcelRowFilePathMapping
+  fullName: BulkEmail.Services.Messages.ExcelRowFilePathMapping
+- uid: BulkEmail.Services.Messages.ExcelColumnsMapping
+  commentId: T:BulkEmail.Services.Messages.ExcelColumnsMapping
+  name: ExcelColumnsMapping
+  nameWithType: ExcelColumnsMapping
+  fullName: BulkEmail.Services.Messages.ExcelColumnsMapping
+- uid: BulkEmail.Services.Messages.ExcelRowCount
+  commentId: T:BulkEmail.Services.Messages.ExcelRowCount
+  name: ExcelRowCount
+  nameWithType: ExcelRowCount
+  fullName: BulkEmail.Services.Messages.ExcelRowCount
+- uid: BulkEmail.Services.Messages.SubjectColumnsMapping
+  commentId: T:BulkEmail.Services.Messages.SubjectColumnsMapping
+  name: SubjectColumnsMapping
+  nameWithType: SubjectColumnsMapping
+  fullName: BulkEmail.Services.Messages.SubjectColumnsMapping
+- uid: BulkEmail.Services.Messages.BaseExcelRowMapping
+  commentId: T:BulkEmail.Services.Messages.BaseExcelRowMapping
+  parent: BulkEmail.Services.Messages
+  name: BaseExcelRowMapping
+  nameWithType: BaseExcelRowMapping
+  fullName: BulkEmail.Services.Messages.BaseExcelRowMapping
+- uid: BulkEmail.Services.Messages.Failed`1
+  commentId: T:BulkEmail.Services.Messages.Failed`1
+  name: Failed<T>
+  nameWithType: Failed<T>
+  fullName: BulkEmail.Services.Messages.Failed<T>
+  nameWithType.vb: Failed(Of T)
+  fullName.vb: BulkEmail.Services.Messages.Failed(Of T)
+  name.vb: Failed(Of T)
+  spec.csharp:
+  - uid: BulkEmail.Services.Messages.Failed`1
+    name: Failed
+    nameWithType: Failed
+    fullName: BulkEmail.Services.Messages.Failed
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BulkEmail.Services.Messages.Failed`1
+    name: Failed
+    nameWithType: Failed
+    fullName: BulkEmail.Services.Messages.Failed
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.KillThis
+  commentId: T:BulkEmail.Services.Messages.KillThis
+  parent: BulkEmail.Services.Messages
+  name: KillThis
+  nameWithType: KillThis
+  fullName: BulkEmail.Services.Messages.KillThis
+- uid: BulkEmail.Services.Messages.Progress
+  commentId: T:BulkEmail.Services.Messages.Progress
+  parent: BulkEmail.Services.Messages
+  name: Progress
+  nameWithType: Progress
+  fullName: BulkEmail.Services.Messages.Progress
+- uid: BulkEmail.Services.Messages.SetPrerequisite
+  commentId: T:BulkEmail.Services.Messages.SetPrerequisite
+  parent: BulkEmail.Services.Messages
+  name: SetPrerequisite
+  nameWithType: SetPrerequisite
+  fullName: BulkEmail.Services.Messages.SetPrerequisite
+- uid: BulkEmail.Services.Messages.Start
+  commentId: T:BulkEmail.Services.Messages.Start
+  parent: BulkEmail.Services.Messages
+  name: Start
+  nameWithType: Start
+  fullName: BulkEmail.Services.Messages.Start
+- uid: BulkEmail.Services.Messages.Success`1
+  commentId: T:BulkEmail.Services.Messages.Success`1
+  name: Success<T>
+  nameWithType: Success<T>
+  fullName: BulkEmail.Services.Messages.Success<T>
+  nameWithType.vb: Success(Of T)
+  fullName.vb: BulkEmail.Services.Messages.Success(Of T)
+  name.vb: Success(Of T)
+  spec.csharp:
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap
+  commentId: T:BulkEmail.Services.Messages.ValidatedFieldMap
+  name: ValidatedFieldMap
+  nameWithType: ValidatedFieldMap
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+- uid: BulkEmail.Services.Messages
+  commentId: N:BulkEmail.Services.Messages
+  name: BulkEmail.Services.Messages
+  nameWithType: BulkEmail.Services.Messages
+  fullName: BulkEmail.Services.Messages

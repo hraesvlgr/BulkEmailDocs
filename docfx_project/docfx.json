@@ -1,0 +1,202 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "src/**.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "src2/**.csproj"
+          ]
+        }
+      ],
+      "dest": "api2",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "src3/**.csproj"
+          ]
+        }
+      ],
+      "dest": "api3",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api2/**.yml",
+	  "api3/**.yml",
+          "api/index.md",
+	  "api2/index.md",
+	  "api3/index.md"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  },
+
+"pdf": {
+    "content": [
+        {
+            "files": [ "PDF/toc.yml" ]
+        },
+        {
+            "files": [
+                "reference/**.yml",
+                "reference/index.md"
+            ],
+            "exclude": [
+                "**/toc.yml",
+                "**/toc.md"
+            ]
+        },
+        {
+            "files": [
+                "Concepts/**.md",
+                "Concepts/**/toc.yml",
+                "toc.yml",
+                "*.md"
+            ],
+            "exclude": [
+                "**/bin/**",
+                "**/obj/**",
+                "PDF/**",
+                "**/toc.yml",
+                "**/toc.md"
+            ]
+        }
+    ],
+    "resource": [
+        {
+            "files": [ "images/**" ],
+            "exclude": [
+                "**/bin/**",
+                "**/obj/**",
+                "PDF/**"
+            ]
+        }
+    ],
+    "dest": "_pdf",
+    "outline": "NoOutline"
+},
+
+"pdf": {
+    "content": [
+        {
+            "files": [ "PDF/toc.yml" ]
+        },
+        {
+            "files": [
+                "api/**.md",
+                "api/**.yml",
+                "toc.yml",
+                "*.md"
+            ],
+            "exclude": [
+                "**/bin/**",
+                "**/obj/**",
+                "PDF/**",
+                "**/toc.yml",
+                "**/toc.md"
+            ]
+        },
+        {
+            "files": [
+                "api2/**.md",
+                "api2/**.yml",
+                "toc.yml",
+                "*.md"
+            ],
+            "exclude": [
+                "**/bin/**",
+                "**/obj/**",
+                "PDF/**",
+                "**/toc.yml",
+                "**/toc.md"
+            ]
+        },
+        {
+            "files": [
+                "api3/**.md",
+                "api3/**.yml",
+                "toc.yml",
+                "*.md"
+            ],
+            "exclude": [
+                "**/bin/**",
+                "**/obj/**",
+                "PDF/**",
+                "**/toc.yml",
+                "**/toc.md"
+            ]
+        }
+    ],
+    "resource": [
+        {
+            "files": [ "images/**" ],
+            "exclude": [
+                "**/bin/**",
+                "**/obj/**",
+                "PDF/**"
+            ]
+        }
+    ],
+    "dest": "_pdf",
+    "outline": "NoOutline"
+}
+}

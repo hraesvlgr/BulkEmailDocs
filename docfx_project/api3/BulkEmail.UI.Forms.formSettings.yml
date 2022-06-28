@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formSettings
+  commentId: T:BulkEmail.UI.Forms.formSettings
+  id: formSettings
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formSettings.#ctor(BulkEmail.UI.Main)
+  - BulkEmail.UI.Forms.formSettings.Dispose(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: formSettings
+  nameWithType: formSettings
+  fullName: BulkEmail.UI.Forms.formSettings
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formSettings.Designer.cs
+    id: formSettings
+    path: src3/BulkEmail.UI/Forms/formSettings.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nFrontend UI for Settings Menu\n"
+  example: []
+  syntax:
+    content: 'public class formSettings : Form'
+    content.vb: >-
+      Public Class formSettings
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formSettings.#ctor(BulkEmail.UI.Main)
+  commentId: M:BulkEmail.UI.Forms.formSettings.#ctor(BulkEmail.UI.Main)
+  id: '#ctor(BulkEmail.UI.Main)'
+  parent: BulkEmail.UI.Forms.formSettings
+  langs:
+  - csharp
+  - vb
+  name: formSettings(Main)
+  nameWithType: formSettings.formSettings(Main)
+  fullName: BulkEmail.UI.Forms.formSettings.formSettings(BulkEmail.UI.Main)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formSettings.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formSettings.cs
+    startLine: 19
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formSettings(Main parent)
+    parameters:
+    - id: parent
+      type: BulkEmail.UI.Main
+    content.vb: Public Sub New(parent As Main)
+  overload: BulkEmail.UI.Forms.formSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formSettings.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formSettings.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formSettings
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formSettings.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formSettings.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formSettings.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formSettings.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formSettings.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formSettings.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formSettings.#ctor
+  name: formSettings
+  nameWithType: formSettings.formSettings
+  fullName: BulkEmail.UI.Forms.formSettings.formSettings
+- uid: BulkEmail.UI.Main
+  commentId: T:BulkEmail.UI.Main
+  parent: BulkEmail.UI
+  name: Main
+  nameWithType: Main
+  fullName: BulkEmail.UI.Main
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: BulkEmail.UI.Forms.formSettings.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formSettings.Dispose
+  name: Dispose
+  nameWithType: formSettings.Dispose
+  fullName: BulkEmail.UI.Forms.formSettings.Dispose
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

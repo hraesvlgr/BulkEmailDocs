@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formAuthenticate
+  commentId: T:BulkEmail.UI.Forms.formAuthenticate
+  id: formAuthenticate
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formAuthenticate.#ctor
+  - BulkEmail.UI.Forms.formAuthenticate.Dispose(System.Boolean)
+  - BulkEmail.UI.Forms.formAuthenticate.DuplicateToken(IntPtr,System.Int32,IntPtr@)
+  langs:
+  - csharp
+  - vb
+  name: formAuthenticate
+  nameWithType: formAuthenticate
+  fullName: BulkEmail.UI.Forms.formAuthenticate
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formAuthenticate.Designer.cs
+    id: formAuthenticate
+    path: src3/BulkEmail.UI/Forms/formAuthenticate.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nForm used for user authentication.\n<p></p>\nUser must have admin role to have a successful authorization.\n"
+  example: []
+  syntax:
+    content: 'public class formAuthenticate : Form'
+    content.vb: >-
+      Public Class formAuthenticate
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formAuthenticate.#ctor
+  commentId: M:BulkEmail.UI.Forms.formAuthenticate.#ctor
+  id: '#ctor'
+  parent: BulkEmail.UI.Forms.formAuthenticate
+  langs:
+  - csharp
+  - vb
+  name: formAuthenticate()
+  nameWithType: formAuthenticate.formAuthenticate()
+  fullName: BulkEmail.UI.Forms.formAuthenticate.formAuthenticate()
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formAuthenticate.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formAuthenticate.cs
+    startLine: 21
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formAuthenticate()
+    content.vb: Public Sub New
+  overload: BulkEmail.UI.Forms.formAuthenticate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formAuthenticate.DuplicateToken(IntPtr,System.Int32,IntPtr@)
+  commentId: M:BulkEmail.UI.Forms.formAuthenticate.DuplicateToken(IntPtr,System.Int32,IntPtr@)
+  id: DuplicateToken(IntPtr,System.Int32,IntPtr@)
+  parent: BulkEmail.UI.Forms.formAuthenticate
+  langs:
+  - csharp
+  - vb
+  name: DuplicateToken(IntPtr, Int32, ref IntPtr)
+  nameWithType: formAuthenticate.DuplicateToken(IntPtr, Int32, ref IntPtr)
+  fullName: BulkEmail.UI.Forms.formAuthenticate.DuplicateToken(IntPtr, System.Int32, ref IntPtr)
+  type: Method
+  source:
+    path: BulkEmail.UI
+    isExternal: true
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public static extern bool DuplicateToken(IntPtr ExistingTokenHandle, int SECURITY_IMPERSONATION_LEVEL, ref IntPtr DuplicateTokenHandle)
+    parameters:
+    - id: ExistingTokenHandle
+      type: IntPtr
+    - id: SECURITY_IMPERSONATION_LEVEL
+      type: System.Int32
+    - id: DuplicateTokenHandle
+      type: IntPtr
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function DuplicateToken(ExistingTokenHandle As IntPtr, SECURITY_IMPERSONATION_LEVEL As Integer, ByRef DuplicateTokenHandle As IntPtr) As Boolean
+  overload: BulkEmail.UI.Forms.formAuthenticate.DuplicateToken*
+  nameWithType.vb: formAuthenticate.DuplicateToken(IntPtr, Int32, ByRef IntPtr)
+  modifiers.csharp:
+  - public
+  - static
+  - extern
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BulkEmail.UI.Forms.formAuthenticate.DuplicateToken(IntPtr, System.Int32, ByRef IntPtr)
+  name.vb: DuplicateToken(IntPtr, Int32, ByRef IntPtr)
+- uid: BulkEmail.UI.Forms.formAuthenticate.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formAuthenticate.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formAuthenticate
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formAuthenticate.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formAuthenticate.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formAuthenticate.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formAuthenticate.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formAuthenticate.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formAuthenticate.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formAuthenticate.#ctor
+  name: formAuthenticate
+  nameWithType: formAuthenticate.formAuthenticate
+  fullName: BulkEmail.UI.Forms.formAuthenticate.formAuthenticate
+- uid: BulkEmail.UI.Forms.formAuthenticate.DuplicateToken*
+  commentId: Overload:BulkEmail.UI.Forms.formAuthenticate.DuplicateToken
+  isExternal: true
+  name: DuplicateToken
+  nameWithType: formAuthenticate.DuplicateToken
+  fullName: BulkEmail.UI.Forms.formAuthenticate.DuplicateToken
+- uid: IntPtr
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: IntPtr
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BulkEmail.UI.Forms.formAuthenticate.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formAuthenticate.Dispose
+  name: Dispose
+  nameWithType: formAuthenticate.Dispose
+  fullName: BulkEmail.UI.Forms.formAuthenticate.Dispose

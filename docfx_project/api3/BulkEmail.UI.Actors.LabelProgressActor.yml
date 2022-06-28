@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.LabelProgressActor
+  commentId: T:BulkEmail.UI.Actors.LabelProgressActor
+  id: LabelProgressActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.LabelProgressActor.#ctor(Action{System.Int32})
+  langs:
+  - csharp
+  - vb
+  name: LabelProgressActor
+  nameWithType: LabelProgressActor
+  fullName: BulkEmail.UI.Actors.LabelProgressActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/LabelProgressActor.cs
+    id: LabelProgressActor
+    path: src3/BulkEmail.UI/Actors/LabelProgressActor.cs
+    startLine: 10
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nActor that handles label text updates in the frontend.\n"
+  example: []
+  syntax:
+    content: 'public class LabelProgressActor : ReceiveActor'
+    content.vb: >-
+      Public Class LabelProgressActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.LabelProgressActor.#ctor(Action{System.Int32})
+  commentId: M:BulkEmail.UI.Actors.LabelProgressActor.#ctor(Action{System.Int32})
+  id: '#ctor(Action{System.Int32})'
+  parent: BulkEmail.UI.Actors.LabelProgressActor
+  langs:
+  - csharp
+  - vb
+  name: LabelProgressActor(Action<Int32>)
+  nameWithType: LabelProgressActor.LabelProgressActor(Action<Int32>)
+  fullName: BulkEmail.UI.Actors.LabelProgressActor.LabelProgressActor(Action<System.Int32>)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/LabelProgressActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/LabelProgressActor.cs
+    startLine: 19
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.UI.Actors.LabelProgressActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n<p></p>\nCalls delegate action when it receives <code>Progress</code> message type. \n"
+  example: []
+  syntax:
+    content: public LabelProgressActor(Action<int> labelProgressAction)
+    parameters:
+    - id: labelProgressAction
+      type: Action{System.Int32}
+      description: The label progress delegate action.
+    content.vb: Public Sub New(labelProgressAction As Action(Of Integer))
+  overload: BulkEmail.UI.Actors.LabelProgressActor.#ctor*
+  nameWithType.vb: LabelProgressActor.LabelProgressActor(Action(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.UI.Actors.LabelProgressActor.LabelProgressActor(Action(Of System.Int32))
+  name.vb: LabelProgressActor(Action(Of Int32))
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.LabelProgressActor
+  commentId: T:BulkEmail.UI.Actors.LabelProgressActor
+  name: LabelProgressActor
+  nameWithType: LabelProgressActor
+  fullName: BulkEmail.UI.Actors.LabelProgressActor
+- uid: BulkEmail.UI.Actors.LabelProgressActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.LabelProgressActor.#ctor
+  name: LabelProgressActor
+  nameWithType: LabelProgressActor.LabelProgressActor
+  fullName: BulkEmail.UI.Actors.LabelProgressActor.LabelProgressActor
+- uid: Action{System.Int32}
+  commentId: '!:Action{System.Int32}'
+  definition: Action`1
+  name: Action<Int32>
+  nameWithType: Action<Int32>
+  fullName: Action<System.Int32>
+  nameWithType.vb: Action(Of Int32)
+  fullName.vb: Action(Of System.Int32)
+  name.vb: Action(Of Int32)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  commentId: '!:Action`1'
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

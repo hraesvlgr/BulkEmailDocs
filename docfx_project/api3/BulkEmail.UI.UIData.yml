@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.UIData
+  commentId: T:BulkEmail.UI.UIData
+  id: UIData
+  parent: BulkEmail.UI
+  children:
+  - BulkEmail.UI.UIData.#ctor
+  - BulkEmail.UI.UIData.EmailMapping
+  - BulkEmail.UI.UIData.ExcelSheet
+  - BulkEmail.UI.UIData.RTFBody
+  - BulkEmail.UI.UIData.TemplateName
+  - BulkEmail.UI.UIData.Valid
+  langs:
+  - csharp
+  - vb
+  name: UIData
+  nameWithType: UIData
+  fullName: BulkEmail.UI.UIData
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/UIData.cs
+    id: UIData
+    path: src3/BulkEmail.UI/UIData.cs
+    startLine: 8
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nStore mapped fields from the frontend.\n"
+  example: []
+  syntax:
+    content: 'public class UIData : object'
+    content.vb: >-
+      Public Class UIData
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.UIData.#ctor
+  commentId: M:BulkEmail.UI.UIData.#ctor
+  id: '#ctor'
+  parent: BulkEmail.UI.UIData
+  langs:
+  - csharp
+  - vb
+  name: UIData()
+  nameWithType: UIData.UIData()
+  fullName: BulkEmail.UI.UIData.UIData()
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/UIData.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/UIData.cs
+    startLine: 10
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: public UIData()
+    content.vb: Public Sub New
+  overload: BulkEmail.UI.UIData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.UIData.EmailMapping
+  commentId: P:BulkEmail.UI.UIData.EmailMapping
+  id: EmailMapping
+  parent: BulkEmail.UI.UIData
+  langs:
+  - csharp
+  - vb
+  name: EmailMapping
+  nameWithType: UIData.EmailMapping
+  fullName: BulkEmail.UI.UIData.EmailMapping
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/UIData.cs
+    id: EmailMapping
+    path: src3/BulkEmail.UI/UIData.cs
+    startLine: 20
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets the email mapping structure.\n"
+  example: []
+  syntax:
+    content: public EmailStructure EmailMapping { get; set; }
+    parameters: []
+    return:
+      type: EmailStructure
+      description: "\nThe email mapping.\n"
+    content.vb: Public Property EmailMapping As EmailStructure
+  overload: BulkEmail.UI.UIData.EmailMapping*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.UIData.ExcelSheet
+  commentId: P:BulkEmail.UI.UIData.ExcelSheet
+  id: ExcelSheet
+  parent: BulkEmail.UI.UIData
+  langs:
+  - csharp
+  - vb
+  name: ExcelSheet
+  nameWithType: UIData.ExcelSheet
+  fullName: BulkEmail.UI.UIData.ExcelSheet
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/UIData.cs
+    id: ExcelSheet
+    path: src3/BulkEmail.UI/UIData.cs
+    startLine: 27
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets the excel sheet for processing\n"
+  example: []
+  syntax:
+    content: public ExcellSheet ExcelSheet { get; set; }
+    parameters: []
+    return:
+      type: ExcellSheet
+      description: "\nThe excel sheet.\n"
+    content.vb: Public Property ExcelSheet As ExcellSheet
+  overload: BulkEmail.UI.UIData.ExcelSheet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.UIData.RTFBody
+  commentId: P:BulkEmail.UI.UIData.RTFBody
+  id: RTFBody
+  parent: BulkEmail.UI.UIData
+  langs:
+  - csharp
+  - vb
+  name: RTFBody
+  nameWithType: UIData.RTFBody
+  fullName: BulkEmail.UI.UIData.RTFBody
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/UIData.cs
+    id: RTFBody
+    path: src3/BulkEmail.UI/UIData.cs
+    startLine: 34
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets the RTF body Template\n"
+  example: []
+  syntax:
+    content: public string RTFBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe RTF body.\n"
+    content.vb: Public Property RTFBody As String
+  overload: BulkEmail.UI.UIData.RTFBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.UIData.TemplateName
+  commentId: P:BulkEmail.UI.UIData.TemplateName
+  id: TemplateName
+  parent: BulkEmail.UI.UIData
+  langs:
+  - csharp
+  - vb
+  name: TemplateName
+  nameWithType: UIData.TemplateName
+  fullName: BulkEmail.UI.UIData.TemplateName
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/UIData.cs
+    id: TemplateName
+    path: src3/BulkEmail.UI/UIData.cs
+    startLine: 41
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets the name of the template name used.\n"
+  example: []
+  syntax:
+    content: public string TemplateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name of the template.\n"
+    content.vb: Public Property TemplateName As String
+  overload: BulkEmail.UI.UIData.TemplateName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.UIData.Valid
+  commentId: P:BulkEmail.UI.UIData.Valid
+  id: Valid
+  parent: BulkEmail.UI.UIData
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: UIData.Valid
+  fullName: BulkEmail.UI.UIData.Valid
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/UIData.cs
+    id: Valid
+    path: src3/BulkEmail.UI/UIData.cs
+    startLine: 48
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets a value indicating whether this <xref href=\"BulkEmail.UI.UIData\" data-throw-if-not-resolved=\"false\"></xref> is valid.\n"
+  example: []
+  syntax:
+    content: public bool Valid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if valid; otherwise, <code>false</code>.\n"
+    content.vb: Public Property Valid As Boolean
+  overload: BulkEmail.UI.UIData.Valid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.UIData.#ctor*
+  commentId: Overload:BulkEmail.UI.UIData.#ctor
+  name: UIData
+  nameWithType: UIData.UIData
+  fullName: BulkEmail.UI.UIData.UIData
+- uid: BulkEmail.UI.UIData.EmailMapping*
+  commentId: Overload:BulkEmail.UI.UIData.EmailMapping
+  name: EmailMapping
+  nameWithType: UIData.EmailMapping
+  fullName: BulkEmail.UI.UIData.EmailMapping
+- uid: EmailStructure
+  isExternal: true
+  name: EmailStructure
+  nameWithType: EmailStructure
+  fullName: EmailStructure
+- uid: BulkEmail.UI.UIData.ExcelSheet*
+  commentId: Overload:BulkEmail.UI.UIData.ExcelSheet
+  name: ExcelSheet
+  nameWithType: UIData.ExcelSheet
+  fullName: BulkEmail.UI.UIData.ExcelSheet
+- uid: ExcellSheet
+  commentId: '!:ExcellSheet'
+  isExternal: true
+  name: ExcellSheet
+  nameWithType: ExcellSheet
+  fullName: ExcellSheet
+- uid: BulkEmail.UI.UIData.RTFBody*
+  commentId: Overload:BulkEmail.UI.UIData.RTFBody
+  name: RTFBody
+  nameWithType: UIData.RTFBody
+  fullName: BulkEmail.UI.UIData.RTFBody
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BulkEmail.UI.UIData.TemplateName*
+  commentId: Overload:BulkEmail.UI.UIData.TemplateName
+  name: TemplateName
+  nameWithType: UIData.TemplateName
+  fullName: BulkEmail.UI.UIData.TemplateName
+- uid: BulkEmail.UI.UIData
+  commentId: T:BulkEmail.UI.UIData
+  parent: BulkEmail.UI
+  name: UIData
+  nameWithType: UIData
+  fullName: BulkEmail.UI.UIData
+- uid: BulkEmail.UI.UIData.Valid*
+  commentId: Overload:BulkEmail.UI.UIData.Valid
+  name: Valid
+  nameWithType: UIData.Valid
+  fullName: BulkEmail.UI.UIData.Valid
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

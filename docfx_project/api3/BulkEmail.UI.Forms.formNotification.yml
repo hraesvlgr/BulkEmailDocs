@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formNotification
+  commentId: T:BulkEmail.UI.Forms.formNotification
+  id: formNotification
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formNotification.#ctor
+  - BulkEmail.UI.Forms.formNotification.Dispose(System.Boolean)
+  - BulkEmail.UI.Forms.formNotification.ShowErrorNotification(System.String)
+  - BulkEmail.UI.Forms.formNotification.ShowInfoNotification(System.String)
+  - BulkEmail.UI.Forms.formNotification.ShowSuccessNotification(System.String)
+  langs:
+  - csharp
+  - vb
+  name: formNotification
+  nameWithType: formNotification
+  fullName: BulkEmail.UI.Forms.formNotification
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formNotification.Designer.cs
+    id: formNotification
+    path: src3/BulkEmail.UI/Forms/formNotification.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nForm that handles application notification.\n"
+  example: []
+  syntax:
+    content: 'public class formNotification : Form'
+    content.vb: >-
+      Public Class formNotification
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formNotification.#ctor
+  commentId: M:BulkEmail.UI.Forms.formNotification.#ctor
+  id: '#ctor'
+  parent: BulkEmail.UI.Forms.formNotification
+  langs:
+  - csharp
+  - vb
+  name: formNotification()
+  nameWithType: formNotification.formNotification()
+  fullName: BulkEmail.UI.Forms.formNotification.formNotification()
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formNotification.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formNotification.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formNotification()
+    content.vb: Public Sub New
+  overload: BulkEmail.UI.Forms.formNotification.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formNotification.ShowErrorNotification(System.String)
+  commentId: M:BulkEmail.UI.Forms.formNotification.ShowErrorNotification(System.String)
+  id: ShowErrorNotification(System.String)
+  parent: BulkEmail.UI.Forms.formNotification
+  langs:
+  - csharp
+  - vb
+  name: ShowErrorNotification(String)
+  nameWithType: formNotification.ShowErrorNotification(String)
+  fullName: BulkEmail.UI.Forms.formNotification.ShowErrorNotification(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formNotification.cs
+    id: ShowErrorNotification
+    path: src3/BulkEmail.UI/Forms/formNotification.cs
+    startLine: 61
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public void ShowErrorNotification(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub ShowErrorNotification(message As String)
+  overload: BulkEmail.UI.Forms.formNotification.ShowErrorNotification*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formNotification.ShowSuccessNotification(System.String)
+  commentId: M:BulkEmail.UI.Forms.formNotification.ShowSuccessNotification(System.String)
+  id: ShowSuccessNotification(System.String)
+  parent: BulkEmail.UI.Forms.formNotification
+  langs:
+  - csharp
+  - vb
+  name: ShowSuccessNotification(String)
+  nameWithType: formNotification.ShowSuccessNotification(String)
+  fullName: BulkEmail.UI.Forms.formNotification.ShowSuccessNotification(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formNotification.cs
+    id: ShowSuccessNotification
+    path: src3/BulkEmail.UI/Forms/formNotification.cs
+    startLine: 67
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public void ShowSuccessNotification(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub ShowSuccessNotification(message As String)
+  overload: BulkEmail.UI.Forms.formNotification.ShowSuccessNotification*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formNotification.ShowInfoNotification(System.String)
+  commentId: M:BulkEmail.UI.Forms.formNotification.ShowInfoNotification(System.String)
+  id: ShowInfoNotification(System.String)
+  parent: BulkEmail.UI.Forms.formNotification
+  langs:
+  - csharp
+  - vb
+  name: ShowInfoNotification(String)
+  nameWithType: formNotification.ShowInfoNotification(String)
+  fullName: BulkEmail.UI.Forms.formNotification.ShowInfoNotification(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formNotification.cs
+    id: ShowInfoNotification
+    path: src3/BulkEmail.UI/Forms/formNotification.cs
+    startLine: 73
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public void ShowInfoNotification(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub ShowInfoNotification(message As String)
+  overload: BulkEmail.UI.Forms.formNotification.ShowInfoNotification*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formNotification.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formNotification.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formNotification
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formNotification.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formNotification.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formNotification.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formNotification.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formNotification.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formNotification.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formNotification.#ctor
+  name: formNotification
+  nameWithType: formNotification.formNotification
+  fullName: BulkEmail.UI.Forms.formNotification.formNotification
+- uid: BulkEmail.UI.Forms.formNotification.ShowErrorNotification*
+  commentId: Overload:BulkEmail.UI.Forms.formNotification.ShowErrorNotification
+  name: ShowErrorNotification
+  nameWithType: formNotification.ShowErrorNotification
+  fullName: BulkEmail.UI.Forms.formNotification.ShowErrorNotification
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BulkEmail.UI.Forms.formNotification.ShowSuccessNotification*
+  commentId: Overload:BulkEmail.UI.Forms.formNotification.ShowSuccessNotification
+  name: ShowSuccessNotification
+  nameWithType: formNotification.ShowSuccessNotification
+  fullName: BulkEmail.UI.Forms.formNotification.ShowSuccessNotification
+- uid: BulkEmail.UI.Forms.formNotification.ShowInfoNotification*
+  commentId: Overload:BulkEmail.UI.Forms.formNotification.ShowInfoNotification
+  name: ShowInfoNotification
+  nameWithType: formNotification.ShowInfoNotification
+  fullName: BulkEmail.UI.Forms.formNotification.ShowInfoNotification
+- uid: BulkEmail.UI.Forms.formNotification.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formNotification.Dispose
+  name: Dispose
+  nameWithType: formNotification.Dispose
+  fullName: BulkEmail.UI.Forms.formNotification.Dispose
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

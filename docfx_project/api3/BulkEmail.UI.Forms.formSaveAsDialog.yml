@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formSaveAsDialog
+  commentId: T:BulkEmail.UI.Forms.formSaveAsDialog
+  id: formSaveAsDialog
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formSaveAsDialog.#ctor(System.String,System.String,System.String)
+  - BulkEmail.UI.Forms.formSaveAsDialog.Dispose(System.Boolean)
+  - BulkEmail.UI.Forms.formSaveAsDialog.FileName
+  langs:
+  - csharp
+  - vb
+  name: formSaveAsDialog
+  nameWithType: formSaveAsDialog
+  fullName: BulkEmail.UI.Forms.formSaveAsDialog
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formSaveAsDialog.Designer.cs
+    id: formSaveAsDialog
+    path: src3/BulkEmail.UI/Forms/formSaveAsDialog.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nForm that handles Save As Dialog.\n"
+  example: []
+  syntax:
+    content: 'public class formSaveAsDialog : Form'
+    content.vb: >-
+      Public Class formSaveAsDialog
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formSaveAsDialog.FileName
+  commentId: P:BulkEmail.UI.Forms.formSaveAsDialog.FileName
+  id: FileName
+  parent: BulkEmail.UI.Forms.formSaveAsDialog
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: formSaveAsDialog.FileName
+  fullName: BulkEmail.UI.Forms.formSaveAsDialog.FileName
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formSaveAsDialog.cs
+    id: FileName
+    path: src3/BulkEmail.UI/Forms/formSaveAsDialog.cs
+    startLine: 17
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public string FileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FileName As String
+  overload: BulkEmail.UI.Forms.formSaveAsDialog.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BulkEmail.UI.Forms.formSaveAsDialog.#ctor(System.String,System.String,System.String)
+  commentId: M:BulkEmail.UI.Forms.formSaveAsDialog.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: BulkEmail.UI.Forms.formSaveAsDialog
+  langs:
+  - csharp
+  - vb
+  name: formSaveAsDialog(String, String, String)
+  nameWithType: formSaveAsDialog.formSaveAsDialog(String, String, String)
+  fullName: BulkEmail.UI.Forms.formSaveAsDialog.formSaveAsDialog(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formSaveAsDialog.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formSaveAsDialog.cs
+    startLine: 19
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formSaveAsDialog(string origFileName, string directory, string extension)
+    parameters:
+    - id: origFileName
+      type: System.String
+    - id: directory
+      type: System.String
+    - id: extension
+      type: System.String
+    content.vb: Public Sub New(origFileName As String, directory As String, extension As String)
+  overload: BulkEmail.UI.Forms.formSaveAsDialog.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formSaveAsDialog.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formSaveAsDialog.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formSaveAsDialog
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formSaveAsDialog.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formSaveAsDialog.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formSaveAsDialog.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formSaveAsDialog.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formSaveAsDialog.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formSaveAsDialog.FileName*
+  commentId: Overload:BulkEmail.UI.Forms.formSaveAsDialog.FileName
+  name: FileName
+  nameWithType: formSaveAsDialog.FileName
+  fullName: BulkEmail.UI.Forms.formSaveAsDialog.FileName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BulkEmail.UI.Forms.formSaveAsDialog.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formSaveAsDialog.#ctor
+  name: formSaveAsDialog
+  nameWithType: formSaveAsDialog.formSaveAsDialog
+  fullName: BulkEmail.UI.Forms.formSaveAsDialog.formSaveAsDialog
+- uid: BulkEmail.UI.Forms.formSaveAsDialog.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formSaveAsDialog.Dispose
+  name: Dispose
+  nameWithType: formSaveAsDialog.Dispose
+  fullName: BulkEmail.UI.Forms.formSaveAsDialog.Dispose
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

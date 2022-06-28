@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap
+  commentId: T:BulkEmail.Services.Messages.ValidatedFieldMap
+  id: ValidatedFieldMap
+  parent: BulkEmail.Services.Messages
+  children:
+  - BulkEmail.Services.Messages.ValidatedFieldMap.#ctor(BulkEmail.Services.Messages.BaseExcelRowMapping,System.String,System.Boolean)
+  - BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping
+  - BulkEmail.Services.Messages.ValidatedFieldMap.Message
+  - BulkEmail.Services.Messages.ValidatedFieldMap.Valid
+  langs:
+  - csharp
+  - vb
+  name: ValidatedFieldMap
+  nameWithType: ValidatedFieldMap
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    id: ValidatedFieldMap
+    path: src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    startLine: 5
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  summary: "\nAkka ValidatedFieldMap message type for validated excel content\n"
+  example: []
+  syntax:
+    content: 'public class ValidatedFieldMap : object'
+    content.vb: >-
+      Public Class ValidatedFieldMap
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Messages.ValidatedFieldMap.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ValidatedFieldMap,BulkEmail.Services.Messages.ValidatedFieldMap},Func{BulkEmail.Services.Messages.ValidatedFieldMap,System.Boolean})
+  - BulkEmail.Services.Messages.ValidatedFieldMap.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ValidatedFieldMap,BulkEmail.Services.Messages.ValidatedFieldMap})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.#ctor(BulkEmail.Services.Messages.BaseExcelRowMapping,System.String,System.Boolean)
+  commentId: M:BulkEmail.Services.Messages.ValidatedFieldMap.#ctor(BulkEmail.Services.Messages.BaseExcelRowMapping,System.String,System.Boolean)
+  id: '#ctor(BulkEmail.Services.Messages.BaseExcelRowMapping,System.String,System.Boolean)'
+  parent: BulkEmail.Services.Messages.ValidatedFieldMap
+  langs:
+  - csharp
+  - vb
+  name: ValidatedFieldMap(BaseExcelRowMapping, String, Boolean)
+  nameWithType: ValidatedFieldMap.ValidatedFieldMap(BaseExcelRowMapping, String, Boolean)
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.ValidatedFieldMap(BulkEmail.Services.Messages.BaseExcelRowMapping, System.String, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    startLine: 13
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.Services.Messages.ValidatedFieldMap\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ValidatedFieldMap(BaseExcelRowMapping excelRowMapping, string message, bool valid)
+    parameters:
+    - id: excelRowMapping
+      type: BulkEmail.Services.Messages.BaseExcelRowMapping
+      description: The excel row mapping.
+    - id: message
+      type: System.String
+      description: The message. Empty for valid content
+    - id: valid
+      type: System.Boolean
+      description: if set to <code>true</code> [valid].
+    content.vb: Public Sub New(excelRowMapping As BaseExcelRowMapping, message As String, valid As Boolean)
+  overload: BulkEmail.Services.Messages.ValidatedFieldMap.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping
+  commentId: P:BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping
+  id: ExcelRowMapping
+  parent: BulkEmail.Services.Messages.ValidatedFieldMap
+  langs:
+  - csharp
+  - vb
+  name: ExcelRowMapping
+  nameWithType: ValidatedFieldMap.ExcelRowMapping
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    id: ExcelRowMapping
+    path: src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    startLine: 20
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public BaseExcelRowMapping ExcelRowMapping { get; }
+    parameters: []
+    return:
+      type: BulkEmail.Services.Messages.BaseExcelRowMapping
+    content.vb: Public ReadOnly Property ExcelRowMapping As BaseExcelRowMapping
+  overload: BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.Message
+  commentId: P:BulkEmail.Services.Messages.ValidatedFieldMap.Message
+  id: Message
+  parent: BulkEmail.Services.Messages.ValidatedFieldMap
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ValidatedFieldMap.Message
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.Message
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    id: Message
+    path: src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    startLine: 21
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Message As String
+  overload: BulkEmail.Services.Messages.ValidatedFieldMap.Message*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.Valid
+  commentId: P:BulkEmail.Services.Messages.ValidatedFieldMap.Valid
+  id: Valid
+  parent: BulkEmail.Services.Messages.ValidatedFieldMap
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: ValidatedFieldMap.Valid
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.Valid
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    id: Valid
+    path: src2/BuikEmail.Services/Messages/ValidatedFieldMap.cs
+    startLine: 22
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public bool Valid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Valid As Boolean
+  overload: BulkEmail.Services.Messages.ValidatedFieldMap.Valid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: BulkEmail.Services.Messages
+  commentId: N:BulkEmail.Services.Messages
+  name: BulkEmail.Services.Messages
+  nameWithType: BulkEmail.Services.Messages
+  fullName: BulkEmail.Services.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ValidatedFieldMap,BulkEmail.Services.Messages.ValidatedFieldMap},Func{BulkEmail.Services.Messages.ValidatedFieldMap,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<ValidatedFieldMap>(Func<ValidatedFieldMap, ValidatedFieldMap>, Func<ValidatedFieldMap, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<ValidatedFieldMap>(Func<ValidatedFieldMap, ValidatedFieldMap>, Func<ValidatedFieldMap, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ValidatedFieldMap>(Func<BulkEmail.Services.Messages.ValidatedFieldMap, BulkEmail.Services.Messages.ValidatedFieldMap>, Func<BulkEmail.Services.Messages.ValidatedFieldMap, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ValidatedFieldMap)(Func(Of ValidatedFieldMap, ValidatedFieldMap), Func(Of ValidatedFieldMap, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ValidatedFieldMap)(Func(Of BulkEmail.Services.Messages.ValidatedFieldMap, BulkEmail.Services.Messages.ValidatedFieldMap), Func(Of BulkEmail.Services.Messages.ValidatedFieldMap, System.Boolean))
+  name.vb: FromHierarchy(Of ValidatedFieldMap)(Func(Of ValidatedFieldMap, ValidatedFieldMap), Func(Of ValidatedFieldMap, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<ValidatedFieldMap>
+    nameWithType: ExceptionExtension.FromHierarchy<ValidatedFieldMap>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ValidatedFieldMap>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of ValidatedFieldMap)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ValidatedFieldMap)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ValidatedFieldMap)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ValidatedFieldMap,BulkEmail.Services.Messages.ValidatedFieldMap})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<ValidatedFieldMap>(Func<ValidatedFieldMap, ValidatedFieldMap>)
+  nameWithType: ExceptionExtension.FromHierarchy<ValidatedFieldMap>(Func<ValidatedFieldMap, ValidatedFieldMap>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ValidatedFieldMap>(Func<BulkEmail.Services.Messages.ValidatedFieldMap, BulkEmail.Services.Messages.ValidatedFieldMap>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ValidatedFieldMap)(Func(Of ValidatedFieldMap, ValidatedFieldMap))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ValidatedFieldMap)(Func(Of BulkEmail.Services.Messages.ValidatedFieldMap, BulkEmail.Services.Messages.ValidatedFieldMap))
+  name.vb: FromHierarchy(Of ValidatedFieldMap)(Func(Of ValidatedFieldMap, ValidatedFieldMap))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<ValidatedFieldMap>
+    nameWithType: ExceptionExtension.FromHierarchy<ValidatedFieldMap>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ValidatedFieldMap>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of ValidatedFieldMap)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ValidatedFieldMap)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ValidatedFieldMap)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap
+  commentId: T:BulkEmail.Services.Messages.ValidatedFieldMap
+  name: ValidatedFieldMap
+  nameWithType: ValidatedFieldMap
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.#ctor*
+  commentId: Overload:BulkEmail.Services.Messages.ValidatedFieldMap.#ctor
+  name: ValidatedFieldMap
+  nameWithType: ValidatedFieldMap.ValidatedFieldMap
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.ValidatedFieldMap
+- uid: BulkEmail.Services.Messages.BaseExcelRowMapping
+  commentId: T:BulkEmail.Services.Messages.BaseExcelRowMapping
+  parent: BulkEmail.Services.Messages
+  name: BaseExcelRowMapping
+  nameWithType: BaseExcelRowMapping
+  fullName: BulkEmail.Services.Messages.BaseExcelRowMapping
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping*
+  commentId: Overload:BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping
+  name: ExcelRowMapping
+  nameWithType: ValidatedFieldMap.ExcelRowMapping
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.ExcelRowMapping
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.Message*
+  commentId: Overload:BulkEmail.Services.Messages.ValidatedFieldMap.Message
+  name: Message
+  nameWithType: ValidatedFieldMap.Message
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.Message
+- uid: BulkEmail.Services.Messages.ValidatedFieldMap.Valid*
+  commentId: Overload:BulkEmail.Services.Messages.ValidatedFieldMap.Valid
+  name: Valid
+  nameWithType: ValidatedFieldMap.Valid
+  fullName: BulkEmail.Services.Messages.ValidatedFieldMap.Valid

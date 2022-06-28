@@ -1,0 +1,597 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Utilities.ExcelFileReader
+  commentId: T:BulkEmail.Services.Utilities.ExcelFileReader
+  id: ExcelFileReader
+  parent: BulkEmail.Services.Utilities
+  children:
+  - BulkEmail.Services.Utilities.ExcelFileReader.Instance
+  - BulkEmail.Services.Utilities.ExcelFileReader.Read(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ExcelFileReader
+  nameWithType: ExcelFileReader
+  fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/ExcelFileReader.cs
+    id: ExcelFileReader
+    path: src2/BuikEmail.Services/Utilities/ExcelFileReader.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nSingleton Pattern for <code>ExcelFileReader</code>, contains operation for reading excel file.\n"
+  example: []
+  syntax:
+    content: 'public sealed class ExcelFileReader : IExcelFileReader'
+    content.vb: >-
+      Public NotInheritable Class ExcelFileReader
+          Inherits IExcelFileReader
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Utilities.ExcelFileReader.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ExcelFileReader,BulkEmail.Services.Utilities.ExcelFileReader},Func{BulkEmail.Services.Utilities.ExcelFileReader,System.Boolean})
+  - BulkEmail.Services.Utilities.ExcelFileReader.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ExcelFileReader,BulkEmail.Services.Utilities.ExcelFileReader})
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BulkEmail.Services.Utilities.ExcelFileReader.Instance
+  commentId: P:BulkEmail.Services.Utilities.ExcelFileReader.Instance
+  id: Instance
+  parent: BulkEmail.Services.Utilities.ExcelFileReader
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: ExcelFileReader.Instance
+  fullName: BulkEmail.Services.Utilities.ExcelFileReader.Instance
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/ExcelFileReader.cs
+    id: Instance
+    path: src2/BuikEmail.Services/Utilities/ExcelFileReader.cs
+    startLine: 27
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nGets the singleton instance of <code>ExcelFileReader</code>.\n"
+  example: []
+  syntax:
+    content: public static ExcelFileReader Instance { get; }
+    parameters: []
+    return:
+      type: BulkEmail.Services.Utilities.ExcelFileReader
+      description: "\nInstance of <code>ExcelFileReader</code>.\n"
+    content.vb: Public Shared ReadOnly Property Instance As ExcelFileReader
+  overload: BulkEmail.Services.Utilities.ExcelFileReader.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BulkEmail.Services.Utilities.ExcelFileReader.Read(System.String,System.Int32)
+  commentId: M:BulkEmail.Services.Utilities.ExcelFileReader.Read(System.String,System.Int32)
+  id: Read(System.String,System.Int32)
+  parent: BulkEmail.Services.Utilities.ExcelFileReader
+  langs:
+  - csharp
+  - vb
+  name: Read(String, Int32)
+  nameWithType: ExcelFileReader.Read(String, Int32)
+  fullName: BulkEmail.Services.Utilities.ExcelFileReader.Read(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/ExcelFileReader.cs
+    id: Read
+    path: src2/BuikEmail.Services/Utilities/ExcelFileReader.cs
+    startLine: 42
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nReads the specified excel file path.\n"
+  example:
+  - "\n<pre><code class=\"lang-cs\">var excellSheet = ExcelFileReader.Instance.Read(&quot;c:\\>document\\sample.xlsx&quot;,0);</code></pre>\n"
+  syntax:
+    content: public ExcellSheet Read(string filePath, int sheetIndex)
+    parameters:
+    - id: filePath
+      type: System.String
+      description: The file path of the excel file.
+    - id: sheetIndex
+      type: System.Int32
+      description: Index of the excel sheet to be loaded in memory. Zero index count
+    return:
+      type: ExcellSheet
+      description: "\nreturns <code>ExcellSheet</code> instance\n"
+    content.vb: Public Function Read(filePath As String, sheetIndex As Integer) As ExcellSheet
+  overload: BulkEmail.Services.Utilities.ExcelFileReader.Read*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Utilities
+  commentId: N:BulkEmail.Services.Utilities
+  name: BulkEmail.Services.Utilities
+  nameWithType: BulkEmail.Services.Utilities
+  fullName: BulkEmail.Services.Utilities
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Utilities.ExcelFileReader.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ExcelFileReader,BulkEmail.Services.Utilities.ExcelFileReader},Func{BulkEmail.Services.Utilities.ExcelFileReader,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<ExcelFileReader>(Func<ExcelFileReader, ExcelFileReader>, Func<ExcelFileReader, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<ExcelFileReader>(Func<ExcelFileReader, ExcelFileReader>, Func<ExcelFileReader, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ExcelFileReader>(Func<BulkEmail.Services.Utilities.ExcelFileReader, BulkEmail.Services.Utilities.ExcelFileReader>, Func<BulkEmail.Services.Utilities.ExcelFileReader, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ExcelFileReader)(Func(Of ExcelFileReader, ExcelFileReader), Func(Of ExcelFileReader, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ExcelFileReader)(Func(Of BulkEmail.Services.Utilities.ExcelFileReader, BulkEmail.Services.Utilities.ExcelFileReader), Func(Of BulkEmail.Services.Utilities.ExcelFileReader, System.Boolean))
+  name.vb: FromHierarchy(Of ExcelFileReader)(Func(Of ExcelFileReader, ExcelFileReader), Func(Of ExcelFileReader, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<ExcelFileReader>
+    nameWithType: ExceptionExtension.FromHierarchy<ExcelFileReader>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ExcelFileReader>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of ExcelFileReader)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ExcelFileReader)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ExcelFileReader)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Utilities.ExcelFileReader.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ExcelFileReader,BulkEmail.Services.Utilities.ExcelFileReader})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<ExcelFileReader>(Func<ExcelFileReader, ExcelFileReader>)
+  nameWithType: ExceptionExtension.FromHierarchy<ExcelFileReader>(Func<ExcelFileReader, ExcelFileReader>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ExcelFileReader>(Func<BulkEmail.Services.Utilities.ExcelFileReader, BulkEmail.Services.Utilities.ExcelFileReader>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ExcelFileReader)(Func(Of ExcelFileReader, ExcelFileReader))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ExcelFileReader)(Func(Of BulkEmail.Services.Utilities.ExcelFileReader, BulkEmail.Services.Utilities.ExcelFileReader))
+  name.vb: FromHierarchy(Of ExcelFileReader)(Func(Of ExcelFileReader, ExcelFileReader))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<ExcelFileReader>
+    nameWithType: ExceptionExtension.FromHierarchy<ExcelFileReader>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ExcelFileReader>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of ExcelFileReader)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ExcelFileReader)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ExcelFileReader)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+    nameWithType: ExcelFileReader
+    fullName: BulkEmail.Services.Utilities.ExcelFileReader
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Utilities.ExcelFileReader.Instance*
+  commentId: Overload:BulkEmail.Services.Utilities.ExcelFileReader.Instance
+  name: Instance
+  nameWithType: ExcelFileReader.Instance
+  fullName: BulkEmail.Services.Utilities.ExcelFileReader.Instance
+- uid: BulkEmail.Services.Utilities.ExcelFileReader
+  commentId: T:BulkEmail.Services.Utilities.ExcelFileReader
+  parent: BulkEmail.Services.Utilities
+  name: ExcelFileReader
+  nameWithType: ExcelFileReader
+  fullName: BulkEmail.Services.Utilities.ExcelFileReader
+- uid: BulkEmail.Services.Utilities.ExcelFileReader.Read*
+  commentId: Overload:BulkEmail.Services.Utilities.ExcelFileReader.Read
+  name: Read
+  nameWithType: ExcelFileReader.Read
+  fullName: BulkEmail.Services.Utilities.ExcelFileReader.Read
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ExcellSheet
+  isExternal: true
+  name: ExcellSheet
+  nameWithType: ExcellSheet
+  fullName: ExcellSheet

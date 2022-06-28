@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formPreviewAndSend
+  commentId: T:BulkEmail.UI.Forms.formPreviewAndSend
+  id: formPreviewAndSend
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formPreviewAndSend.#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)
+  - BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView(ExcelRow,EmailStructure)
+  - BulkEmail.UI.Forms.formPreviewAndSend.Dispose(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: formPreviewAndSend
+  nameWithType: formPreviewAndSend
+  fullName: BulkEmail.UI.Forms.formPreviewAndSend
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formPreviewAndSend.Designer.cs
+    id: formPreviewAndSend
+    path: src3/BulkEmail.UI/Forms/formPreviewAndSend.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: 'public class formPreviewAndSend : Form'
+    content.vb: >-
+      Public Class formPreviewAndSend
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formPreviewAndSend.#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)
+  commentId: M:BulkEmail.UI.Forms.formPreviewAndSend.#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)
+  id: '#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)'
+  parent: BulkEmail.UI.Forms.formPreviewAndSend
+  langs:
+  - csharp
+  - vb
+  name: formPreviewAndSend(Main, UIData)
+  nameWithType: formPreviewAndSend.formPreviewAndSend(Main, UIData)
+  fullName: BulkEmail.UI.Forms.formPreviewAndSend.formPreviewAndSend(BulkEmail.UI.Main, BulkEmail.UI.UIData)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formPreviewAndSend.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formPreviewAndSend.cs
+    startLine: 30
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formPreviewAndSend(Main parentForm, UIData uiData)
+    parameters:
+    - id: parentForm
+      type: BulkEmail.UI.Main
+    - id: uiData
+      type: BulkEmail.UI.UIData
+    content.vb: Public Sub New(parentForm As Main, uiData As UIData)
+  overload: BulkEmail.UI.Forms.formPreviewAndSend.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView(ExcelRow,EmailStructure)
+  commentId: M:BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView(ExcelRow,EmailStructure)
+  id: BindAttachmentToListView(ExcelRow,EmailStructure)
+  parent: BulkEmail.UI.Forms.formPreviewAndSend
+  langs:
+  - csharp
+  - vb
+  name: BindAttachmentToListView(ExcelRow, EmailStructure)
+  nameWithType: formPreviewAndSend.BindAttachmentToListView(ExcelRow, EmailStructure)
+  fullName: BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView(ExcelRow, EmailStructure)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formPreviewAndSend.cs
+    id: BindAttachmentToListView
+    path: src3/BulkEmail.UI/Forms/formPreviewAndSend.cs
+    startLine: 313
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public void BindAttachmentToListView(ExcelRow row, EmailStructure emailMapping)
+    parameters:
+    - id: row
+      type: ExcelRow
+    - id: emailMapping
+      type: EmailStructure
+    content.vb: Public Sub BindAttachmentToListView(row As ExcelRow, emailMapping As EmailStructure)
+  overload: BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formPreviewAndSend.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formPreviewAndSend.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formPreviewAndSend
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formPreviewAndSend.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formPreviewAndSend.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formPreviewAndSend.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formPreviewAndSend.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formPreviewAndSend.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formPreviewAndSend.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formPreviewAndSend.#ctor
+  name: formPreviewAndSend
+  nameWithType: formPreviewAndSend.formPreviewAndSend
+  fullName: BulkEmail.UI.Forms.formPreviewAndSend.formPreviewAndSend
+- uid: BulkEmail.UI.Main
+  commentId: T:BulkEmail.UI.Main
+  parent: BulkEmail.UI
+  name: Main
+  nameWithType: Main
+  fullName: BulkEmail.UI.Main
+- uid: BulkEmail.UI.UIData
+  commentId: T:BulkEmail.UI.UIData
+  parent: BulkEmail.UI
+  name: UIData
+  nameWithType: UIData
+  fullName: BulkEmail.UI.UIData
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView*
+  commentId: Overload:BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView
+  name: BindAttachmentToListView
+  nameWithType: formPreviewAndSend.BindAttachmentToListView
+  fullName: BulkEmail.UI.Forms.formPreviewAndSend.BindAttachmentToListView
+- uid: ExcelRow
+  commentId: '!:ExcelRow'
+  isExternal: true
+  name: ExcelRow
+  nameWithType: ExcelRow
+  fullName: ExcelRow
+- uid: EmailStructure
+  isExternal: true
+  name: EmailStructure
+  nameWithType: EmailStructure
+  fullName: EmailStructure
+- uid: BulkEmail.UI.Forms.formPreviewAndSend.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formPreviewAndSend.Dispose
+  name: Dispose
+  nameWithType: formPreviewAndSend.Dispose
+  fullName: BulkEmail.UI.Forms.formPreviewAndSend.Dispose
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

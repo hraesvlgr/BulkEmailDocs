@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: SwiftExcel.Custom.Mod.Sheet
+  commentId: T:SwiftExcel.Custom.Mod.Sheet
+  id: Sheet
+  parent: SwiftExcel.Custom.Mod
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Sheet
+  nameWithType: Sheet
+  fullName: SwiftExcel.Custom.Mod.Sheet
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/Sheet.cs
+    id: Sheet
+    path: src2/BuikEmail.Services/ExcelMod/Sheet.cs
+    startLine: 10
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nInherited from <code>SwiftExcel.Sheet</code> to add functionality for multiple sheet support \n"
+  example: []
+  syntax:
+    content: 'public class Sheet : Sheet'
+    content.vb: >-
+      Public Class Sheet
+          Inherits Sheet
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SwiftExcel.Custom.Mod.Sheet.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.Sheet,SwiftExcel.Custom.Mod.Sheet},Func{SwiftExcel.Custom.Mod.Sheet,System.Boolean})
+  - SwiftExcel.Custom.Mod.Sheet.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.Sheet,SwiftExcel.Custom.Mod.Sheet})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: SwiftExcel.Custom.Mod
+  commentId: N:SwiftExcel.Custom.Mod
+  name: SwiftExcel.Custom.Mod
+  nameWithType: SwiftExcel.Custom.Mod
+  fullName: SwiftExcel.Custom.Mod
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SwiftExcel.Custom.Mod.Sheet.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.Sheet,SwiftExcel.Custom.Mod.Sheet},Func{SwiftExcel.Custom.Mod.Sheet,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<Sheet>(Func<Sheet, Sheet>, Func<Sheet, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<Sheet>(Func<Sheet, Sheet>, Func<Sheet, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.Sheet>(Func<SwiftExcel.Custom.Mod.Sheet, SwiftExcel.Custom.Mod.Sheet>, Func<SwiftExcel.Custom.Mod.Sheet, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of Sheet)(Func(Of Sheet, Sheet), Func(Of Sheet, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.Sheet)(Func(Of SwiftExcel.Custom.Mod.Sheet, SwiftExcel.Custom.Mod.Sheet), Func(Of SwiftExcel.Custom.Mod.Sheet, System.Boolean))
+  name.vb: FromHierarchy(Of Sheet)(Func(Of Sheet, Sheet), Func(Of Sheet, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<Sheet>
+    nameWithType: ExceptionExtension.FromHierarchy<Sheet>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.Sheet>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of Sheet)
+    nameWithType: ExceptionExtension.FromHierarchy(Of Sheet)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.Sheet)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SwiftExcel.Custom.Mod.Sheet.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.Sheet,SwiftExcel.Custom.Mod.Sheet})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<Sheet>(Func<Sheet, Sheet>)
+  nameWithType: ExceptionExtension.FromHierarchy<Sheet>(Func<Sheet, Sheet>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.Sheet>(Func<SwiftExcel.Custom.Mod.Sheet, SwiftExcel.Custom.Mod.Sheet>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of Sheet)(Func(Of Sheet, Sheet))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.Sheet)(Func(Of SwiftExcel.Custom.Mod.Sheet, SwiftExcel.Custom.Mod.Sheet))
+  name.vb: FromHierarchy(Of Sheet)(Func(Of Sheet, Sheet))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<Sheet>
+    nameWithType: ExceptionExtension.FromHierarchy<Sheet>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.Sheet>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of Sheet)
+    nameWithType: ExceptionExtension.FromHierarchy(Of Sheet)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.Sheet)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions

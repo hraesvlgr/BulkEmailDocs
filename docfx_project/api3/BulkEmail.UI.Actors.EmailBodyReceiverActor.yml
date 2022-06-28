@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.EmailBodyReceiverActor
+  commentId: T:BulkEmail.UI.Actors.EmailBodyReceiverActor
+  id: EmailBodyReceiverActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.EmailBodyReceiverActor.#ctor(ConcurrentBag{EmailBody})
+  langs:
+  - csharp
+  - vb
+  name: EmailBodyReceiverActor
+  nameWithType: EmailBodyReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailBodyReceiverActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/EmailBodyReceiverActor.cs
+    id: EmailBodyReceiverActor
+    path: src3/BulkEmail.UI/Actors/EmailBodyReceiverActor.cs
+    startLine: 11
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nAkka Actor that handles update of EmailBody list in frontend.\n"
+  example: []
+  syntax:
+    content: 'public class EmailBodyReceiverActor : ReceiveActor'
+    content.vb: >-
+      Public Class EmailBodyReceiverActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.EmailBodyReceiverActor.#ctor(ConcurrentBag{EmailBody})
+  commentId: M:BulkEmail.UI.Actors.EmailBodyReceiverActor.#ctor(ConcurrentBag{EmailBody})
+  id: '#ctor(ConcurrentBag{EmailBody})'
+  parent: BulkEmail.UI.Actors.EmailBodyReceiverActor
+  langs:
+  - csharp
+  - vb
+  name: EmailBodyReceiverActor(ConcurrentBag<EmailBody>)
+  nameWithType: EmailBodyReceiverActor.EmailBodyReceiverActor(ConcurrentBag<EmailBody>)
+  fullName: BulkEmail.UI.Actors.EmailBodyReceiverActor.EmailBodyReceiverActor(ConcurrentBag<EmailBody>)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/EmailBodyReceiverActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/EmailBodyReceiverActor.cs
+    startLine: 20
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.UI.Actors.EmailBodyReceiverActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n<p></p>\nAdds processed email body in UI list when it receives <code>EmailBody</code> message type. \n"
+  example: []
+  syntax:
+    content: public EmailBodyReceiverActor(ConcurrentBag<EmailBody> emailBody)
+    parameters:
+    - id: emailBody
+      type: ConcurrentBag{EmailBody}
+      description: The email body.
+    content.vb: Public Sub New(emailBody As ConcurrentBag(Of EmailBody))
+  overload: BulkEmail.UI.Actors.EmailBodyReceiverActor.#ctor*
+  nameWithType.vb: EmailBodyReceiverActor.EmailBodyReceiverActor(ConcurrentBag(Of EmailBody))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.UI.Actors.EmailBodyReceiverActor.EmailBodyReceiverActor(ConcurrentBag(Of EmailBody))
+  name.vb: EmailBodyReceiverActor(ConcurrentBag(Of EmailBody))
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.EmailBodyReceiverActor
+  commentId: T:BulkEmail.UI.Actors.EmailBodyReceiverActor
+  name: EmailBodyReceiverActor
+  nameWithType: EmailBodyReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailBodyReceiverActor
+- uid: BulkEmail.UI.Actors.EmailBodyReceiverActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.EmailBodyReceiverActor.#ctor
+  name: EmailBodyReceiverActor
+  nameWithType: EmailBodyReceiverActor.EmailBodyReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailBodyReceiverActor.EmailBodyReceiverActor
+- uid: ConcurrentBag{EmailBody}
+  commentId: '!:ConcurrentBag{EmailBody}'
+  definition: ConcurrentBag`1
+  name: ConcurrentBag<EmailBody>
+  nameWithType: ConcurrentBag<EmailBody>
+  fullName: ConcurrentBag<EmailBody>
+  nameWithType.vb: ConcurrentBag(Of EmailBody)
+  fullName.vb: ConcurrentBag(Of EmailBody)
+  name.vb: ConcurrentBag(Of EmailBody)
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EmailBody
+    name: EmailBody
+    nameWithType: EmailBody
+    fullName: EmailBody
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EmailBody
+    name: EmailBody
+    nameWithType: EmailBody
+    fullName: EmailBody
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ConcurrentBag`1
+  isExternal: true
+  name: ConcurrentBag<>
+  nameWithType: ConcurrentBag<>
+  fullName: ConcurrentBag<>
+  nameWithType.vb: ConcurrentBag(Of )
+  fullName.vb: ConcurrentBag(Of )
+  name.vb: ConcurrentBag(Of )
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

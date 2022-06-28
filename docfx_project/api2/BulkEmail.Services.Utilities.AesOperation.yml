@@ -1,0 +1,634 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Utilities.AesOperation
+  commentId: T:BulkEmail.Services.Utilities.AesOperation
+  id: AesOperation
+  parent: BulkEmail.Services.Utilities
+  children:
+  - BulkEmail.Services.Utilities.AesOperation.DecryptString(System.String,System.String)
+  - BulkEmail.Services.Utilities.AesOperation.EncryptString(System.String,System.String)
+  - BulkEmail.Services.Utilities.AesOperation.Instance
+  langs:
+  - csharp
+  - vb
+  name: AesOperation
+  nameWithType: AesOperation
+  fullName: BulkEmail.Services.Utilities.AesOperation
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/AesOperation.cs
+    id: AesOperation
+    path: src2/BuikEmail.Services/Utilities/AesOperation.cs
+    startLine: 12
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nSingleton Pattern for <code>AesOperation</code>, contains operation for encryption and decryption.\n"
+  example: []
+  syntax:
+    content: 'public sealed class AesOperation : IAesOperation'
+    content.vb: >-
+      Public NotInheritable Class AesOperation
+          Inherits IAesOperation
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Utilities.AesOperation.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.AesOperation,BulkEmail.Services.Utilities.AesOperation},Func{BulkEmail.Services.Utilities.AesOperation,System.Boolean})
+  - BulkEmail.Services.Utilities.AesOperation.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.AesOperation,BulkEmail.Services.Utilities.AesOperation})
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BulkEmail.Services.Utilities.AesOperation.Instance
+  commentId: P:BulkEmail.Services.Utilities.AesOperation.Instance
+  id: Instance
+  parent: BulkEmail.Services.Utilities.AesOperation
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: AesOperation.Instance
+  fullName: BulkEmail.Services.Utilities.AesOperation.Instance
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/AesOperation.cs
+    id: Instance
+    path: src2/BuikEmail.Services/Utilities/AesOperation.cs
+    startLine: 22
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nGets the singleton instance of <code>AesOperation</code>.\n"
+  example: []
+  syntax:
+    content: public static IAesOperation Instance { get; }
+    parameters: []
+    return:
+      type: IAesOperation
+      description: "\nInstance of <code>AesOperation</code>.\n"
+    content.vb: Public Shared ReadOnly Property Instance As IAesOperation
+  overload: BulkEmail.Services.Utilities.AesOperation.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BulkEmail.Services.Utilities.AesOperation.EncryptString(System.String,System.String)
+  commentId: M:BulkEmail.Services.Utilities.AesOperation.EncryptString(System.String,System.String)
+  id: EncryptString(System.String,System.String)
+  parent: BulkEmail.Services.Utilities.AesOperation
+  langs:
+  - csharp
+  - vb
+  name: EncryptString(String, String)
+  nameWithType: AesOperation.EncryptString(String, String)
+  fullName: BulkEmail.Services.Utilities.AesOperation.EncryptString(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/AesOperation.cs
+    id: EncryptString
+    path: src2/BuikEmail.Services/Utilities/AesOperation.cs
+    startLine: 36
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nEncrypts the string.\n<p></p>\nUsed in encrypting setting/sendgrid account and key value in configuration\n"
+  example:
+  - "\n<pre><code class=\"lang-cs\">var encryptedString = AesOperation.Instance.EncryptString(Services.Constant.Aes.Key,&quot;My Text to Encrypt.&quot;)</code></pre>\n"
+  syntax:
+    content: public string EncryptString(string key, string plainText)
+    parameters:
+    - id: key
+      type: System.String
+      description: The seed key.
+    - id: plainText
+      type: System.String
+      description: The plain text.
+    return:
+      type: System.String
+      description: returns encrypted string
+    content.vb: Public Function EncryptString(key As String, plainText As String) As String
+  overload: BulkEmail.Services.Utilities.AesOperation.EncryptString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.Services.Utilities.AesOperation.DecryptString(System.String,System.String)
+  commentId: M:BulkEmail.Services.Utilities.AesOperation.DecryptString(System.String,System.String)
+  id: DecryptString(System.String,System.String)
+  parent: BulkEmail.Services.Utilities.AesOperation
+  langs:
+  - csharp
+  - vb
+  name: DecryptString(String, String)
+  nameWithType: AesOperation.DecryptString(String, String)
+  fullName: BulkEmail.Services.Utilities.AesOperation.DecryptString(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/AesOperation.cs
+    id: DecryptString
+    path: src2/BuikEmail.Services/Utilities/AesOperation.cs
+    startLine: 77
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nDecrypts the string.\n<p></p>\nUsed in decrypting setting/sendgrid account and key value in configuration\n"
+  example:
+  - "\n<pre><code class=\"lang-cs\">var decryptedString = AesOperation.Instance.DecryptString(Services.Constant.Aes.Key,&quot;GibberishString&quot;)</code></pre>\n"
+  syntax:
+    content: public string DecryptString(string key, string cipherText)
+    parameters:
+    - id: key
+      type: System.String
+      description: The seed key.
+    - id: cipherText
+      type: System.String
+      description: The cipher text.
+    return:
+      type: System.String
+      description: returns decrypted string
+    content.vb: Public Function DecryptString(key As String, cipherText As String) As String
+  overload: BulkEmail.Services.Utilities.AesOperation.DecryptString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Utilities
+  commentId: N:BulkEmail.Services.Utilities
+  name: BulkEmail.Services.Utilities
+  nameWithType: BulkEmail.Services.Utilities
+  fullName: BulkEmail.Services.Utilities
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Utilities.AesOperation.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.AesOperation,BulkEmail.Services.Utilities.AesOperation},Func{BulkEmail.Services.Utilities.AesOperation,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<AesOperation>(Func<AesOperation, AesOperation>, Func<AesOperation, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<AesOperation>(Func<AesOperation, AesOperation>, Func<AesOperation, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.AesOperation>(Func<BulkEmail.Services.Utilities.AesOperation, BulkEmail.Services.Utilities.AesOperation>, Func<BulkEmail.Services.Utilities.AesOperation, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of AesOperation)(Func(Of AesOperation, AesOperation), Func(Of AesOperation, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.AesOperation)(Func(Of BulkEmail.Services.Utilities.AesOperation, BulkEmail.Services.Utilities.AesOperation), Func(Of BulkEmail.Services.Utilities.AesOperation, System.Boolean))
+  name.vb: FromHierarchy(Of AesOperation)(Func(Of AesOperation, AesOperation), Func(Of AesOperation, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<AesOperation>
+    nameWithType: ExceptionExtension.FromHierarchy<AesOperation>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.AesOperation>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of AesOperation)
+    nameWithType: ExceptionExtension.FromHierarchy(Of AesOperation)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.AesOperation)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Utilities.AesOperation.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.AesOperation,BulkEmail.Services.Utilities.AesOperation})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<AesOperation>(Func<AesOperation, AesOperation>)
+  nameWithType: ExceptionExtension.FromHierarchy<AesOperation>(Func<AesOperation, AesOperation>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.AesOperation>(Func<BulkEmail.Services.Utilities.AesOperation, BulkEmail.Services.Utilities.AesOperation>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of AesOperation)(Func(Of AesOperation, AesOperation))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.AesOperation)(Func(Of BulkEmail.Services.Utilities.AesOperation, BulkEmail.Services.Utilities.AesOperation))
+  name.vb: FromHierarchy(Of AesOperation)(Func(Of AesOperation, AesOperation))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<AesOperation>
+    nameWithType: ExceptionExtension.FromHierarchy<AesOperation>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.AesOperation>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of AesOperation)
+    nameWithType: ExceptionExtension.FromHierarchy(Of AesOperation)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.AesOperation)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+    nameWithType: AesOperation
+    fullName: BulkEmail.Services.Utilities.AesOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Utilities.AesOperation.Instance*
+  commentId: Overload:BulkEmail.Services.Utilities.AesOperation.Instance
+  name: Instance
+  nameWithType: AesOperation.Instance
+  fullName: BulkEmail.Services.Utilities.AesOperation.Instance
+- uid: IAesOperation
+  commentId: '!:IAesOperation'
+  isExternal: true
+  name: IAesOperation
+  nameWithType: IAesOperation
+  fullName: IAesOperation
+- uid: BulkEmail.Services.Utilities.AesOperation.EncryptString*
+  commentId: Overload:BulkEmail.Services.Utilities.AesOperation.EncryptString
+  name: EncryptString
+  nameWithType: AesOperation.EncryptString
+  fullName: BulkEmail.Services.Utilities.AesOperation.EncryptString
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BulkEmail.Services.Utilities.AesOperation.DecryptString*
+  commentId: Overload:BulkEmail.Services.Utilities.AesOperation.DecryptString
+  name: DecryptString
+  nameWithType: AesOperation.DecryptString
+  fullName: BulkEmail.Services.Utilities.AesOperation.DecryptString

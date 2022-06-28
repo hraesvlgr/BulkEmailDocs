@@ -1,0 +1,1124 @@
+### YamlMime:ManagedReference
+items:
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+  commentId: T:SwiftExcel.Custom.Mod.ExcelWriterCore
+  id: ExcelWriterCore
+  parent: SwiftExcel.Custom.Mod
+  children:
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.#ctor(System.String,SwiftExcel.Custom.Mod.Sheet[])
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.FilePath
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.Finalized
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.Init
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.OutputPath
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.Save
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.Sheets
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.TempOutputPath
+  langs:
+  - csharp
+  - vb
+  name: ExcelWriterCore
+  nameWithType: ExcelWriterCore
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: ExcelWriterCore
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 15
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nBase class inherited from <code>SwiftExcel.Disposable</code> to add support for writing multiple sheets in one excel file.\n"
+  remarks: "\nAdded support for multiple sheet write. Modified code copied from GitHub https://github.com/RomanPavelko/SwiftExcel\n"
+  example: []
+  syntax:
+    content: 'public abstract class ExcelWriterCore : Disposable'
+    content.vb: >-
+      Public MustInherit Class ExcelWriterCore
+          Inherits Disposable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SwiftExcel.Custom.Mod.ExcelWriter
+  extensionMethods:
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.ExcelWriterCore,SwiftExcel.Custom.Mod.ExcelWriterCore},Func{SwiftExcel.Custom.Mod.ExcelWriterCore,System.Boolean})
+  - SwiftExcel.Custom.Mod.ExcelWriterCore.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.ExcelWriterCore,SwiftExcel.Custom.Mod.ExcelWriterCore})
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.Finalized
+  commentId: F:SwiftExcel.Custom.Mod.ExcelWriterCore.Finalized
+  id: Finalized
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: Finalized
+  nameWithType: ExcelWriterCore.Finalized
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.Finalized
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: Finalized
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 17
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected bool Finalized
+    return:
+      type: System.Boolean
+    content.vb: Protected Finalized As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.FilePath
+  commentId: F:SwiftExcel.Custom.Mod.ExcelWriterCore.FilePath
+  id: FilePath
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: FilePath
+  nameWithType: ExcelWriterCore.FilePath
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.FilePath
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: FilePath
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 18
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected string FilePath
+    return:
+      type: System.String
+    content.vb: Protected FilePath As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.Sheets
+  commentId: F:SwiftExcel.Custom.Mod.ExcelWriterCore.Sheets
+  id: Sheets
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: Sheets
+  nameWithType: ExcelWriterCore.Sheets
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.Sheets
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: Sheets
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 19
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected Sheet[] Sheets
+    return:
+      type: SwiftExcel.Custom.Mod.Sheet[]
+    content.vb: Protected Sheets As Sheet()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.OutputPath
+  commentId: F:SwiftExcel.Custom.Mod.ExcelWriterCore.OutputPath
+  id: OutputPath
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: OutputPath
+  nameWithType: ExcelWriterCore.OutputPath
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.OutputPath
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: OutputPath
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 21
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected string OutputPath
+    return:
+      type: System.String
+    content.vb: Protected OutputPath As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.TempOutputPath
+  commentId: F:SwiftExcel.Custom.Mod.ExcelWriterCore.TempOutputPath
+  id: TempOutputPath
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: TempOutputPath
+  nameWithType: ExcelWriterCore.TempOutputPath
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.TempOutputPath
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: TempOutputPath
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 22
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected string TempOutputPath
+    return:
+      type: System.String
+    content.vb: Protected TempOutputPath As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.#ctor(System.String,SwiftExcel.Custom.Mod.Sheet[])
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.#ctor(System.String,SwiftExcel.Custom.Mod.Sheet[])
+  id: '#ctor(System.String,SwiftExcel.Custom.Mod.Sheet[])'
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: ExcelWriterCore(String, Sheet[])
+  nameWithType: ExcelWriterCore.ExcelWriterCore(String, Sheet[])
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.ExcelWriterCore(System.String, SwiftExcel.Custom.Mod.Sheet[])
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 24
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected ExcelWriterCore(string filePath, params Sheet[] sheets)
+    parameters:
+    - id: filePath
+      type: System.String
+    - id: sheets
+      type: SwiftExcel.Custom.Mod.Sheet[]
+    content.vb: Protected Sub New(filePath As String, ParamArray sheets As Sheet())
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.#ctor*
+  nameWithType.vb: ExcelWriterCore.ExcelWriterCore(String, Sheet())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SwiftExcel.Custom.Mod.ExcelWriterCore.ExcelWriterCore(System.String, SwiftExcel.Custom.Mod.Sheet())
+  name.vb: ExcelWriterCore(String, Sheet())
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.Init
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.Init
+  id: Init
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: ExcelWriterCore.Init()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.Init()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: Init
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 49
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void Init()
+    content.vb: Protected Sub Init
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.Init*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.Save
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.Save
+  id: Save
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: ExcelWriterCore.Save()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.Save()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: Save
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 69
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: public void Save()
+    content.vb: Public Sub Save
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders
+  id: CreateFolders
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: CreateFolders()
+  nameWithType: ExcelWriterCore.CreateFolders()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: CreateFolders
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 88
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void CreateFolders()
+    content.vb: Protected Sub CreateFolders
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels
+  id: CreateRels
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: CreateRels()
+  nameWithType: ExcelWriterCore.CreateRels()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: CreateRels
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 98
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void CreateRels()
+    content.vb: Protected Sub CreateRels
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps
+  id: CreateDocProps
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: CreateDocProps()
+  nameWithType: ExcelWriterCore.CreateDocProps()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: CreateDocProps
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 120
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void CreateDocProps()
+    content.vb: Protected Sub CreateDocProps
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes
+  id: CreateContentTypes
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: CreateContentTypes()
+  nameWithType: ExcelWriterCore.CreateContentTypes()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: CreateContentTypes
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 158
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void CreateContentTypes()
+    content.vb: Protected Sub CreateContentTypes
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme
+  id: CreateTheme
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: CreateTheme()
+  nameWithType: ExcelWriterCore.CreateTheme()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: CreateTheme
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 176
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void CreateTheme()
+    content.vb: Protected Sub CreateTheme
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook
+  id: CreateWorkbook
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkbook()
+  nameWithType: ExcelWriterCore.CreateWorkbook()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: CreateWorkbook
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 293
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void CreateWorkbook()
+    content.vb: Protected Sub CreateWorkbook
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles
+  id: CreateExcelStyles
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: CreateExcelStyles()
+  nameWithType: ExcelWriterCore.CreateExcelStyles()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: CreateExcelStyles
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 305
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void CreateExcelStyles()
+    content.vb: Protected Sub CreateExcelStyles
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets
+  id: StartSheets
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: StartSheets()
+  nameWithType: ExcelWriterCore.StartSheets()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: StartSheets
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 340
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void StartSheets()
+    content.vb: Protected Sub StartSheets
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets
+  id: FinishSheets
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: FinishSheets()
+  nameWithType: ExcelWriterCore.FinishSheets()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: FinishSheets
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 375
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected void FinishSheets()
+    content.vb: Protected Sub FinishSheets
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore
+  commentId: M:SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore
+  id: DisposeCore
+  parent: SwiftExcel.Custom.Mod.ExcelWriterCore
+  langs:
+  - csharp
+  - vb
+  name: DisposeCore()
+  nameWithType: ExcelWriterCore.DisposeCore()
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    id: DisposeCore
+    path: src2/BuikEmail.Services/ExcelMod/ExcelWriterCore.cs
+    startLine: 390
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  syntax:
+    content: protected override void DisposeCore()
+    content.vb: Protected Overrides Sub DisposeCore
+  overload: SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: SwiftExcel.Custom.Mod
+  commentId: N:SwiftExcel.Custom.Mod
+  name: SwiftExcel.Custom.Mod
+  nameWithType: SwiftExcel.Custom.Mod
+  fullName: SwiftExcel.Custom.Mod
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.ExcelWriterCore,SwiftExcel.Custom.Mod.ExcelWriterCore},Func{SwiftExcel.Custom.Mod.ExcelWriterCore,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<ExcelWriterCore>(Func<ExcelWriterCore, ExcelWriterCore>, Func<ExcelWriterCore, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<ExcelWriterCore>(Func<ExcelWriterCore, ExcelWriterCore>, Func<ExcelWriterCore, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.ExcelWriterCore>(Func<SwiftExcel.Custom.Mod.ExcelWriterCore, SwiftExcel.Custom.Mod.ExcelWriterCore>, Func<SwiftExcel.Custom.Mod.ExcelWriterCore, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ExcelWriterCore)(Func(Of ExcelWriterCore, ExcelWriterCore), Func(Of ExcelWriterCore, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.ExcelWriterCore)(Func(Of SwiftExcel.Custom.Mod.ExcelWriterCore, SwiftExcel.Custom.Mod.ExcelWriterCore), Func(Of SwiftExcel.Custom.Mod.ExcelWriterCore, System.Boolean))
+  name.vb: FromHierarchy(Of ExcelWriterCore)(Func(Of ExcelWriterCore, ExcelWriterCore), Func(Of ExcelWriterCore, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<ExcelWriterCore>
+    nameWithType: ExceptionExtension.FromHierarchy<ExcelWriterCore>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.ExcelWriterCore>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of ExcelWriterCore)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ExcelWriterCore)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.ExcelWriterCore)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.ExcelWriterCore,SwiftExcel.Custom.Mod.ExcelWriterCore})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<ExcelWriterCore>(Func<ExcelWriterCore, ExcelWriterCore>)
+  nameWithType: ExceptionExtension.FromHierarchy<ExcelWriterCore>(Func<ExcelWriterCore, ExcelWriterCore>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.ExcelWriterCore>(Func<SwiftExcel.Custom.Mod.ExcelWriterCore, SwiftExcel.Custom.Mod.ExcelWriterCore>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ExcelWriterCore)(Func(Of ExcelWriterCore, ExcelWriterCore))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.ExcelWriterCore)(Func(Of SwiftExcel.Custom.Mod.ExcelWriterCore, SwiftExcel.Custom.Mod.ExcelWriterCore))
+  name.vb: FromHierarchy(Of ExcelWriterCore)(Func(Of ExcelWriterCore, ExcelWriterCore))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<ExcelWriterCore>
+    nameWithType: ExceptionExtension.FromHierarchy<ExcelWriterCore>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.ExcelWriterCore>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of ExcelWriterCore)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ExcelWriterCore)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.ExcelWriterCore)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+    nameWithType: ExcelWriterCore
+    fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SwiftExcel.Custom.Mod.Sheet[]
+  isExternal: true
+  name: Sheet[]
+  nameWithType: Sheet[]
+  fullName: SwiftExcel.Custom.Mod.Sheet[]
+  nameWithType.vb: Sheet()
+  fullName.vb: SwiftExcel.Custom.Mod.Sheet()
+  name.vb: Sheet()
+  spec.csharp:
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet
+    nameWithType: Sheet
+    fullName: SwiftExcel.Custom.Mod.Sheet
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.#ctor*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.#ctor
+  name: ExcelWriterCore
+  nameWithType: ExcelWriterCore.ExcelWriterCore
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.ExcelWriterCore
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.Init*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.Init
+  name: Init
+  nameWithType: ExcelWriterCore.Init
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.Init
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.Save*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.Save
+  name: Save
+  nameWithType: ExcelWriterCore.Save
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.Save
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders
+  name: CreateFolders
+  nameWithType: ExcelWriterCore.CreateFolders
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateFolders
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels
+  name: CreateRels
+  nameWithType: ExcelWriterCore.CreateRels
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateRels
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps
+  name: CreateDocProps
+  nameWithType: ExcelWriterCore.CreateDocProps
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateDocProps
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes
+  name: CreateContentTypes
+  nameWithType: ExcelWriterCore.CreateContentTypes
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateContentTypes
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme
+  name: CreateTheme
+  nameWithType: ExcelWriterCore.CreateTheme
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateTheme
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook
+  name: CreateWorkbook
+  nameWithType: ExcelWriterCore.CreateWorkbook
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateWorkbook
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles
+  name: CreateExcelStyles
+  nameWithType: ExcelWriterCore.CreateExcelStyles
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.CreateExcelStyles
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets
+  name: StartSheets
+  nameWithType: ExcelWriterCore.StartSheets
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.StartSheets
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets
+  name: FinishSheets
+  nameWithType: ExcelWriterCore.FinishSheets
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.FinishSheets
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore*
+  commentId: Overload:SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore
+  name: DisposeCore
+  nameWithType: ExcelWriterCore.DisposeCore
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore.DisposeCore

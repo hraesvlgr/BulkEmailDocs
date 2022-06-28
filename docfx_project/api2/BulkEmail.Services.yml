@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services
+  commentId: N:BulkEmail.Services
+  id: BulkEmail.Services
+  children:
+  - BulkEmail.Services.Constant
+  - BulkEmail.Services.Constant.Aes
+  - BulkEmail.Services.Constant.Akka
+  - BulkEmail.Services.Constant.AppSettingKey
+  - BulkEmail.Services.Constant.SendGrid
+  langs:
+  - csharp
+  - vb
+  name: BulkEmail.Services
+  nameWithType: BulkEmail.Services
+  fullName: BulkEmail.Services
+  type: Namespace
+  assemblies:
+  - BulkEmail.Services
+references:
+- uid: BulkEmail.Services.Constant
+  commentId: T:BulkEmail.Services.Constant
+  name: Constant
+  nameWithType: Constant
+  fullName: BulkEmail.Services.Constant
+- uid: BulkEmail.Services.Constant.Akka
+  commentId: T:BulkEmail.Services.Constant.Akka
+  name: Constant.Akka
+  nameWithType: Constant.Akka
+  fullName: BulkEmail.Services.Constant.Akka
+- uid: BulkEmail.Services.Constant.SendGrid
+  commentId: T:BulkEmail.Services.Constant.SendGrid
+  name: Constant.SendGrid
+  nameWithType: Constant.SendGrid
+  fullName: BulkEmail.Services.Constant.SendGrid
+- uid: BulkEmail.Services.Constant.Aes
+  commentId: T:BulkEmail.Services.Constant.Aes
+  name: Constant.Aes
+  nameWithType: Constant.Aes
+  fullName: BulkEmail.Services.Constant.Aes
+- uid: BulkEmail.Services.Constant.AppSettingKey
+  commentId: T:BulkEmail.Services.Constant.AppSettingKey
+  name: Constant.AppSettingKey
+  nameWithType: Constant.AppSettingKey
+  fullName: BulkEmail.Services.Constant.AppSettingKey

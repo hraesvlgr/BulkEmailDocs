@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.UnlockFormActor
+  commentId: T:BulkEmail.UI.Actors.UnlockFormActor
+  id: UnlockFormActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.UnlockFormActor.#ctor(Action)
+  langs:
+  - csharp
+  - vb
+  name: UnlockFormActor
+  nameWithType: UnlockFormActor
+  fullName: BulkEmail.UI.Actors.UnlockFormActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/UnlockFormActor.cs
+    id: UnlockFormActor
+    path: src3/BulkEmail.UI/Actors/UnlockFormActor.cs
+    startLine: 10
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nActor that handles unlocking of controls in the frontend when processing request is completed.\n"
+  example: []
+  syntax:
+    content: 'public class UnlockFormActor : ReceiveActor'
+    content.vb: >-
+      Public Class UnlockFormActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.UnlockFormActor.#ctor(Action)
+  commentId: M:BulkEmail.UI.Actors.UnlockFormActor.#ctor(Action)
+  id: '#ctor(Action)'
+  parent: BulkEmail.UI.Actors.UnlockFormActor
+  langs:
+  - csharp
+  - vb
+  name: UnlockFormActor(Action)
+  nameWithType: UnlockFormActor.UnlockFormActor(Action)
+  fullName: BulkEmail.UI.Actors.UnlockFormActor.UnlockFormActor(Action)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/UnlockFormActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/UnlockFormActor.cs
+    startLine: 18
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.UI.Actors.UnlockFormActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n<p></p>\nListens to <code>Complete</code> message type to execute delegate\n"
+  example: []
+  syntax:
+    content: public UnlockFormActor(Action unlocFormAction)
+    parameters:
+    - id: unlocFormAction
+      type: Action
+      description: The unloc form delegate action.
+    content.vb: Public Sub New(unlocFormAction As Action)
+  overload: BulkEmail.UI.Actors.UnlockFormActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.UnlockFormActor
+  commentId: T:BulkEmail.UI.Actors.UnlockFormActor
+  name: UnlockFormActor
+  nameWithType: UnlockFormActor
+  fullName: BulkEmail.UI.Actors.UnlockFormActor
+- uid: BulkEmail.UI.Actors.UnlockFormActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.UnlockFormActor.#ctor
+  name: UnlockFormActor
+  nameWithType: UnlockFormActor.UnlockFormActor
+  fullName: BulkEmail.UI.Actors.UnlockFormActor.UnlockFormActor
+- uid: Action
+  commentId: '!:Action'
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action

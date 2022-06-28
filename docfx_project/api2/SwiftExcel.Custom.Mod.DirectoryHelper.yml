@@ -1,0 +1,743 @@
+### YamlMime:ManagedReference
+items:
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper
+  commentId: T:SwiftExcel.Custom.Mod.DirectoryHelper
+  id: DirectoryHelper
+  parent: SwiftExcel.Custom.Mod
+  children:
+  - SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath(System.String)
+  - SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory(System.String)
+  - SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile(System.String)
+  - SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation(System.String)
+  - SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation
+  - SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation
+  langs:
+  - csharp
+  - vb
+  name: DirectoryHelper
+  nameWithType: DirectoryHelper
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    id: DirectoryHelper
+    path: src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    startLine: 8
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nStatic helper class for Application \n"
+  example: []
+  syntax:
+    content: 'public sealed class DirectoryHelper : object'
+    content.vb: >-
+      Public NotInheritable Class DirectoryHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SwiftExcel.Custom.Mod.DirectoryHelper.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.DirectoryHelper,SwiftExcel.Custom.Mod.DirectoryHelper},Func{SwiftExcel.Custom.Mod.DirectoryHelper,System.Boolean})
+  - SwiftExcel.Custom.Mod.DirectoryHelper.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.DirectoryHelper,SwiftExcel.Custom.Mod.DirectoryHelper})
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation(System.String)
+  commentId: M:SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation(System.String)
+  id: GetFolderLocation(System.String)
+  parent: SwiftExcel.Custom.Mod.DirectoryHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFolderLocation(String)
+  nameWithType: DirectoryHelper.GetFolderLocation(String)
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    id: GetFolderLocation
+    path: src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    startLine: 15
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nGets the folder location.\n"
+  example: []
+  syntax:
+    content: public static string GetFolderLocation(string folderName)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Name of the folder.
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetFolderLocation(folderName As String) As String
+  overload: SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation
+  commentId: M:SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation
+  id: GetTemplateFolderLocation
+  parent: SwiftExcel.Custom.Mod.DirectoryHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateFolderLocation()
+  nameWithType: DirectoryHelper.GetTemplateFolderLocation()
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    id: GetTemplateFolderLocation
+    path: src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    startLine: 25
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nGets the template folder location.\n"
+  example: []
+  syntax:
+    content: public static string GetTemplateFolderLocation()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetTemplateFolderLocation As String
+  overload: SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation
+  commentId: M:SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation
+  id: GetReportFolderLocation
+  parent: SwiftExcel.Custom.Mod.DirectoryHelper
+  langs:
+  - csharp
+  - vb
+  name: GetReportFolderLocation()
+  nameWithType: DirectoryHelper.GetReportFolderLocation()
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    id: GetReportFolderLocation
+    path: src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    startLine: 35
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nGets the report folder location.\n"
+  example: []
+  syntax:
+    content: public static string GetReportFolderLocation()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetReportFolderLocation As String
+  overload: SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath(System.String)
+  commentId: M:SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath(System.String)
+  id: CheckCreatePath(System.String)
+  parent: SwiftExcel.Custom.Mod.DirectoryHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckCreatePath(String)
+  nameWithType: DirectoryHelper.CheckCreatePath(String)
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    id: CheckCreatePath
+    path: src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    startLine: 45
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nChecks and the create folder structure base from the path.\n"
+  example: []
+  syntax:
+    content: public static void CheckCreatePath(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path.
+    content.vb: Public Shared Sub CheckCreatePath(path As String)
+  overload: SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory(System.String)
+  commentId: M:SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory(System.String)
+  id: DeleteDirectory(System.String)
+  parent: SwiftExcel.Custom.Mod.DirectoryHelper
+  langs:
+  - csharp
+  - vb
+  name: DeleteDirectory(String)
+  nameWithType: DirectoryHelper.DeleteDirectory(String)
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    id: DeleteDirectory
+    path: src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    startLine: 57
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nDeletes the directory.\n"
+  example: []
+  syntax:
+    content: public static void DeleteDirectory(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path.
+    content.vb: Public Shared Sub DeleteDirectory(path As String)
+  overload: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile(System.String)
+  commentId: M:SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile(System.String)
+  id: DeleteFile(System.String)
+  parent: SwiftExcel.Custom.Mod.DirectoryHelper
+  langs:
+  - csharp
+  - vb
+  name: DeleteFile(String)
+  nameWithType: DirectoryHelper.DeleteFile(String)
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    id: DeleteFile
+    path: src2/BuikEmail.Services/ExcelMod/DirectoryHelper.cs
+    startLine: 68
+  assemblies:
+  - BulkEmail.Services
+  namespace: SwiftExcel.Custom.Mod
+  summary: "\nDeletes the file.\n"
+  example: []
+  syntax:
+    content: public static void DeleteFile(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path.
+    content.vb: Public Shared Sub DeleteFile(path As String)
+  overload: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SwiftExcel.Custom.Mod
+  commentId: N:SwiftExcel.Custom.Mod
+  name: SwiftExcel.Custom.Mod
+  nameWithType: SwiftExcel.Custom.Mod
+  fullName: SwiftExcel.Custom.Mod
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.DirectoryHelper,SwiftExcel.Custom.Mod.DirectoryHelper},Func{SwiftExcel.Custom.Mod.DirectoryHelper,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<DirectoryHelper>(Func<DirectoryHelper, DirectoryHelper>, Func<DirectoryHelper, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<DirectoryHelper>(Func<DirectoryHelper, DirectoryHelper>, Func<DirectoryHelper, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.DirectoryHelper>(Func<SwiftExcel.Custom.Mod.DirectoryHelper, SwiftExcel.Custom.Mod.DirectoryHelper>, Func<SwiftExcel.Custom.Mod.DirectoryHelper, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of DirectoryHelper)(Func(Of DirectoryHelper, DirectoryHelper), Func(Of DirectoryHelper, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.DirectoryHelper)(Func(Of SwiftExcel.Custom.Mod.DirectoryHelper, SwiftExcel.Custom.Mod.DirectoryHelper), Func(Of SwiftExcel.Custom.Mod.DirectoryHelper, System.Boolean))
+  name.vb: FromHierarchy(Of DirectoryHelper)(Func(Of DirectoryHelper, DirectoryHelper), Func(Of DirectoryHelper, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<DirectoryHelper>
+    nameWithType: ExceptionExtension.FromHierarchy<DirectoryHelper>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.DirectoryHelper>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of DirectoryHelper)
+    nameWithType: ExceptionExtension.FromHierarchy(Of DirectoryHelper)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.DirectoryHelper)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{SwiftExcel.Custom.Mod.DirectoryHelper,SwiftExcel.Custom.Mod.DirectoryHelper})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<DirectoryHelper>(Func<DirectoryHelper, DirectoryHelper>)
+  nameWithType: ExceptionExtension.FromHierarchy<DirectoryHelper>(Func<DirectoryHelper, DirectoryHelper>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.DirectoryHelper>(Func<SwiftExcel.Custom.Mod.DirectoryHelper, SwiftExcel.Custom.Mod.DirectoryHelper>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of DirectoryHelper)(Func(Of DirectoryHelper, DirectoryHelper))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.DirectoryHelper)(Func(Of SwiftExcel.Custom.Mod.DirectoryHelper, SwiftExcel.Custom.Mod.DirectoryHelper))
+  name.vb: FromHierarchy(Of DirectoryHelper)(Func(Of DirectoryHelper, DirectoryHelper))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<DirectoryHelper>
+    nameWithType: ExceptionExtension.FromHierarchy<DirectoryHelper>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<SwiftExcel.Custom.Mod.DirectoryHelper>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of DirectoryHelper)
+    nameWithType: ExceptionExtension.FromHierarchy(Of DirectoryHelper)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of SwiftExcel.Custom.Mod.DirectoryHelper)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+    nameWithType: DirectoryHelper
+    fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation*
+  commentId: Overload:SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation
+  name: GetFolderLocation
+  nameWithType: DirectoryHelper.GetFolderLocation
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.GetFolderLocation
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation*
+  commentId: Overload:SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation
+  name: GetTemplateFolderLocation
+  nameWithType: DirectoryHelper.GetTemplateFolderLocation
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.GetTemplateFolderLocation
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation*
+  commentId: Overload:SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation
+  name: GetReportFolderLocation
+  nameWithType: DirectoryHelper.GetReportFolderLocation
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.GetReportFolderLocation
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath*
+  commentId: Overload:SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath
+  name: CheckCreatePath
+  nameWithType: DirectoryHelper.CheckCreatePath
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.CheckCreatePath
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory*
+  commentId: Overload:SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory
+  name: DeleteDirectory
+  nameWithType: DirectoryHelper.DeleteDirectory
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteDirectory
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile*
+  commentId: Overload:SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile
+  name: DeleteFile
+  nameWithType: DirectoryHelper.DeleteFile
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper.DeleteFile

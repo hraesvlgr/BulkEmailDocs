@@ -1,0 +1,6 @@
+- name: Contract
+  href: ../api/toc.yml
+- name: Application Logic
+  href: ../api2/toc.yml
+- name: Frontend
+  href: ../api3/toc.yml

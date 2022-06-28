@@ -1,0 +1,139 @@
+### YamlMime:TableOfContent
+- uid: BulkEmail.Services
+  name: BulkEmail.Services
+  items:
+  - uid: BulkEmail.Services.Constant
+    name: Constant
+  - uid: BulkEmail.Services.Constant.Aes
+    name: Constant.Aes
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+  - uid: BulkEmail.Services.Constant.AppSettingKey
+    name: Constant.AppSettingKey
+  - uid: BulkEmail.Services.Constant.SendGrid
+    name: Constant.SendGrid
+- uid: BulkEmail.Services.Actors
+  name: BulkEmail.Services.Actors
+  items:
+  - uid: BulkEmail.Services.Actors.Constant
+    name: Constant
+  - uid: BulkEmail.Services.Actors.Constant.Dispatcher
+    name: Constant.Dispatcher
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+  - uid: BulkEmail.Services.Actors.EmailAddressValidatorActor
+    name: EmailAddressValidatorActor
+  - uid: BulkEmail.Services.Actors.EmailComposerActor
+    name: EmailComposerActor
+  - uid: BulkEmail.Services.Actors.EmailRootActor
+    name: EmailRootActor
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+  - uid: BulkEmail.Services.Actors.FilePathValidatorActor
+    name: FilePathValidatorActor
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+  - uid: BulkEmail.Services.Actors.RootSystem
+    name: RootSystem
+  - uid: BulkEmail.Services.Actors.RowCountValidatorActor
+    name: RowCountValidatorActor
+  - uid: BulkEmail.Services.Actors.RtfToHTMLConverterActor
+    name: RtfToHTMLConverterActor
+  - uid: BulkEmail.Services.Actors.RtfToHTMLConverterRootActor
+    name: RtfToHTMLConverterRootActor
+- uid: BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  items:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension
+    name: ExceptionExtension
+- uid: BulkEmail.Services.IoC
+  name: BulkEmail.Services.IoC
+  items:
+  - uid: BulkEmail.Services.IoC.TypeNamingConvention
+    name: TypeNamingConvention
+- uid: BulkEmail.Services.Messages
+  name: BulkEmail.Services.Messages
+  items:
+  - uid: BulkEmail.Services.Messages.BaseExcelRowMapping
+    name: BaseExcelRowMapping
+  - uid: BulkEmail.Services.Messages.BaseResult`1
+    name: BaseResult<T>
+    name.vb: BaseResult(Of T)
+  - uid: BulkEmail.Services.Messages.BreakerClose
+    name: BreakerClose
+  - uid: BulkEmail.Services.Messages.BreakerOpen
+    name: BreakerOpen
+  - uid: BulkEmail.Services.Messages.Complete
+    name: Complete
+  - uid: BulkEmail.Services.Messages.EmailBody
+    name: EmailBody
+  - uid: BulkEmail.Services.Messages.EmailFieldMapForValidation
+    name: EmailFieldMapForValidation
+  - uid: BulkEmail.Services.Messages.EmailSent
+    name: EmailSent
+  - uid: BulkEmail.Services.Messages.EmailToSend
+    name: EmailToSend
+  - uid: BulkEmail.Services.Messages.ExcelColumnsMapping
+    name: ExcelColumnsMapping
+  - uid: BulkEmail.Services.Messages.ExcelRowAndRtfTemplate
+    name: ExcelRowAndRtfTemplate
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+  - uid: BulkEmail.Services.Messages.ExcelRowEmailAddressMapping
+    name: ExcelRowEmailAddressMapping
+  - uid: BulkEmail.Services.Messages.ExcelRowFilePathMapping
+    name: ExcelRowFilePathMapping
+  - uid: BulkEmail.Services.Messages.Failed`1
+    name: Failed<T>
+    name.vb: Failed(Of T)
+  - uid: BulkEmail.Services.Messages.KillThis
+    name: KillThis
+  - uid: BulkEmail.Services.Messages.Progress
+    name: Progress
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryAck`1
+    name: ReliableDeliveryAck<TMessage>
+    name.vb: ReliableDeliveryAck(Of TMessage)
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope<TMessage>
+    name.vb: ReliableDeliveryEnvelope(Of TMessage)
+  - uid: BulkEmail.Services.Messages.SetPrerequisite
+    name: SetPrerequisite
+  - uid: BulkEmail.Services.Messages.Start
+    name: Start
+  - uid: BulkEmail.Services.Messages.SubjectColumnsMapping
+    name: SubjectColumnsMapping
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success<T>
+    name.vb: Success(Of T)
+  - uid: BulkEmail.Services.Messages.ValidatedFieldMap
+    name: ValidatedFieldMap
+- uid: BulkEmail.Services.Utilities
+  name: BulkEmail.Services.Utilities
+  items:
+  - uid: BulkEmail.Services.Utilities.AesOperation
+    name: AesOperation
+  - uid: BulkEmail.Services.Utilities.EmailAddressValidator
+    name: EmailAddressValidator
+  - uid: BulkEmail.Services.Utilities.ExcelFileReader
+    name: ExcelFileReader
+  - uid: BulkEmail.Services.Utilities.ExcelFileWriter
+    name: ExcelFileWriter
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+- uid: SwiftExcel.Custom.Mod
+  name: SwiftExcel.Custom.Mod
+  items:
+  - uid: SwiftExcel.Custom.Mod.DirectoryHelper
+    name: DirectoryHelper
+  - uid: SwiftExcel.Custom.Mod.ExcelWriter
+    name: ExcelWriter
+  - uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+    name: ExcelWriterCore
+  - uid: SwiftExcel.Custom.Mod.Sheet
+    name: Sheet

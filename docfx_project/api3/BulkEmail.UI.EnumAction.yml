@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.EnumAction
+  commentId: T:BulkEmail.UI.EnumAction
+  id: EnumAction
+  parent: BulkEmail.UI
+  children:
+  - BulkEmail.UI.EnumAction.Close
+  - BulkEmail.UI.EnumAction.Start
+  - BulkEmail.UI.EnumAction.Wait
+  langs:
+  - csharp
+  - vb
+  name: EnumAction
+  nameWithType: EnumAction
+  fullName: BulkEmail.UI.EnumAction
+  type: Enum
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/EnumAction.cs
+    id: EnumAction
+    path: src3/BulkEmail.UI/EnumAction.cs
+    startLine: 11
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nEnum Flags used for notification state\n"
+  example: []
+  syntax:
+    content: 'public enum EnumAction : int'
+    content.vb: Public Enum EnumAction As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: BulkEmail.UI.EnumAction.Start
+  commentId: F:BulkEmail.UI.EnumAction.Start
+  id: Start
+  parent: BulkEmail.UI.EnumAction
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: EnumAction.Start
+  fullName: BulkEmail.UI.EnumAction.Start
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/EnumAction.cs
+    id: Start
+    path: src3/BulkEmail.UI/EnumAction.cs
+    startLine: 13
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: Start = 0
+    return:
+      type: BulkEmail.UI.EnumAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BulkEmail.UI.EnumAction.Wait
+  commentId: F:BulkEmail.UI.EnumAction.Wait
+  id: Wait
+  parent: BulkEmail.UI.EnumAction
+  langs:
+  - csharp
+  - vb
+  name: Wait
+  nameWithType: EnumAction.Wait
+  fullName: BulkEmail.UI.EnumAction.Wait
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/EnumAction.cs
+    id: Wait
+    path: src3/BulkEmail.UI/EnumAction.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: Wait = 1
+    return:
+      type: BulkEmail.UI.EnumAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BulkEmail.UI.EnumAction.Close
+  commentId: F:BulkEmail.UI.EnumAction.Close
+  id: Close
+  parent: BulkEmail.UI.EnumAction
+  langs:
+  - csharp
+  - vb
+  name: Close
+  nameWithType: EnumAction.Close
+  fullName: BulkEmail.UI.EnumAction.Close
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/EnumAction.cs
+    id: Close
+    path: src3/BulkEmail.UI/EnumAction.cs
+    startLine: 15
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: Close = 2
+    return:
+      type: BulkEmail.UI.EnumAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: BulkEmail.UI.EnumAction
+  commentId: T:BulkEmail.UI.EnumAction
+  parent: BulkEmail.UI
+  name: EnumAction
+  nameWithType: EnumAction
+  fullName: BulkEmail.UI.EnumAction

@@ -1,0 +1,723 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  commentId: T:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  id: ReliableDeliveryEnvelope`1
+  parent: BulkEmail.Services.Messages
+  children:
+  - BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.#ctor(`0,System.Int64)
+  - BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.Message
+  - BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.MessageId
+  langs:
+  - csharp
+  - vb
+  name: ReliableDeliveryEnvelope<TMessage>
+  nameWithType: ReliableDeliveryEnvelope<TMessage>
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    id: ReliableDeliveryEnvelope
+    path: src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    startLine: 6
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  summary: "\nAkka delivery message type for AtleastOnceMessage messaging pattern\n"
+  example: []
+  syntax:
+    content: 'public class ReliableDeliveryEnvelope<TMessage> : object'
+    typeParameters:
+    - id: TMessage
+      description: The type of the message.
+    content.vb: >-
+      Public Class ReliableDeliveryEnvelope(Of TMessage)
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}},BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}}},Func{BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}},System.Boolean})
+  - BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}},BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}}})
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage)
+  name.vb: ReliableDeliveryEnvelope(Of TMessage)
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.#ctor(`0,System.Int64)
+  commentId: M:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.#ctor(`0,System.Int64)
+  id: '#ctor(`0,System.Int64)'
+  parent: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  langs:
+  - csharp
+  - vb
+  name: ReliableDeliveryEnvelope(TMessage, Int64)
+  nameWithType: ReliableDeliveryEnvelope<TMessage>.ReliableDeliveryEnvelope(TMessage, Int64)
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>.ReliableDeliveryEnvelope(TMessage, System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    startLine: 8
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public ReliableDeliveryEnvelope(TMessage message, long messageId)
+    parameters:
+    - id: message
+      type: '{TMessage}'
+    - id: messageId
+      type: System.Int64
+    content.vb: Public Sub New(message As TMessage, messageId As Long)
+  overload: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.#ctor*
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage).ReliableDeliveryEnvelope(TMessage, Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage).ReliableDeliveryEnvelope(TMessage, System.Int64)
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.Message
+  commentId: P:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.Message
+  id: Message
+  parent: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ReliableDeliveryEnvelope<TMessage>.Message
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>.Message
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    id: Message
+    path: src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public TMessage Message { get; }
+    parameters: []
+    return:
+      type: '{TMessage}'
+    content.vb: Public ReadOnly Property Message As TMessage
+  overload: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.Message*
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage).Message
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage).Message
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.MessageId
+  commentId: P:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.MessageId
+  id: MessageId
+  parent: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: ReliableDeliveryEnvelope<TMessage>.MessageId
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>.MessageId
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    id: MessageId
+    path: src2/BuikEmail.Services/Messages/AtleastOnceMessage.cs
+    startLine: 16
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public long MessageId { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property MessageId As Long
+  overload: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.MessageId*
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage).MessageId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage).MessageId
+references:
+- uid: BulkEmail.Services.Messages
+  commentId: N:BulkEmail.Services.Messages
+  name: BulkEmail.Services.Messages
+  nameWithType: BulkEmail.Services.Messages
+  fullName: BulkEmail.Services.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}},BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}}},Func{BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}},System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<ReliableDeliveryEnvelope<TMessage>>(Func<ReliableDeliveryEnvelope<TMessage>, ReliableDeliveryEnvelope<TMessage>>, Func<ReliableDeliveryEnvelope<TMessage>, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<ReliableDeliveryEnvelope<TMessage>>(Func<ReliableDeliveryEnvelope<TMessage>, ReliableDeliveryEnvelope<TMessage>>, Func<ReliableDeliveryEnvelope<TMessage>, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>>(Func<BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>, BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>>, Func<BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))(Func(Of ReliableDeliveryEnvelope(Of TMessage), ReliableDeliveryEnvelope(Of TMessage)), Func(Of ReliableDeliveryEnvelope(Of TMessage), Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage))(Func(Of BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage), BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage)), Func(Of BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage), System.Boolean))
+  name.vb: FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))(Func(Of ReliableDeliveryEnvelope(Of TMessage), ReliableDeliveryEnvelope(Of TMessage)), Func(Of ReliableDeliveryEnvelope(Of TMessage), Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<ReliableDeliveryEnvelope<TMessage>>
+    nameWithType: ExceptionExtension.FromHierarchy<ReliableDeliveryEnvelope<TMessage>>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))
+    nameWithType: ExceptionExtension.FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage))
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}},BulkEmail.Services.Messages.ReliableDeliveryEnvelope{{TMessage}}})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<ReliableDeliveryEnvelope<TMessage>>(Func<ReliableDeliveryEnvelope<TMessage>, ReliableDeliveryEnvelope<TMessage>>)
+  nameWithType: ExceptionExtension.FromHierarchy<ReliableDeliveryEnvelope<TMessage>>(Func<ReliableDeliveryEnvelope<TMessage>, ReliableDeliveryEnvelope<TMessage>>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>>(Func<BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>, BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))(Func(Of ReliableDeliveryEnvelope(Of TMessage), ReliableDeliveryEnvelope(Of TMessage)))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage))(Func(Of BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage), BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage)))
+  name.vb: FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))(Func(Of ReliableDeliveryEnvelope(Of TMessage), ReliableDeliveryEnvelope(Of TMessage)))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<ReliableDeliveryEnvelope<TMessage>>
+    nameWithType: ExceptionExtension.FromHierarchy<ReliableDeliveryEnvelope<TMessage>>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))
+    nameWithType: ExceptionExtension.FromHierarchy(Of ReliableDeliveryEnvelope(Of TMessage))
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage))
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1
+    name: ReliableDeliveryEnvelope
+    nameWithType: ReliableDeliveryEnvelope
+    fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMessage
+    nameWithType: TMessage
+    fullName: TMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.#ctor*
+  commentId: Overload:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.#ctor
+  name: ReliableDeliveryEnvelope
+  nameWithType: ReliableDeliveryEnvelope<TMessage>.ReliableDeliveryEnvelope
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>.ReliableDeliveryEnvelope
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage).ReliableDeliveryEnvelope
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage).ReliableDeliveryEnvelope
+- uid: '{TMessage}'
+  commentId: '!:TMessage'
+  definition: TMessage
+  name: TMessage
+  nameWithType: TMessage
+  fullName: TMessage
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TMessage
+  name: TMessage
+  nameWithType: TMessage
+  fullName: TMessage
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.Message*
+  commentId: Overload:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.Message
+  name: Message
+  nameWithType: ReliableDeliveryEnvelope<TMessage>.Message
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>.Message
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage).Message
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage).Message
+- uid: BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.MessageId*
+  commentId: Overload:BulkEmail.Services.Messages.ReliableDeliveryEnvelope`1.MessageId
+  name: MessageId
+  nameWithType: ReliableDeliveryEnvelope<TMessage>.MessageId
+  fullName: BulkEmail.Services.Messages.ReliableDeliveryEnvelope<TMessage>.MessageId
+  nameWithType.vb: ReliableDeliveryEnvelope(Of TMessage).MessageId
+  fullName.vb: BulkEmail.Services.Messages.ReliableDeliveryEnvelope(Of TMessage).MessageId

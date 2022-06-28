@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  id: BulkEmail.UI
+  children:
+  - BulkEmail.UI.EnumAction
+  - BulkEmail.UI.GridNavigationPage
+  - BulkEmail.UI.Main
+  - BulkEmail.UI.UIData
+  langs:
+  - csharp
+  - vb
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+  type: Namespace
+  assemblies:
+  - BulkEmail.UI
+references:
+- uid: BulkEmail.UI.EnumAction
+  commentId: T:BulkEmail.UI.EnumAction
+  parent: BulkEmail.UI
+  name: EnumAction
+  nameWithType: EnumAction
+  fullName: BulkEmail.UI.EnumAction
+- uid: BulkEmail.UI.GridNavigationPage
+  commentId: T:BulkEmail.UI.GridNavigationPage
+  name: GridNavigationPage
+  nameWithType: GridNavigationPage
+  fullName: BulkEmail.UI.GridNavigationPage
+- uid: BulkEmail.UI.Main
+  commentId: T:BulkEmail.UI.Main
+  parent: BulkEmail.UI
+  name: Main
+  nameWithType: Main
+  fullName: BulkEmail.UI.Main
+- uid: BulkEmail.UI.UIData
+  commentId: T:BulkEmail.UI.UIData
+  parent: BulkEmail.UI
+  name: UIData
+  nameWithType: UIData
+  fullName: BulkEmail.UI.UIData
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI

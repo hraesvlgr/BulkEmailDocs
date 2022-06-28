@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formEmailTemplateEdit
+  commentId: T:BulkEmail.UI.Forms.formEmailTemplateEdit
+  id: formEmailTemplateEdit
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formEmailTemplateEdit.#ctor(BulkEmail.UI.Main)
+  - BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: formEmailTemplateEdit
+  nameWithType: formEmailTemplateEdit
+  fullName: BulkEmail.UI.Forms.formEmailTemplateEdit
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formEmailTemplateEdit.Designer.cs
+    id: formEmailTemplateEdit
+    path: src3/BulkEmail.UI/Forms/formEmailTemplateEdit.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nForm that handles creation and modification of existing template.\n"
+  example: []
+  syntax:
+    content: 'public class formEmailTemplateEdit : Form'
+    content.vb: >-
+      Public Class formEmailTemplateEdit
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formEmailTemplateEdit.#ctor(BulkEmail.UI.Main)
+  commentId: M:BulkEmail.UI.Forms.formEmailTemplateEdit.#ctor(BulkEmail.UI.Main)
+  id: '#ctor(BulkEmail.UI.Main)'
+  parent: BulkEmail.UI.Forms.formEmailTemplateEdit
+  langs:
+  - csharp
+  - vb
+  name: formEmailTemplateEdit(Main)
+  nameWithType: formEmailTemplateEdit.formEmailTemplateEdit(Main)
+  fullName: BulkEmail.UI.Forms.formEmailTemplateEdit.formEmailTemplateEdit(BulkEmail.UI.Main)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formEmailTemplateEdit.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formEmailTemplateEdit.cs
+    startLine: 21
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formEmailTemplateEdit(Main parentForm)
+    parameters:
+    - id: parentForm
+      type: BulkEmail.UI.Main
+    content.vb: Public Sub New(parentForm As Main)
+  overload: BulkEmail.UI.Forms.formEmailTemplateEdit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formEmailTemplateEdit
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formEmailTemplateEdit.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formEmailTemplateEdit.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formEmailTemplateEdit.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formEmailTemplateEdit.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formEmailTemplateEdit.#ctor
+  name: formEmailTemplateEdit
+  nameWithType: formEmailTemplateEdit.formEmailTemplateEdit
+  fullName: BulkEmail.UI.Forms.formEmailTemplateEdit.formEmailTemplateEdit
+- uid: BulkEmail.UI.Main
+  commentId: T:BulkEmail.UI.Main
+  parent: BulkEmail.UI
+  name: Main
+  nameWithType: Main
+  fullName: BulkEmail.UI.Main
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose
+  name: Dispose
+  nameWithType: formEmailTemplateEdit.Dispose
+  fullName: BulkEmail.UI.Forms.formEmailTemplateEdit.Dispose
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

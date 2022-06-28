@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Constant.Akka
+  commentId: T:BulkEmail.Services.Constant.Akka
+  id: Constant.Akka
+  parent: BulkEmail.Services
+  children:
+  - BulkEmail.Services.Constant.Akka.EmailComposerCount
+  - BulkEmail.Services.Constant.Akka.EmailWorkerCount
+  langs:
+  - csharp
+  - vb
+  name: Constant.Akka
+  nameWithType: Constant.Akka
+  fullName: BulkEmail.Services.Constant.Akka
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Constant.cs
+    id: Akka
+    path: src2/BuikEmail.Services/Constant.cs
+    startLine: 15
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services
+  summary: "\nContains Akka configuration for number of worker instances\n"
+  example: []
+  syntax:
+    content: 'public class Akka : object'
+    content.vb: >-
+      Public Class Akka
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Constant.Akka.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Constant.Akka,BulkEmail.Services.Constant.Akka},Func{BulkEmail.Services.Constant.Akka,System.Boolean})
+  - BulkEmail.Services.Constant.Akka.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Constant.Akka,BulkEmail.Services.Constant.Akka})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.Services.Constant.Akka.EmailWorkerCount
+  commentId: P:BulkEmail.Services.Constant.Akka.EmailWorkerCount
+  id: EmailWorkerCount
+  parent: BulkEmail.Services.Constant.Akka
+  langs:
+  - csharp
+  - vb
+  name: EmailWorkerCount
+  nameWithType: Constant.Akka.EmailWorkerCount
+  fullName: BulkEmail.Services.Constant.Akka.EmailWorkerCount
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Constant.cs
+    id: EmailWorkerCount
+    path: src2/BuikEmail.Services/Constant.cs
+    startLine: 24
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services
+  summary: "\nGets the email worker count found in configuration.\nWorker processes request in separate thread.\n"
+  example: []
+  syntax:
+    content: public static int EmailWorkerCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe email worker count.\n"
+    content.vb: Public Shared ReadOnly Property EmailWorkerCount As Integer
+  overload: BulkEmail.Services.Constant.Akka.EmailWorkerCount*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BulkEmail.Services.Constant.Akka.EmailComposerCount
+  commentId: P:BulkEmail.Services.Constant.Akka.EmailComposerCount
+  id: EmailComposerCount
+  parent: BulkEmail.Services.Constant.Akka
+  langs:
+  - csharp
+  - vb
+  name: EmailComposerCount
+  nameWithType: Constant.Akka.EmailComposerCount
+  fullName: BulkEmail.Services.Constant.Akka.EmailComposerCount
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Constant.cs
+    id: EmailComposerCount
+    path: src2/BuikEmail.Services/Constant.cs
+    startLine: 32
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services
+  summary: "\nGets the email composer count found in configuration.\nWorker processes request in separate thread.\n"
+  example: []
+  syntax:
+    content: public static int EmailComposerCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe email composer count.\n"
+    content.vb: Public Shared ReadOnly Property EmailComposerCount As Integer
+  overload: BulkEmail.Services.Constant.Akka.EmailComposerCount*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: BulkEmail.Services
+  commentId: N:BulkEmail.Services
+  name: BulkEmail.Services
+  nameWithType: BulkEmail.Services
+  fullName: BulkEmail.Services
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Constant.Akka.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Constant.Akka,BulkEmail.Services.Constant.Akka},Func{BulkEmail.Services.Constant.Akka,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<Constant.Akka>(Func<Constant.Akka, Constant.Akka>, Func<Constant.Akka, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<Constant.Akka>(Func<Constant.Akka, Constant.Akka>, Func<Constant.Akka, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Constant.Akka>(Func<BulkEmail.Services.Constant.Akka, BulkEmail.Services.Constant.Akka>, Func<BulkEmail.Services.Constant.Akka, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of Constant.Akka)(Func(Of Constant.Akka, Constant.Akka), Func(Of Constant.Akka, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Constant.Akka)(Func(Of BulkEmail.Services.Constant.Akka, BulkEmail.Services.Constant.Akka), Func(Of BulkEmail.Services.Constant.Akka, System.Boolean))
+  name.vb: FromHierarchy(Of Constant.Akka)(Func(Of Constant.Akka, Constant.Akka), Func(Of Constant.Akka, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<Constant.Akka>
+    nameWithType: ExceptionExtension.FromHierarchy<Constant.Akka>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Constant.Akka>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of Constant.Akka)
+    nameWithType: ExceptionExtension.FromHierarchy(Of Constant.Akka)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Constant.Akka)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Constant.Akka.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Constant.Akka,BulkEmail.Services.Constant.Akka})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<Constant.Akka>(Func<Constant.Akka, Constant.Akka>)
+  nameWithType: ExceptionExtension.FromHierarchy<Constant.Akka>(Func<Constant.Akka, Constant.Akka>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Constant.Akka>(Func<BulkEmail.Services.Constant.Akka, BulkEmail.Services.Constant.Akka>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of Constant.Akka)(Func(Of Constant.Akka, Constant.Akka))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Constant.Akka)(Func(Of BulkEmail.Services.Constant.Akka, BulkEmail.Services.Constant.Akka))
+  name.vb: FromHierarchy(Of Constant.Akka)(Func(Of Constant.Akka, Constant.Akka))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<Constant.Akka>
+    nameWithType: ExceptionExtension.FromHierarchy<Constant.Akka>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Constant.Akka>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of Constant.Akka)
+    nameWithType: ExceptionExtension.FromHierarchy(Of Constant.Akka)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Constant.Akka)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Constant.Akka
+    name: Constant.Akka
+    nameWithType: Constant.Akka
+    fullName: BulkEmail.Services.Constant.Akka
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Constant.Akka.EmailWorkerCount*
+  commentId: Overload:BulkEmail.Services.Constant.Akka.EmailWorkerCount
+  name: EmailWorkerCount
+  nameWithType: Constant.Akka.EmailWorkerCount
+  fullName: BulkEmail.Services.Constant.Akka.EmailWorkerCount
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BulkEmail.Services.Constant.Akka.EmailComposerCount*
+  commentId: Overload:BulkEmail.Services.Constant.Akka.EmailComposerCount
+  name: EmailComposerCount
+  nameWithType: Constant.Akka.EmailComposerCount
+  fullName: BulkEmail.Services.Constant.Akka.EmailComposerCount

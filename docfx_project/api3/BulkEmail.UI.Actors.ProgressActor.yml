@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.ProgressActor
+  commentId: T:BulkEmail.UI.Actors.ProgressActor
+  id: ProgressActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.ProgressActor.#ctor(IActorRef,IActorRef,ProgressBar)
+  langs:
+  - csharp
+  - vb
+  name: ProgressActor
+  nameWithType: ProgressActor
+  fullName: BulkEmail.UI.Actors.ProgressActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/ProgressActor.cs
+    id: ProgressActor
+    path: src3/BulkEmail.UI/Actors/ProgressActor.cs
+    startLine: 10
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nActor that handles ProgressBar updates in the frontend.\n"
+  example: []
+  syntax:
+    content: 'public class ProgressActor : ReceiveActor'
+    content.vb: >-
+      Public Class ProgressActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.ProgressActor.#ctor(IActorRef,IActorRef,ProgressBar)
+  commentId: M:BulkEmail.UI.Actors.ProgressActor.#ctor(IActorRef,IActorRef,ProgressBar)
+  id: '#ctor(IActorRef,IActorRef,ProgressBar)'
+  parent: BulkEmail.UI.Actors.ProgressActor
+  langs:
+  - csharp
+  - vb
+  name: ProgressActor(IActorRef, IActorRef, ProgressBar)
+  nameWithType: ProgressActor.ProgressActor(IActorRef, IActorRef, ProgressBar)
+  fullName: BulkEmail.UI.Actors.ProgressActor.ProgressActor(IActorRef, IActorRef, ProgressBar)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/ProgressActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/ProgressActor.cs
+    startLine: 21
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  syntax:
+    content: public ProgressActor(IActorRef actorRef, IActorRef actorRefLabel, ProgressBar progressBar)
+    parameters:
+    - id: actorRef
+      type: IActorRef
+    - id: actorRefLabel
+      type: IActorRef
+    - id: progressBar
+      type: ProgressBar
+    content.vb: Public Sub New(actorRef As IActorRef, actorRefLabel As IActorRef, progressBar As ProgressBar)
+  overload: BulkEmail.UI.Actors.ProgressActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.ProgressActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.ProgressActor.#ctor
+  name: ProgressActor
+  nameWithType: ProgressActor.ProgressActor
+  fullName: BulkEmail.UI.Actors.ProgressActor.ProgressActor
+- uid: IActorRef
+  isExternal: true
+  name: IActorRef
+  nameWithType: IActorRef
+  fullName: IActorRef
+- uid: ProgressBar
+  commentId: '!:ProgressBar'
+  isExternal: true
+  name: ProgressBar
+  nameWithType: ProgressBar
+  fullName: ProgressBar

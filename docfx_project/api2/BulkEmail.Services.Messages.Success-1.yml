@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Messages.Success`1
+  commentId: T:BulkEmail.Services.Messages.Success`1
+  id: Success`1
+  parent: BulkEmail.Services.Messages
+  children:
+  - BulkEmail.Services.Messages.Success`1.#ctor(`0,System.String,System.Int64)
+  langs:
+  - csharp
+  - vb
+  name: Success<T>
+  nameWithType: Success<T>
+  fullName: BulkEmail.Services.Messages.Success<T>
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/Success.cs
+    id: Success
+    path: src2/BuikEmail.Services/Messages/Success.cs
+    startLine: 7
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  summary: "\nAkka Success message type for successful operation of a request\n"
+  example: []
+  syntax:
+    content: 'public sealed class Success<T> : BaseResult<T> where T : class'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: >-
+      Public NotInheritable Class Success(Of T As Class)
+          Inherits BaseResult(Of T)
+  seealso:
+  - linkId: BulkEmail.Services.Messages.BaseResult`1
+    commentId: T:BulkEmail.Services.Messages.BaseResult`1
+  inheritance:
+  - System.Object
+  - BulkEmail.Services.Messages.BaseResult{{T}}
+  inheritedMembers:
+  - BulkEmail.Services.Messages.BaseResult{{T}}.TraceId
+  - BulkEmail.Services.Messages.BaseResult{{T}}.Source
+  - BulkEmail.Services.Messages.BaseResult{{T}}.Message
+  - BulkEmail.Services.Messages.BaseResult{{T}}.TimeStamp
+  extensionMethods:
+  - BulkEmail.Services.Messages.Success`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.Success{{T}},BulkEmail.Services.Messages.Success{{T}}},Func{BulkEmail.Services.Messages.Success{{T}},System.Boolean})
+  - BulkEmail.Services.Messages.Success`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.Success{{T}},BulkEmail.Services.Messages.Success{{T}}})
+  nameWithType.vb: Success(Of T)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+  fullName.vb: BulkEmail.Services.Messages.Success(Of T)
+  name.vb: Success(Of T)
+- uid: BulkEmail.Services.Messages.Success`1.#ctor(`0,System.String,System.Int64)
+  commentId: M:BulkEmail.Services.Messages.Success`1.#ctor(`0,System.String,System.Int64)
+  id: '#ctor(`0,System.String,System.Int64)'
+  parent: BulkEmail.Services.Messages.Success`1
+  langs:
+  - csharp
+  - vb
+  name: Success(T, String, Int64)
+  nameWithType: Success<T>.Success(T, String, Int64)
+  fullName: BulkEmail.Services.Messages.Success<T>.Success(T, System.String, System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/Success.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Messages/Success.cs
+    startLine: 9
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public Success(T instance, string message, long traceId)
+    parameters:
+    - id: instance
+      type: '{T}'
+    - id: message
+      type: System.String
+    - id: traceId
+      type: System.Int64
+    content.vb: Public Sub New(instance As T, message As String, traceId As Long)
+  overload: BulkEmail.Services.Messages.Success`1.#ctor*
+  nameWithType.vb: Success(Of T).Success(T, String, Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.Services.Messages.Success(Of T).Success(T, System.String, System.Int64)
+references:
+- uid: BulkEmail.Services.Messages.BaseResult`1
+  commentId: T:BulkEmail.Services.Messages.BaseResult`1
+  name: BaseResult<T>
+  nameWithType: BaseResult<T>
+  fullName: BulkEmail.Services.Messages.BaseResult<T>
+  nameWithType.vb: BaseResult(Of T)
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T)
+  name.vb: BaseResult(Of T)
+  spec.csharp:
+  - uid: BulkEmail.Services.Messages.BaseResult`1
+    name: BaseResult
+    nameWithType: BaseResult
+    fullName: BulkEmail.Services.Messages.BaseResult
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BulkEmail.Services.Messages.BaseResult`1
+    name: BaseResult
+    nameWithType: BaseResult
+    fullName: BulkEmail.Services.Messages.BaseResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages
+  commentId: N:BulkEmail.Services.Messages
+  name: BulkEmail.Services.Messages
+  nameWithType: BulkEmail.Services.Messages
+  fullName: BulkEmail.Services.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Messages.BaseResult{{T}}
+  commentId: T:BulkEmail.Services.Messages.BaseResult{`0}
+  parent: BulkEmail.Services.Messages
+  definition: BulkEmail.Services.Messages.BaseResult`1
+  name: BaseResult<T>
+  nameWithType: BaseResult<T>
+  fullName: BulkEmail.Services.Messages.BaseResult<T>
+  nameWithType.vb: BaseResult(Of T)
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T)
+  name.vb: BaseResult(Of T)
+  spec.csharp:
+  - uid: BulkEmail.Services.Messages.BaseResult`1
+    name: BaseResult
+    nameWithType: BaseResult
+    fullName: BulkEmail.Services.Messages.BaseResult
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BulkEmail.Services.Messages.BaseResult`1
+    name: BaseResult
+    nameWithType: BaseResult
+    fullName: BulkEmail.Services.Messages.BaseResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.BaseResult{{T}}.TraceId
+  commentId: P:BulkEmail.Services.Messages.BaseResult{`0}.TraceId
+  parent: BulkEmail.Services.Messages.BaseResult{{T}}
+  definition: BulkEmail.Services.Messages.BaseResult`1.TraceId
+  name: TraceId
+  nameWithType: BaseResult<T>.TraceId
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.TraceId
+  nameWithType.vb: BaseResult(Of T).TraceId
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).TraceId
+- uid: BulkEmail.Services.Messages.BaseResult{{T}}.Source
+  commentId: P:BulkEmail.Services.Messages.BaseResult{`0}.Source
+  parent: BulkEmail.Services.Messages.BaseResult{{T}}
+  definition: BulkEmail.Services.Messages.BaseResult`1.Source
+  name: Source
+  nameWithType: BaseResult<T>.Source
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.Source
+  nameWithType.vb: BaseResult(Of T).Source
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).Source
+- uid: BulkEmail.Services.Messages.BaseResult{{T}}.Message
+  commentId: P:BulkEmail.Services.Messages.BaseResult{`0}.Message
+  parent: BulkEmail.Services.Messages.BaseResult{{T}}
+  definition: BulkEmail.Services.Messages.BaseResult`1.Message
+  name: Message
+  nameWithType: BaseResult<T>.Message
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.Message
+  nameWithType.vb: BaseResult(Of T).Message
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).Message
+- uid: BulkEmail.Services.Messages.BaseResult{{T}}.TimeStamp
+  commentId: P:BulkEmail.Services.Messages.BaseResult{`0}.TimeStamp
+  parent: BulkEmail.Services.Messages.BaseResult{{T}}
+  definition: BulkEmail.Services.Messages.BaseResult`1.TimeStamp
+  name: TimeStamp
+  nameWithType: BaseResult<T>.TimeStamp
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.TimeStamp
+  nameWithType.vb: BaseResult(Of T).TimeStamp
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).TimeStamp
+- uid: BulkEmail.Services.Messages.Success`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.Success{{T}},BulkEmail.Services.Messages.Success{{T}}},Func{BulkEmail.Services.Messages.Success{{T}},System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<Success<T>>(Func<Success<T>, Success<T>>, Func<Success<T>, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<Success<T>>(Func<Success<T>, Success<T>>, Func<Success<T>, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.Success<T>>(Func<BulkEmail.Services.Messages.Success<T>, BulkEmail.Services.Messages.Success<T>>, Func<BulkEmail.Services.Messages.Success<T>, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of Success(Of T))(Func(Of Success(Of T), Success(Of T)), Func(Of Success(Of T), Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.Success(Of T))(Func(Of BulkEmail.Services.Messages.Success(Of T), BulkEmail.Services.Messages.Success(Of T)), Func(Of BulkEmail.Services.Messages.Success(Of T), System.Boolean))
+  name.vb: FromHierarchy(Of Success(Of T))(Func(Of Success(Of T), Success(Of T)), Func(Of Success(Of T), Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<Success<T>>
+    nameWithType: ExceptionExtension.FromHierarchy<Success<T>>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.Success<T>>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of Success(Of T))
+    nameWithType: ExceptionExtension.FromHierarchy(Of Success(Of T))
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.Success(Of T))
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.Success`1.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.Success{{T}},BulkEmail.Services.Messages.Success{{T}}})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<Success<T>>(Func<Success<T>, Success<T>>)
+  nameWithType: ExceptionExtension.FromHierarchy<Success<T>>(Func<Success<T>, Success<T>>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.Success<T>>(Func<BulkEmail.Services.Messages.Success<T>, BulkEmail.Services.Messages.Success<T>>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of Success(Of T))(Func(Of Success(Of T), Success(Of T)))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.Success(Of T))(Func(Of BulkEmail.Services.Messages.Success(Of T), BulkEmail.Services.Messages.Success(Of T)))
+  name.vb: FromHierarchy(Of Success(Of T))(Func(Of Success(Of T), Success(Of T)))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<Success<T>>
+    nameWithType: ExceptionExtension.FromHierarchy<Success<T>>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.Success<T>>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of Success(Of T))
+    nameWithType: ExceptionExtension.FromHierarchy(Of Success(Of T))
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.Success(Of T))
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.Success`1
+    name: Success
+    nameWithType: Success
+    fullName: BulkEmail.Services.Messages.Success
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.BaseResult`1.TraceId
+  commentId: P:BulkEmail.Services.Messages.BaseResult`1.TraceId
+  name: TraceId
+  nameWithType: BaseResult<T>.TraceId
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.TraceId
+  nameWithType.vb: BaseResult(Of T).TraceId
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).TraceId
+- uid: BulkEmail.Services.Messages.BaseResult`1.Source
+  commentId: P:BulkEmail.Services.Messages.BaseResult`1.Source
+  name: Source
+  nameWithType: BaseResult<T>.Source
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.Source
+  nameWithType.vb: BaseResult(Of T).Source
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).Source
+- uid: BulkEmail.Services.Messages.BaseResult`1.Message
+  commentId: P:BulkEmail.Services.Messages.BaseResult`1.Message
+  name: Message
+  nameWithType: BaseResult<T>.Message
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.Message
+  nameWithType.vb: BaseResult(Of T).Message
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).Message
+- uid: BulkEmail.Services.Messages.BaseResult`1.TimeStamp
+  commentId: P:BulkEmail.Services.Messages.BaseResult`1.TimeStamp
+  name: TimeStamp
+  nameWithType: BaseResult<T>.TimeStamp
+  fullName: BulkEmail.Services.Messages.BaseResult<T>.TimeStamp
+  nameWithType.vb: BaseResult(Of T).TimeStamp
+  fullName.vb: BulkEmail.Services.Messages.BaseResult(Of T).TimeStamp
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Messages.Success`1.#ctor*
+  commentId: Overload:BulkEmail.Services.Messages.Success`1.#ctor
+  name: Success
+  nameWithType: Success<T>.Success
+  fullName: BulkEmail.Services.Messages.Success<T>.Success
+  nameWithType.vb: Success(Of T).Success
+  fullName.vb: BulkEmail.Services.Messages.Success(Of T).Success
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

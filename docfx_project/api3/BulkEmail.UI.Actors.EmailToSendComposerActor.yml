@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.EmailToSendComposerActor
+  commentId: T:BulkEmail.UI.Actors.EmailToSendComposerActor
+  id: EmailToSendComposerActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.EmailToSendComposerActor.#ctor(IActorRef,BulkEmail.UI.UIData,ConcurrentBag{EmailBody})
+  langs:
+  - csharp
+  - vb
+  name: EmailToSendComposerActor
+  nameWithType: EmailToSendComposerActor
+  fullName: BulkEmail.UI.Actors.EmailToSendComposerActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/EmailToSendComposerActor.cs
+    id: EmailToSendComposerActor
+    path: src3/BulkEmail.UI/Actors/EmailToSendComposerActor.cs
+    startLine: 12
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nAkka Actor that compose email structure for sending.\n"
+  example: []
+  syntax:
+    content: 'public class EmailToSendComposerActor : ReceiveActor'
+    content.vb: >-
+      Public Class EmailToSendComposerActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.EmailToSendComposerActor.#ctor(IActorRef,BulkEmail.UI.UIData,ConcurrentBag{EmailBody})
+  commentId: M:BulkEmail.UI.Actors.EmailToSendComposerActor.#ctor(IActorRef,BulkEmail.UI.UIData,ConcurrentBag{EmailBody})
+  id: '#ctor(IActorRef,BulkEmail.UI.UIData,ConcurrentBag{EmailBody})'
+  parent: BulkEmail.UI.Actors.EmailToSendComposerActor
+  langs:
+  - csharp
+  - vb
+  name: EmailToSendComposerActor(IActorRef, UIData, ConcurrentBag<EmailBody>)
+  nameWithType: EmailToSendComposerActor.EmailToSendComposerActor(IActorRef, UIData, ConcurrentBag<EmailBody>)
+  fullName: BulkEmail.UI.Actors.EmailToSendComposerActor.EmailToSendComposerActor(IActorRef, BulkEmail.UI.UIData, ConcurrentBag<EmailBody>)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/EmailToSendComposerActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/EmailToSendComposerActor.cs
+    startLine: 24
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.UI.Actors.EmailToSendComposerActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public EmailToSendComposerActor(IActorRef emailSenderActorRef, UIData uIData, ConcurrentBag<EmailBody> emailBodies)
+    parameters:
+    - id: emailSenderActorRef
+      type: IActorRef
+      description: The email sender actor reference.
+    - id: uIData
+      type: BulkEmail.UI.UIData
+      description: Contains data mapped in the frontend
+    - id: emailBodies
+      type: ConcurrentBag{EmailBody}
+      description: 'The email bodies. '
+    content.vb: Public Sub New(emailSenderActorRef As IActorRef, uIData As UIData, emailBodies As ConcurrentBag(Of EmailBody))
+  overload: BulkEmail.UI.Actors.EmailToSendComposerActor.#ctor*
+  nameWithType.vb: EmailToSendComposerActor.EmailToSendComposerActor(IActorRef, UIData, ConcurrentBag(Of EmailBody))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.UI.Actors.EmailToSendComposerActor.EmailToSendComposerActor(IActorRef, BulkEmail.UI.UIData, ConcurrentBag(Of EmailBody))
+  name.vb: EmailToSendComposerActor(IActorRef, UIData, ConcurrentBag(Of EmailBody))
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.EmailToSendComposerActor
+  commentId: T:BulkEmail.UI.Actors.EmailToSendComposerActor
+  name: EmailToSendComposerActor
+  nameWithType: EmailToSendComposerActor
+  fullName: BulkEmail.UI.Actors.EmailToSendComposerActor
+- uid: BulkEmail.UI.Actors.EmailToSendComposerActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.EmailToSendComposerActor.#ctor
+  name: EmailToSendComposerActor
+  nameWithType: EmailToSendComposerActor.EmailToSendComposerActor
+  fullName: BulkEmail.UI.Actors.EmailToSendComposerActor.EmailToSendComposerActor
+- uid: IActorRef
+  isExternal: true
+  name: IActorRef
+  nameWithType: IActorRef
+  fullName: IActorRef
+- uid: BulkEmail.UI.UIData
+  commentId: T:BulkEmail.UI.UIData
+  parent: BulkEmail.UI
+  name: UIData
+  nameWithType: UIData
+  fullName: BulkEmail.UI.UIData
+- uid: ConcurrentBag{EmailBody}
+  commentId: '!:ConcurrentBag{EmailBody}'
+  definition: ConcurrentBag`1
+  name: ConcurrentBag<EmailBody>
+  nameWithType: ConcurrentBag<EmailBody>
+  fullName: ConcurrentBag<EmailBody>
+  nameWithType.vb: ConcurrentBag(Of EmailBody)
+  fullName.vb: ConcurrentBag(Of EmailBody)
+  name.vb: ConcurrentBag(Of EmailBody)
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EmailBody
+    name: EmailBody
+    nameWithType: EmailBody
+    fullName: EmailBody
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EmailBody
+    name: EmailBody
+    nameWithType: EmailBody
+    fullName: EmailBody
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: ConcurrentBag`1
+  isExternal: true
+  name: ConcurrentBag<>
+  nameWithType: ConcurrentBag<>
+  fullName: ConcurrentBag<>
+  nameWithType.vb: ConcurrentBag(Of )
+  fullName.vb: ConcurrentBag(Of )
+  name.vb: ConcurrentBag(Of )
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

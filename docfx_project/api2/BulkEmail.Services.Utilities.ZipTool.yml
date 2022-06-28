@@ -1,0 +1,655 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Utilities.ZipTool
+  commentId: T:BulkEmail.Services.Utilities.ZipTool
+  id: ZipTool
+  parent: BulkEmail.Services.Utilities
+  children:
+  - BulkEmail.Services.Utilities.ZipTool.Instance
+  - BulkEmail.Services.Utilities.ZipTool.Unzip(System.Byte[])
+  - BulkEmail.Services.Utilities.ZipTool.Zip(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ZipTool
+  nameWithType: ZipTool
+  fullName: BulkEmail.Services.Utilities.ZipTool
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/ZipTool.cs
+    id: ZipTool
+    path: src2/BuikEmail.Services/Utilities/ZipTool.cs
+    startLine: 12
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nSingleton Pattern for <code>ZipTool</code>, contains operation for compressing and decompressing.\n"
+  example: []
+  syntax:
+    content: 'public sealed class ZipTool : IZipTool'
+    content.vb: >-
+      Public NotInheritable Class ZipTool
+          Inherits IZipTool
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Utilities.ZipTool.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ZipTool,BulkEmail.Services.Utilities.ZipTool},Func{BulkEmail.Services.Utilities.ZipTool,System.Boolean})
+  - BulkEmail.Services.Utilities.ZipTool.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ZipTool,BulkEmail.Services.Utilities.ZipTool})
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BulkEmail.Services.Utilities.ZipTool.Instance
+  commentId: P:BulkEmail.Services.Utilities.ZipTool.Instance
+  id: Instance
+  parent: BulkEmail.Services.Utilities.ZipTool
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: ZipTool.Instance
+  fullName: BulkEmail.Services.Utilities.ZipTool.Instance
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/ZipTool.cs
+    id: Instance
+    path: src2/BuikEmail.Services/Utilities/ZipTool.cs
+    startLine: 22
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nGets the singleton instance of <code>ZipTool</code>.\n"
+  example: []
+  syntax:
+    content: public static ZipTool Instance { get; }
+    parameters: []
+    return:
+      type: BulkEmail.Services.Utilities.ZipTool
+      description: "\nInstance of <code>ZipTool</code>.\n"
+    content.vb: Public Shared ReadOnly Property Instance As ZipTool
+  overload: BulkEmail.Services.Utilities.ZipTool.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BulkEmail.Services.Utilities.ZipTool.Zip(System.String)
+  commentId: M:BulkEmail.Services.Utilities.ZipTool.Zip(System.String)
+  id: Zip(System.String)
+  parent: BulkEmail.Services.Utilities.ZipTool
+  langs:
+  - csharp
+  - vb
+  name: Zip(String)
+  nameWithType: ZipTool.Zip(String)
+  fullName: BulkEmail.Services.Utilities.ZipTool.Zip(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/ZipTool.cs
+    id: Zip
+    path: src2/BuikEmail.Services/Utilities/ZipTool.cs
+    startLine: 42
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nCompress string content\n"
+  example: []
+  syntax:
+    content: public byte[] Zip(string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string content to compress.
+    return:
+      type: System.Byte[]
+      description: "\nCompressed byte[] data\n"
+    content.vb: Public Function Zip(str As String) As Byte()
+  overload: BulkEmail.Services.Utilities.ZipTool.Zip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.Services.Utilities.ZipTool.Unzip(System.Byte[])
+  commentId: M:BulkEmail.Services.Utilities.ZipTool.Unzip(System.Byte[])
+  id: Unzip(System.Byte[])
+  parent: BulkEmail.Services.Utilities.ZipTool
+  langs:
+  - csharp
+  - vb
+  name: Unzip(Byte[])
+  nameWithType: ZipTool.Unzip(Byte[])
+  fullName: BulkEmail.Services.Utilities.ZipTool.Unzip(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/ZipTool.cs
+    id: Unzip
+    path: src2/BuikEmail.Services/Utilities/ZipTool.cs
+    startLine: 64
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nDecompress the specified bytes.\n"
+  example: []
+  syntax:
+    content: public string Unzip(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+      description: The bytes.
+    return:
+      type: System.String
+      description: "\nDecompress to original string content\n"
+    content.vb: Public Function Unzip(bytes As Byte()) As String
+  overload: BulkEmail.Services.Utilities.ZipTool.Unzip*
+  nameWithType.vb: ZipTool.Unzip(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.Services.Utilities.ZipTool.Unzip(System.Byte())
+  name.vb: Unzip(Byte())
+references:
+- uid: BulkEmail.Services.Utilities
+  commentId: N:BulkEmail.Services.Utilities
+  name: BulkEmail.Services.Utilities
+  nameWithType: BulkEmail.Services.Utilities
+  fullName: BulkEmail.Services.Utilities
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Utilities.ZipTool.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ZipTool,BulkEmail.Services.Utilities.ZipTool},Func{BulkEmail.Services.Utilities.ZipTool,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<ZipTool>(Func<ZipTool, ZipTool>, Func<ZipTool, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<ZipTool>(Func<ZipTool, ZipTool>, Func<ZipTool, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ZipTool>(Func<BulkEmail.Services.Utilities.ZipTool, BulkEmail.Services.Utilities.ZipTool>, Func<BulkEmail.Services.Utilities.ZipTool, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ZipTool)(Func(Of ZipTool, ZipTool), Func(Of ZipTool, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ZipTool)(Func(Of BulkEmail.Services.Utilities.ZipTool, BulkEmail.Services.Utilities.ZipTool), Func(Of BulkEmail.Services.Utilities.ZipTool, System.Boolean))
+  name.vb: FromHierarchy(Of ZipTool)(Func(Of ZipTool, ZipTool), Func(Of ZipTool, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<ZipTool>
+    nameWithType: ExceptionExtension.FromHierarchy<ZipTool>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ZipTool>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of ZipTool)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ZipTool)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ZipTool)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Utilities.ZipTool.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.ZipTool,BulkEmail.Services.Utilities.ZipTool})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<ZipTool>(Func<ZipTool, ZipTool>)
+  nameWithType: ExceptionExtension.FromHierarchy<ZipTool>(Func<ZipTool, ZipTool>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ZipTool>(Func<BulkEmail.Services.Utilities.ZipTool, BulkEmail.Services.Utilities.ZipTool>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ZipTool)(Func(Of ZipTool, ZipTool))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ZipTool)(Func(Of BulkEmail.Services.Utilities.ZipTool, BulkEmail.Services.Utilities.ZipTool))
+  name.vb: FromHierarchy(Of ZipTool)(Func(Of ZipTool, ZipTool))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<ZipTool>
+    nameWithType: ExceptionExtension.FromHierarchy<ZipTool>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.ZipTool>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of ZipTool)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ZipTool)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.ZipTool)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.ZipTool
+    name: ZipTool
+    nameWithType: ZipTool
+    fullName: BulkEmail.Services.Utilities.ZipTool
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Utilities.ZipTool.Instance*
+  commentId: Overload:BulkEmail.Services.Utilities.ZipTool.Instance
+  name: Instance
+  nameWithType: ZipTool.Instance
+  fullName: BulkEmail.Services.Utilities.ZipTool.Instance
+- uid: BulkEmail.Services.Utilities.ZipTool
+  commentId: T:BulkEmail.Services.Utilities.ZipTool
+  parent: BulkEmail.Services.Utilities
+  name: ZipTool
+  nameWithType: ZipTool
+  fullName: BulkEmail.Services.Utilities.ZipTool
+- uid: BulkEmail.Services.Utilities.ZipTool.Zip*
+  commentId: Overload:BulkEmail.Services.Utilities.ZipTool.Zip
+  name: Zip
+  nameWithType: ZipTool.Zip
+  fullName: BulkEmail.Services.Utilities.ZipTool.Zip
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BulkEmail.Services.Utilities.ZipTool.Unzip*
+  commentId: Overload:BulkEmail.Services.Utilities.ZipTool.Unzip
+  name: Unzip
+  nameWithType: ZipTool.Unzip
+  fullName: BulkEmail.Services.Utilities.ZipTool.Unzip

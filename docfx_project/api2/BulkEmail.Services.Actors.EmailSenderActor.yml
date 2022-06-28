@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Actors.EmailSenderActor
+  commentId: T:BulkEmail.Services.Actors.EmailSenderActor
+  id: EmailSenderActor
+  parent: BulkEmail.Services.Actors
+  children:
+  - BulkEmail.Services.Actors.EmailSenderActor.#ctor(IActorRef,IZipTool)
+  langs:
+  - csharp
+  - vb
+  name: EmailSenderActor
+  nameWithType: EmailSenderActor
+  fullName: BulkEmail.Services.Actors.EmailSenderActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/EmailSenderActor.cs
+    id: EmailSenderActor
+    path: src2/BuikEmail.Services/Actors/EmailSenderActor.cs
+    startLine: 22
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nAkka Actor for sending email using Sendgrid API\n"
+  example: []
+  syntax:
+    content: 'public class EmailSenderActor : ReceiveActor'
+    content.vb: >-
+      Public Class EmailSenderActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Actors.EmailSenderActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailSenderActor,BulkEmail.Services.Actors.EmailSenderActor},Func{BulkEmail.Services.Actors.EmailSenderActor,System.Boolean})
+  - BulkEmail.Services.Actors.EmailSenderActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailSenderActor,BulkEmail.Services.Actors.EmailSenderActor})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.Services.Actors.EmailSenderActor.#ctor(IActorRef,IZipTool)
+  commentId: M:BulkEmail.Services.Actors.EmailSenderActor.#ctor(IActorRef,IZipTool)
+  id: '#ctor(IActorRef,IZipTool)'
+  parent: BulkEmail.Services.Actors.EmailSenderActor
+  langs:
+  - csharp
+  - vb
+  name: EmailSenderActor(IActorRef, IZipTool)
+  nameWithType: EmailSenderActor.EmailSenderActor(IActorRef, IZipTool)
+  fullName: BulkEmail.Services.Actors.EmailSenderActor.EmailSenderActor(IActorRef, IZipTool)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/EmailSenderActor.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Actors/EmailSenderActor.cs
+    startLine: 32
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.Services.Actors.EmailSenderActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public EmailSenderActor(IActorRef actorRef, IZipTool zipTool)
+    parameters:
+    - id: actorRef
+      type: IActorRef
+      description: The actor reference.
+    - id: zipTool
+      type: IZipTool
+      description: The zip tool.
+    content.vb: Public Sub New(actorRef As IActorRef, zipTool As IZipTool)
+  overload: BulkEmail.Services.Actors.EmailSenderActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Actors
+  commentId: N:BulkEmail.Services.Actors
+  name: BulkEmail.Services.Actors
+  nameWithType: BulkEmail.Services.Actors
+  fullName: BulkEmail.Services.Actors
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Actors.EmailSenderActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailSenderActor,BulkEmail.Services.Actors.EmailSenderActor},Func{BulkEmail.Services.Actors.EmailSenderActor,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<EmailSenderActor>(Func<EmailSenderActor, EmailSenderActor>, Func<EmailSenderActor, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<EmailSenderActor>(Func<EmailSenderActor, EmailSenderActor>, Func<EmailSenderActor, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailSenderActor>(Func<BulkEmail.Services.Actors.EmailSenderActor, BulkEmail.Services.Actors.EmailSenderActor>, Func<BulkEmail.Services.Actors.EmailSenderActor, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of EmailSenderActor)(Func(Of EmailSenderActor, EmailSenderActor), Func(Of EmailSenderActor, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailSenderActor)(Func(Of BulkEmail.Services.Actors.EmailSenderActor, BulkEmail.Services.Actors.EmailSenderActor), Func(Of BulkEmail.Services.Actors.EmailSenderActor, System.Boolean))
+  name.vb: FromHierarchy(Of EmailSenderActor)(Func(Of EmailSenderActor, EmailSenderActor), Func(Of EmailSenderActor, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<EmailSenderActor>
+    nameWithType: ExceptionExtension.FromHierarchy<EmailSenderActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailSenderActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of EmailSenderActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of EmailSenderActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailSenderActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Actors.EmailSenderActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailSenderActor,BulkEmail.Services.Actors.EmailSenderActor})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<EmailSenderActor>(Func<EmailSenderActor, EmailSenderActor>)
+  nameWithType: ExceptionExtension.FromHierarchy<EmailSenderActor>(Func<EmailSenderActor, EmailSenderActor>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailSenderActor>(Func<BulkEmail.Services.Actors.EmailSenderActor, BulkEmail.Services.Actors.EmailSenderActor>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of EmailSenderActor)(Func(Of EmailSenderActor, EmailSenderActor))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailSenderActor)(Func(Of BulkEmail.Services.Actors.EmailSenderActor, BulkEmail.Services.Actors.EmailSenderActor))
+  name.vb: FromHierarchy(Of EmailSenderActor)(Func(Of EmailSenderActor, EmailSenderActor))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<EmailSenderActor>
+    nameWithType: ExceptionExtension.FromHierarchy<EmailSenderActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailSenderActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of EmailSenderActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of EmailSenderActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailSenderActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailSenderActor
+    name: EmailSenderActor
+    nameWithType: EmailSenderActor
+    fullName: BulkEmail.Services.Actors.EmailSenderActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Actors.EmailSenderActor
+  commentId: T:BulkEmail.Services.Actors.EmailSenderActor
+  name: EmailSenderActor
+  nameWithType: EmailSenderActor
+  fullName: BulkEmail.Services.Actors.EmailSenderActor
+- uid: BulkEmail.Services.Actors.EmailSenderActor.#ctor*
+  commentId: Overload:BulkEmail.Services.Actors.EmailSenderActor.#ctor
+  name: EmailSenderActor
+  nameWithType: EmailSenderActor.EmailSenderActor
+  fullName: BulkEmail.Services.Actors.EmailSenderActor.EmailSenderActor
+- uid: IActorRef
+  isExternal: true
+  name: IActorRef
+  nameWithType: IActorRef
+  fullName: IActorRef
+- uid: IZipTool
+  isExternal: true
+  name: IZipTool
+  nameWithType: IZipTool
+  fullName: IZipTool

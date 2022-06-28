@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+  commentId: T:BulkEmail.Services.Actors.EmailValidatorRootActor
+  id: EmailValidatorRootActor
+  parent: BulkEmail.Services.Actors
+  children:
+  - BulkEmail.Services.Actors.EmailValidatorRootActor.#ctor(IActorRef,IActorRef,ExcellSheet,EmailStructure)
+  - BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart(Exception,System.Object)
+  - BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart
+  langs:
+  - csharp
+  - vb
+  name: EmailValidatorRootActor
+  nameWithType: EmailValidatorRootActor
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    id: EmailValidatorRootActor
+    path: src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    startLine: 18
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nAkka Actor for coordinating validation actors <code>RowCountValidatorActor</code>,<code>DuplicateColumnsValidatorActor</code>,<code>FilePathValidatorActor</code>,\n<code>EmailAddressValidatorActor</code>, and <code>RequiredFieldValidatorActor</code>.\n<p></p>\nResult from this actors are displayed as grid data in the frontend UI <code>formExcelValidationDialog</code>.\n"
+  example: []
+  syntax:
+    content: 'public class EmailValidatorRootActor : ReceiveActor'
+    content.vb: >-
+      Public Class EmailValidatorRootActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Actors.EmailValidatorRootActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailValidatorRootActor,BulkEmail.Services.Actors.EmailValidatorRootActor},Func{BulkEmail.Services.Actors.EmailValidatorRootActor,System.Boolean})
+  - BulkEmail.Services.Actors.EmailValidatorRootActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailValidatorRootActor,BulkEmail.Services.Actors.EmailValidatorRootActor})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.#ctor(IActorRef,IActorRef,ExcellSheet,EmailStructure)
+  commentId: M:BulkEmail.Services.Actors.EmailValidatorRootActor.#ctor(IActorRef,IActorRef,ExcellSheet,EmailStructure)
+  id: '#ctor(IActorRef,IActorRef,ExcellSheet,EmailStructure)'
+  parent: BulkEmail.Services.Actors.EmailValidatorRootActor
+  langs:
+  - csharp
+  - vb
+  name: EmailValidatorRootActor(IActorRef, IActorRef, ExcellSheet, EmailStructure)
+  nameWithType: EmailValidatorRootActor.EmailValidatorRootActor(IActorRef, IActorRef, ExcellSheet, EmailStructure)
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor.EmailValidatorRootActor(IActorRef, IActorRef, ExcellSheet, EmailStructure)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    startLine: 35
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.Services.Actors.EmailValidatorRootActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public EmailValidatorRootActor(IActorRef validationResultReceiverActor, IActorRef progressActor, ExcellSheet excelSheet, EmailStructure emailMapping)
+    parameters:
+    - id: validationResultReceiverActor
+      type: IActorRef
+      description: The validation result receiver actor. Updates the front-end grid control for validation result.
+    - id: progressActor
+      type: IActorRef
+      description: The front-end progress actor to display updates in the ProgressBar control.
+    - id: excelSheet
+      type: ExcellSheet
+      description: The excel sheet to validate.
+    - id: emailMapping
+      type: EmailStructure
+      description: The email mapping from the UI.
+    content.vb: Public Sub New(validationResultReceiverActor As IActorRef, progressActor As IActorRef, excelSheet As ExcellSheet, emailMapping As EmailStructure)
+  overload: BulkEmail.Services.Actors.EmailValidatorRootActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart
+  commentId: M:BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart
+  id: PreStart
+  parent: BulkEmail.Services.Actors.EmailValidatorRootActor
+  langs:
+  - csharp
+  - vb
+  name: PreStart()
+  nameWithType: EmailValidatorRootActor.PreStart()
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    id: PreStart
+    path: src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    startLine: 162
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nInitialize validation actors. Actor instances are base on the configuration file. Actors process request in separate threads (multi threaded).\n<p></p>\nIs called when an Actor is started.\nActors are automatically started asynchronously when created.        \n"
+  example: []
+  syntax:
+    content: protected override void PreStart()
+    content.vb: Protected Overrides Sub PreStart
+  overload: BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart(Exception,System.Object)
+  commentId: M:BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart(Exception,System.Object)
+  id: PreRestart(Exception,System.Object)
+  parent: BulkEmail.Services.Actors.EmailValidatorRootActor
+  langs:
+  - csharp
+  - vb
+  name: PreRestart(Exception, Object)
+  nameWithType: EmailValidatorRootActor.PreRestart(Exception, Object)
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart(Exception, System.Object)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    id: PreRestart
+    path: src2/BuikEmail.Services/Actors/EmailValidatorRootActor.cs
+    startLine: 175
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  syntax:
+    content: protected override void PreRestart(Exception reason, object message)
+    parameters:
+    - id: reason
+      type: Exception
+    - id: message
+      type: System.Object
+    content.vb: Protected Overrides Sub PreRestart(reason As Exception, message As Object)
+  overload: BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.Services.Actors
+  commentId: N:BulkEmail.Services.Actors
+  name: BulkEmail.Services.Actors
+  nameWithType: BulkEmail.Services.Actors
+  fullName: BulkEmail.Services.Actors
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailValidatorRootActor,BulkEmail.Services.Actors.EmailValidatorRootActor},Func{BulkEmail.Services.Actors.EmailValidatorRootActor,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<EmailValidatorRootActor>(Func<EmailValidatorRootActor, EmailValidatorRootActor>, Func<EmailValidatorRootActor, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<EmailValidatorRootActor>(Func<EmailValidatorRootActor, EmailValidatorRootActor>, Func<EmailValidatorRootActor, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailValidatorRootActor>(Func<BulkEmail.Services.Actors.EmailValidatorRootActor, BulkEmail.Services.Actors.EmailValidatorRootActor>, Func<BulkEmail.Services.Actors.EmailValidatorRootActor, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of EmailValidatorRootActor)(Func(Of EmailValidatorRootActor, EmailValidatorRootActor), Func(Of EmailValidatorRootActor, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailValidatorRootActor)(Func(Of BulkEmail.Services.Actors.EmailValidatorRootActor, BulkEmail.Services.Actors.EmailValidatorRootActor), Func(Of BulkEmail.Services.Actors.EmailValidatorRootActor, System.Boolean))
+  name.vb: FromHierarchy(Of EmailValidatorRootActor)(Func(Of EmailValidatorRootActor, EmailValidatorRootActor), Func(Of EmailValidatorRootActor, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<EmailValidatorRootActor>
+    nameWithType: ExceptionExtension.FromHierarchy<EmailValidatorRootActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailValidatorRootActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of EmailValidatorRootActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of EmailValidatorRootActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailValidatorRootActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.EmailValidatorRootActor,BulkEmail.Services.Actors.EmailValidatorRootActor})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<EmailValidatorRootActor>(Func<EmailValidatorRootActor, EmailValidatorRootActor>)
+  nameWithType: ExceptionExtension.FromHierarchy<EmailValidatorRootActor>(Func<EmailValidatorRootActor, EmailValidatorRootActor>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailValidatorRootActor>(Func<BulkEmail.Services.Actors.EmailValidatorRootActor, BulkEmail.Services.Actors.EmailValidatorRootActor>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of EmailValidatorRootActor)(Func(Of EmailValidatorRootActor, EmailValidatorRootActor))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailValidatorRootActor)(Func(Of BulkEmail.Services.Actors.EmailValidatorRootActor, BulkEmail.Services.Actors.EmailValidatorRootActor))
+  name.vb: FromHierarchy(Of EmailValidatorRootActor)(Func(Of EmailValidatorRootActor, EmailValidatorRootActor))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<EmailValidatorRootActor>
+    nameWithType: ExceptionExtension.FromHierarchy<EmailValidatorRootActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.EmailValidatorRootActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of EmailValidatorRootActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of EmailValidatorRootActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.EmailValidatorRootActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+    name: EmailValidatorRootActor
+    nameWithType: EmailValidatorRootActor
+    fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor
+  commentId: T:BulkEmail.Services.Actors.EmailValidatorRootActor
+  name: EmailValidatorRootActor
+  nameWithType: EmailValidatorRootActor
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.#ctor*
+  commentId: Overload:BulkEmail.Services.Actors.EmailValidatorRootActor.#ctor
+  name: EmailValidatorRootActor
+  nameWithType: EmailValidatorRootActor.EmailValidatorRootActor
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor.EmailValidatorRootActor
+- uid: IActorRef
+  isExternal: true
+  name: IActorRef
+  nameWithType: IActorRef
+  fullName: IActorRef
+- uid: ExcellSheet
+  isExternal: true
+  name: ExcellSheet
+  nameWithType: ExcellSheet
+  fullName: ExcellSheet
+- uid: EmailStructure
+  commentId: '!:EmailStructure'
+  isExternal: true
+  name: EmailStructure
+  nameWithType: EmailStructure
+  fullName: EmailStructure
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart*
+  commentId: Overload:BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart
+  name: PreStart
+  nameWithType: EmailValidatorRootActor.PreStart
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor.PreStart
+- uid: BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart*
+  commentId: Overload:BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart
+  name: PreRestart
+  nameWithType: EmailValidatorRootActor.PreRestart
+  fullName: BulkEmail.Services.Actors.EmailValidatorRootActor.PreRestart
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception

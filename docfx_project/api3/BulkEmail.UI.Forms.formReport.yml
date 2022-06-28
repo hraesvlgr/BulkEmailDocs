@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formReport
+  commentId: T:BulkEmail.UI.Forms.formReport
+  id: formReport
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formReport.#ctor
+  - BulkEmail.UI.Forms.formReport.Dispose(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: formReport
+  nameWithType: formReport
+  fullName: BulkEmail.UI.Forms.formReport
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formReport.Designer.cs
+    id: formReport
+    path: src3/BulkEmail.UI/Forms/formReport.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nForm that handles listing of excel report from email sending.\n"
+  example: []
+  syntax:
+    content: 'public class formReport : Form'
+    content.vb: >-
+      Public Class formReport
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formReport.#ctor
+  commentId: M:BulkEmail.UI.Forms.formReport.#ctor
+  id: '#ctor'
+  parent: BulkEmail.UI.Forms.formReport
+  langs:
+  - csharp
+  - vb
+  name: formReport()
+  nameWithType: formReport.formReport()
+  fullName: BulkEmail.UI.Forms.formReport.formReport()
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formReport.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formReport.cs
+    startLine: 22
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formReport()
+    content.vb: Public Sub New
+  overload: BulkEmail.UI.Forms.formReport.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formReport.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formReport.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formReport
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formReport.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formReport.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formReport.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formReport.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formReport.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formReport.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formReport.#ctor
+  name: formReport
+  nameWithType: formReport.formReport
+  fullName: BulkEmail.UI.Forms.formReport.formReport
+- uid: BulkEmail.UI.Forms.formReport.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formReport.Dispose
+  name: Dispose
+  nameWithType: formReport.Dispose
+  fullName: BulkEmail.UI.Forms.formReport.Dispose
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

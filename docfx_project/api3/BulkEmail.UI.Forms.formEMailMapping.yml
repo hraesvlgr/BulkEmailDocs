@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formEMailMapping
+  commentId: T:BulkEmail.UI.Forms.formEMailMapping
+  id: formEMailMapping
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formEMailMapping.#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)
+  - BulkEmail.UI.Forms.formEMailMapping.Dispose(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: formEMailMapping
+  nameWithType: formEMailMapping
+  fullName: BulkEmail.UI.Forms.formEMailMapping
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formEMailMapping.Designer.cs
+    id: formEMailMapping
+    path: src3/BulkEmail.UI/Forms/formEMailMapping.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nForm that handles mapping of excel fields to email fields\n<p></p>\nExcel columns are dragged to email fields \n"
+  example: []
+  syntax:
+    content: 'public class formEMailMapping : Form'
+    content.vb: >-
+      Public Class formEMailMapping
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formEMailMapping.#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)
+  commentId: M:BulkEmail.UI.Forms.formEMailMapping.#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)
+  id: '#ctor(BulkEmail.UI.Main,BulkEmail.UI.UIData)'
+  parent: BulkEmail.UI.Forms.formEMailMapping
+  langs:
+  - csharp
+  - vb
+  name: formEMailMapping(Main, UIData)
+  nameWithType: formEMailMapping.formEMailMapping(Main, UIData)
+  fullName: BulkEmail.UI.Forms.formEMailMapping.formEMailMapping(BulkEmail.UI.Main, BulkEmail.UI.UIData)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formEMailMapping.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formEMailMapping.cs
+    startLine: 21
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formEMailMapping(Main parentForm, UIData uiData)
+    parameters:
+    - id: parentForm
+      type: BulkEmail.UI.Main
+    - id: uiData
+      type: BulkEmail.UI.UIData
+    content.vb: Public Sub New(parentForm As Main, uiData As UIData)
+  overload: BulkEmail.UI.Forms.formEMailMapping.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formEMailMapping.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formEMailMapping.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formEMailMapping
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formEMailMapping.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formEMailMapping.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formEMailMapping.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formEMailMapping.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formEMailMapping.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formEMailMapping.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formEMailMapping.#ctor
+  name: formEMailMapping
+  nameWithType: formEMailMapping.formEMailMapping
+  fullName: BulkEmail.UI.Forms.formEMailMapping.formEMailMapping
+- uid: BulkEmail.UI.Main
+  commentId: T:BulkEmail.UI.Main
+  parent: BulkEmail.UI
+  name: Main
+  nameWithType: Main
+  fullName: BulkEmail.UI.Main
+- uid: BulkEmail.UI.UIData
+  commentId: T:BulkEmail.UI.UIData
+  parent: BulkEmail.UI
+  name: UIData
+  nameWithType: UIData
+  fullName: BulkEmail.UI.UIData
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: BulkEmail.UI.Forms.formEMailMapping.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formEMailMapping.Dispose
+  name: Dispose
+  nameWithType: formEMailMapping.Dispose
+  fullName: BulkEmail.UI.Forms.formEMailMapping.Dispose
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

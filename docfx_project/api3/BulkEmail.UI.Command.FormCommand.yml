@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Command.FormCommand
+  commentId: T:BulkEmail.UI.Command.FormCommand
+  id: FormCommand
+  parent: BulkEmail.UI.Command
+  children:
+  - BulkEmail.UI.Command.FormCommand.Close
+  - BulkEmail.UI.Command.FormCommand.GCCollect
+  - BulkEmail.UI.Command.FormCommand.Instance
+  - BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged(System.Object,EventArgs)
+  - BulkEmail.UI.Command.FormCommand.ShowNotification(System.String,BulkEmail.UI.Command.MessageStyle)
+  langs:
+  - csharp
+  - vb
+  name: FormCommand
+  nameWithType: FormCommand
+  fullName: BulkEmail.UI.Command.FormCommand
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: FormCommand
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 12
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nSingleton Pattern <code>FormCommand</code>\n"
+  example: []
+  syntax:
+    content: 'public sealed class FormCommand : object'
+    content.vb: >-
+      Public NotInheritable Class FormCommand
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BulkEmail.UI.Command.FormCommand.Instance
+  commentId: P:BulkEmail.UI.Command.FormCommand.Instance
+  id: Instance
+  parent: BulkEmail.UI.Command.FormCommand
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: FormCommand.Instance
+  fullName: BulkEmail.UI.Command.FormCommand.Instance
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: Instance
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 15
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  syntax:
+    content: public static FormCommand Instance { get; }
+    parameters: []
+    return:
+      type: BulkEmail.UI.Command.FormCommand
+    content.vb: Public Shared ReadOnly Property Instance As FormCommand
+  overload: BulkEmail.UI.Command.FormCommand.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BulkEmail.UI.Command.FormCommand.Close
+  commentId: M:BulkEmail.UI.Command.FormCommand.Close
+  id: Close
+  parent: BulkEmail.UI.Command.FormCommand
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: FormCommand.Close()
+  fullName: BulkEmail.UI.Command.FormCommand.Close()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: Close
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 23
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nCloses the desktop application.\n"
+  example: []
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: BulkEmail.UI.Command.FormCommand.Close*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged(System.Object,EventArgs)
+  commentId: M:BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged(System.Object,EventArgs)
+  id: LockDisplayButton_EnabledChanged(System.Object,EventArgs)
+  parent: BulkEmail.UI.Command.FormCommand
+  langs:
+  - csharp
+  - vb
+  name: LockDisplayButton_EnabledChanged(Object, EventArgs)
+  nameWithType: FormCommand.LockDisplayButton_EnabledChanged(Object, EventArgs)
+  fullName: BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged(System.Object, EventArgs)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: LockDisplayButton_EnabledChanged
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 35
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nHandles the EnabledChanged event of the IconButton control.\n"
+  example: []
+  syntax:
+    content: public void LockDisplayButton_EnabledChanged(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: The source of the event.
+    - id: e
+      type: EventArgs
+      description: The <see cref="!:EventArgs"></see> instance containing the event data.
+    content.vb: Public Sub LockDisplayButton_EnabledChanged(sender As Object, e As EventArgs)
+  overload: BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Command.FormCommand.ShowNotification(System.String,BulkEmail.UI.Command.MessageStyle)
+  commentId: M:BulkEmail.UI.Command.FormCommand.ShowNotification(System.String,BulkEmail.UI.Command.MessageStyle)
+  id: ShowNotification(System.String,BulkEmail.UI.Command.MessageStyle)
+  parent: BulkEmail.UI.Command.FormCommand
+  langs:
+  - csharp
+  - vb
+  name: ShowNotification(String, MessageStyle)
+  nameWithType: FormCommand.ShowNotification(String, MessageStyle)
+  fullName: BulkEmail.UI.Command.FormCommand.ShowNotification(System.String, BulkEmail.UI.Command.MessageStyle)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: ShowNotification
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 69
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nShows the notification message.\n"
+  example: []
+  syntax:
+    content: public void ShowNotification(string message, MessageStyle messageStyle)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message.
+    - id: messageStyle
+      type: BulkEmail.UI.Command.MessageStyle
+      description: The message style of Success, Error and Info.
+    content.vb: Public Sub ShowNotification(message As String, messageStyle As MessageStyle)
+  overload: BulkEmail.UI.Command.FormCommand.ShowNotification*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Command.FormCommand.GCCollect
+  commentId: M:BulkEmail.UI.Command.FormCommand.GCCollect
+  id: GCCollect
+  parent: BulkEmail.UI.Command.FormCommand
+  langs:
+  - csharp
+  - vb
+  name: GCCollect()
+  nameWithType: FormCommand.GCCollect()
+  fullName: BulkEmail.UI.Command.FormCommand.GCCollect()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: GCCollect
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 83
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nManual garbage collection.\n"
+  example: []
+  syntax:
+    content: public void GCCollect()
+    content.vb: Public Sub GCCollect
+  overload: BulkEmail.UI.Command.FormCommand.GCCollect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.UI.Command
+  commentId: N:BulkEmail.UI.Command
+  name: BulkEmail.UI.Command
+  nameWithType: BulkEmail.UI.Command
+  fullName: BulkEmail.UI.Command
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Command.FormCommand.Instance*
+  commentId: Overload:BulkEmail.UI.Command.FormCommand.Instance
+  name: Instance
+  nameWithType: FormCommand.Instance
+  fullName: BulkEmail.UI.Command.FormCommand.Instance
+- uid: BulkEmail.UI.Command.FormCommand
+  commentId: T:BulkEmail.UI.Command.FormCommand
+  parent: BulkEmail.UI.Command
+  name: FormCommand
+  nameWithType: FormCommand
+  fullName: BulkEmail.UI.Command.FormCommand
+- uid: BulkEmail.UI.Command.FormCommand.Close*
+  commentId: Overload:BulkEmail.UI.Command.FormCommand.Close
+  name: Close
+  nameWithType: FormCommand.Close
+  fullName: BulkEmail.UI.Command.FormCommand.Close
+- uid: BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged*
+  commentId: Overload:BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged
+  name: LockDisplayButton_EnabledChanged
+  nameWithType: FormCommand.LockDisplayButton_EnabledChanged
+  fullName: BulkEmail.UI.Command.FormCommand.LockDisplayButton_EnabledChanged
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs
+- uid: BulkEmail.UI.Command.FormCommand.ShowNotification*
+  commentId: Overload:BulkEmail.UI.Command.FormCommand.ShowNotification
+  name: ShowNotification
+  nameWithType: FormCommand.ShowNotification
+  fullName: BulkEmail.UI.Command.FormCommand.ShowNotification
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BulkEmail.UI.Command.MessageStyle
+  commentId: T:BulkEmail.UI.Command.MessageStyle
+  parent: BulkEmail.UI.Command
+  name: MessageStyle
+  nameWithType: MessageStyle
+  fullName: BulkEmail.UI.Command.MessageStyle
+- uid: BulkEmail.UI.Command.FormCommand.GCCollect*
+  commentId: Overload:BulkEmail.UI.Command.FormCommand.GCCollect
+  name: GCCollect
+  nameWithType: FormCommand.GCCollect
+  fullName: BulkEmail.UI.Command.FormCommand.GCCollect

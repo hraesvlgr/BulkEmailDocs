@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.EmailSentReceiverActor
+  commentId: T:BulkEmail.UI.Actors.EmailSentReceiverActor
+  id: EmailSentReceiverActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.EmailSentReceiverActor.#ctor(ConcurrentBag{EmailSent})
+  langs:
+  - csharp
+  - vb
+  name: EmailSentReceiverActor
+  nameWithType: EmailSentReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailSentReceiverActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/EmailSentReceiverActor.cs
+    id: EmailSentReceiverActor
+    path: src3/BulkEmail.UI/Actors/EmailSentReceiverActor.cs
+    startLine: 10
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nAkka Actor that handles email update to the frontend for excel report\n"
+  example: []
+  syntax:
+    content: 'public class EmailSentReceiverActor : ReceiveActor'
+    content.vb: >-
+      Public Class EmailSentReceiverActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.EmailSentReceiverActor.#ctor(ConcurrentBag{EmailSent})
+  commentId: M:BulkEmail.UI.Actors.EmailSentReceiverActor.#ctor(ConcurrentBag{EmailSent})
+  id: '#ctor(ConcurrentBag{EmailSent})'
+  parent: BulkEmail.UI.Actors.EmailSentReceiverActor
+  langs:
+  - csharp
+  - vb
+  name: EmailSentReceiverActor(ConcurrentBag<EmailSent>)
+  nameWithType: EmailSentReceiverActor.EmailSentReceiverActor(ConcurrentBag<EmailSent>)
+  fullName: BulkEmail.UI.Actors.EmailSentReceiverActor.EmailSentReceiverActor(ConcurrentBag<EmailSent>)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/EmailSentReceiverActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/EmailSentReceiverActor.cs
+    startLine: 17
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.UI.Actors.EmailSentReceiverActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public EmailSentReceiverActor(ConcurrentBag<EmailSent> sentMail)
+    parameters:
+    - id: sentMail
+      type: ConcurrentBag{EmailSent}
+      description: The sent mail. Email update are added here
+    content.vb: Public Sub New(sentMail As ConcurrentBag(Of EmailSent))
+  overload: BulkEmail.UI.Actors.EmailSentReceiverActor.#ctor*
+  nameWithType.vb: EmailSentReceiverActor.EmailSentReceiverActor(ConcurrentBag(Of EmailSent))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.UI.Actors.EmailSentReceiverActor.EmailSentReceiverActor(ConcurrentBag(Of EmailSent))
+  name.vb: EmailSentReceiverActor(ConcurrentBag(Of EmailSent))
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.EmailSentReceiverActor
+  commentId: T:BulkEmail.UI.Actors.EmailSentReceiverActor
+  name: EmailSentReceiverActor
+  nameWithType: EmailSentReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailSentReceiverActor
+- uid: BulkEmail.UI.Actors.EmailSentReceiverActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.EmailSentReceiverActor.#ctor
+  name: EmailSentReceiverActor
+  nameWithType: EmailSentReceiverActor.EmailSentReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailSentReceiverActor.EmailSentReceiverActor
+- uid: ConcurrentBag{EmailSent}
+  commentId: '!:ConcurrentBag{EmailSent}'
+  definition: ConcurrentBag`1
+  name: ConcurrentBag<EmailSent>
+  nameWithType: ConcurrentBag<EmailSent>
+  fullName: ConcurrentBag<EmailSent>
+  nameWithType.vb: ConcurrentBag(Of EmailSent)
+  fullName.vb: ConcurrentBag(Of EmailSent)
+  name.vb: ConcurrentBag(Of EmailSent)
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EmailSent
+    name: EmailSent
+    nameWithType: EmailSent
+    fullName: EmailSent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EmailSent
+    name: EmailSent
+    nameWithType: EmailSent
+    fullName: EmailSent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ConcurrentBag`1
+  isExternal: true
+  name: ConcurrentBag<>
+  nameWithType: ConcurrentBag<>
+  fullName: ConcurrentBag<>
+  nameWithType.vb: ConcurrentBag(Of )
+  fullName.vb: ConcurrentBag(Of )
+  name.vb: ConcurrentBag(Of )
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

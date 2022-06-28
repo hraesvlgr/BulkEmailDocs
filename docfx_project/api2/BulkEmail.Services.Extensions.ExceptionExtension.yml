@@ -1,0 +1,566 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  id: ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  children:
+  - BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  - BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  - BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages(Exception)
+  - BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace(Exception)
+  - BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace(Exception)
+  langs:
+  - csharp
+  - vb
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    id: ExceptionExtension
+    path: src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    startLine: 9
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Extensions
+  summary: "\nExtension helper for exception types\n"
+  example: []
+  syntax:
+    content: 'public static class ExceptionExtension : object'
+    content.vb: >-
+      Public Module ExceptionExtension
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  id: FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  langs:
+  - csharp
+  - vb
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    id: FromHierarchy
+    path: src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    startLine: 19
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Extensions
+  summary: "\nIterates exception chain and returns as a list of  IEnumerable exception.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> FromHierarchy<TSource>(this TSource source, Func<TSource, TSource> nextItem, Func<TSource, bool> canContinue)
+    parameters:
+    - id: source
+      type: '{TSource}'
+      description: The source.
+    - id: nextItem
+      type: Func{{TSource},{TSource}}
+      description: The next item.
+    - id: canContinue
+      type: Func{{TSource},System.Boolean}
+      description: The can continue.
+    typeParameters:
+    - id: TSource
+      description: The type of the source.
+    return:
+      type: IEnumerable{{TSource}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromHierarchy(Of TSource)(source As TSource, nextItem As Func(Of TSource, TSource), canContinue As Func(Of TSource, Boolean)) As IEnumerable(Of TSource)
+  overload: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy*
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  id: FromHierarchy``1(``0,Func{``0,``0})
+  isExtensionMethod: true
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  langs:
+  - csharp
+  - vb
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    id: FromHierarchy
+    path: src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    startLine: 36
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Extensions
+  summary: "\nIterates exception chain and returns as a list of  IEnumerable exception.\n"
+  example: []
+  syntax:
+    content: >-
+      public static IEnumerable<TSource> FromHierarchy<TSource>(this TSource source, Func<TSource, TSource> nextItem)
+          where TSource : class
+    parameters:
+    - id: source
+      type: '{TSource}'
+      description: The source.
+    - id: nextItem
+      type: Func{{TSource},{TSource}}
+      description: The next item.
+    typeParameters:
+    - id: TSource
+      description: The type of the source.
+    return:
+      type: IEnumerable{{TSource}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromHierarchy(Of TSource As Class)(source As TSource, nextItem As Func(Of TSource, TSource)) As IEnumerable(Of TSource)
+  overload: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy*
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages(Exception)
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages(Exception)
+  id: GetaAllMessages(Exception)
+  isExtensionMethod: true
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  langs:
+  - csharp
+  - vb
+  name: GetaAllMessages(Exception)
+  nameWithType: ExceptionExtension.GetaAllMessages(Exception)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages(Exception)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    id: GetaAllMessages
+    path: src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    startLine: 48
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Extensions
+  summary: "\nGetas all messages from exception chain\n"
+  example: []
+  syntax:
+    content: public static string GetaAllMessages(this Exception exception)
+    parameters:
+    - id: exception
+      type: Exception
+      description: The exception.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetaAllMessages(exception As Exception) As String
+  overload: BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace(Exception)
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace(Exception)
+  id: GetAllStacktrace(Exception)
+  isExtensionMethod: true
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  langs:
+  - csharp
+  - vb
+  name: GetAllStacktrace(Exception)
+  nameWithType: ExceptionExtension.GetAllStacktrace(Exception)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace(Exception)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    id: GetAllStacktrace
+    path: src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    startLine: 59
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Extensions
+  summary: "\nGets all stacktrace from exception chain.\n"
+  example: []
+  syntax:
+    content: public static string GetAllStacktrace(this Exception exception)
+    parameters:
+    - id: exception
+      type: Exception
+      description: The exception.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAllStacktrace(exception As Exception) As String
+  overload: BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace(Exception)
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace(Exception)
+  id: GetAllErrorAndTrace(Exception)
+  isExtensionMethod: true
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  langs:
+  - csharp
+  - vb
+  name: GetAllErrorAndTrace(Exception)
+  nameWithType: ExceptionExtension.GetAllErrorAndTrace(Exception)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace(Exception)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    id: GetAllErrorAndTrace
+    path: src2/BuikEmail.Services/Extensions/ExceptionExtension.cs
+    startLine: 70
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Extensions
+  summary: "\nGets all error and trace from exception chain\n"
+  example: []
+  syntax:
+    content: public static string GetAllErrorAndTrace(this Exception exception)
+    parameters:
+    - id: exception
+      type: Exception
+      description: The exception.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAllErrorAndTrace(exception As Exception) As String
+  overload: BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy*
+  commentId: Overload:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy
+  name: FromHierarchy
+  nameWithType: ExceptionExtension.FromHierarchy
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy
+- uid: '{TSource}'
+  commentId: '!:TSource'
+  definition: TSource
+  name: TSource
+  nameWithType: TSource
+  fullName: TSource
+- uid: Func{{TSource},{TSource}}
+  commentId: '!:Func{``0,``0}'
+  definition: Func`2
+  name: Func<TSource, TSource>
+  nameWithType: Func<TSource, TSource>
+  fullName: Func<TSource, TSource>
+  nameWithType.vb: Func(Of TSource, TSource)
+  fullName.vb: Func(Of TSource, TSource)
+  name.vb: Func(Of TSource, TSource)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func{{TSource},System.Boolean}
+  commentId: '!:Func{``0,System.Boolean}'
+  definition: Func`2
+  name: Func<TSource, Boolean>
+  nameWithType: Func<TSource, Boolean>
+  fullName: Func<TSource, System.Boolean>
+  nameWithType.vb: Func(Of TSource, Boolean)
+  fullName.vb: Func(Of TSource, System.Boolean)
+  name.vb: Func(Of TSource, Boolean)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable{{TSource}}
+  commentId: '!:IEnumerable{``0}'
+  definition: IEnumerable`1
+  name: IEnumerable<TSource>
+  nameWithType: IEnumerable<TSource>
+  fullName: IEnumerable<TSource>
+  nameWithType.vb: IEnumerable(Of TSource)
+  fullName.vb: IEnumerable(Of TSource)
+  name.vb: IEnumerable(Of TSource)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TSource
+  name: TSource
+  nameWithType: TSource
+  fullName: TSource
+- uid: Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages*
+  commentId: Overload:BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages
+  name: GetaAllMessages
+  nameWithType: ExceptionExtension.GetaAllMessages
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.GetaAllMessages
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace*
+  commentId: Overload:BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace
+  name: GetAllStacktrace
+  nameWithType: ExceptionExtension.GetAllStacktrace
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.GetAllStacktrace
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace*
+  commentId: Overload:BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace
+  name: GetAllErrorAndTrace
+  nameWithType: ExceptionExtension.GetAllErrorAndTrace
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.GetAllErrorAndTrace

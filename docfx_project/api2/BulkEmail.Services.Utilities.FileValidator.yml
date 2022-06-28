@@ -1,0 +1,588 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Utilities.FileValidator
+  commentId: T:BulkEmail.Services.Utilities.FileValidator
+  id: FileValidator
+  parent: BulkEmail.Services.Utilities
+  children:
+  - BulkEmail.Services.Utilities.FileValidator.Exist(System.String)
+  - BulkEmail.Services.Utilities.FileValidator.Instance
+  langs:
+  - csharp
+  - vb
+  name: FileValidator
+  nameWithType: FileValidator
+  fullName: BulkEmail.Services.Utilities.FileValidator
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/FileValidator.cs
+    id: FileValidator
+    path: src2/BuikEmail.Services/Utilities/FileValidator.cs
+    startLine: 11
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nSingleton Pattern for <code>FileValidator</code>, contains operation for validation of file path.\n"
+  example: []
+  syntax:
+    content: 'public sealed class FileValidator : IFileValidator'
+    content.vb: >-
+      Public NotInheritable Class FileValidator
+          Inherits IFileValidator
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Utilities.FileValidator.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.FileValidator,BulkEmail.Services.Utilities.FileValidator},Func{BulkEmail.Services.Utilities.FileValidator,System.Boolean})
+  - BulkEmail.Services.Utilities.FileValidator.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.FileValidator,BulkEmail.Services.Utilities.FileValidator})
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BulkEmail.Services.Utilities.FileValidator.Instance
+  commentId: P:BulkEmail.Services.Utilities.FileValidator.Instance
+  id: Instance
+  parent: BulkEmail.Services.Utilities.FileValidator
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: FileValidator.Instance
+  fullName: BulkEmail.Services.Utilities.FileValidator.Instance
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/FileValidator.cs
+    id: Instance
+    path: src2/BuikEmail.Services/Utilities/FileValidator.cs
+    startLine: 20
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nGets the singleton instance of <code>FileValidator</code>.\n"
+  example: []
+  syntax:
+    content: public static FileValidator Instance { get; }
+    parameters: []
+    return:
+      type: BulkEmail.Services.Utilities.FileValidator
+      description: "\nInstance of <code>FileValidator</code>.\n"
+    content.vb: Public Shared ReadOnly Property Instance As FileValidator
+  overload: BulkEmail.Services.Utilities.FileValidator.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BulkEmail.Services.Utilities.FileValidator.Exist(System.String)
+  commentId: M:BulkEmail.Services.Utilities.FileValidator.Exist(System.String)
+  id: Exist(System.String)
+  parent: BulkEmail.Services.Utilities.FileValidator
+  langs:
+  - csharp
+  - vb
+  name: Exist(String)
+  nameWithType: FileValidator.Exist(String)
+  fullName: BulkEmail.Services.Utilities.FileValidator.Exist(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/FileValidator.cs
+    id: Exist
+    path: src2/BuikEmail.Services/Utilities/FileValidator.cs
+    startLine: 26
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nValidates if file exists the specified file path.\n"
+  example: []
+  syntax:
+    content: public bool Exist(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+      description: The file path to validate.
+    return:
+      type: System.Boolean
+      description: return <code>true</code> if exist
+    content.vb: Public Function Exist(filePath As String) As Boolean
+  overload: BulkEmail.Services.Utilities.FileValidator.Exist*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Utilities
+  commentId: N:BulkEmail.Services.Utilities
+  name: BulkEmail.Services.Utilities
+  nameWithType: BulkEmail.Services.Utilities
+  fullName: BulkEmail.Services.Utilities
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Utilities.FileValidator.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.FileValidator,BulkEmail.Services.Utilities.FileValidator},Func{BulkEmail.Services.Utilities.FileValidator,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<FileValidator>(Func<FileValidator, FileValidator>, Func<FileValidator, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<FileValidator>(Func<FileValidator, FileValidator>, Func<FileValidator, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.FileValidator>(Func<BulkEmail.Services.Utilities.FileValidator, BulkEmail.Services.Utilities.FileValidator>, Func<BulkEmail.Services.Utilities.FileValidator, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of FileValidator)(Func(Of FileValidator, FileValidator), Func(Of FileValidator, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.FileValidator)(Func(Of BulkEmail.Services.Utilities.FileValidator, BulkEmail.Services.Utilities.FileValidator), Func(Of BulkEmail.Services.Utilities.FileValidator, System.Boolean))
+  name.vb: FromHierarchy(Of FileValidator)(Func(Of FileValidator, FileValidator), Func(Of FileValidator, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<FileValidator>
+    nameWithType: ExceptionExtension.FromHierarchy<FileValidator>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.FileValidator>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of FileValidator)
+    nameWithType: ExceptionExtension.FromHierarchy(Of FileValidator)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.FileValidator)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Utilities.FileValidator.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.FileValidator,BulkEmail.Services.Utilities.FileValidator})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<FileValidator>(Func<FileValidator, FileValidator>)
+  nameWithType: ExceptionExtension.FromHierarchy<FileValidator>(Func<FileValidator, FileValidator>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.FileValidator>(Func<BulkEmail.Services.Utilities.FileValidator, BulkEmail.Services.Utilities.FileValidator>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of FileValidator)(Func(Of FileValidator, FileValidator))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.FileValidator)(Func(Of BulkEmail.Services.Utilities.FileValidator, BulkEmail.Services.Utilities.FileValidator))
+  name.vb: FromHierarchy(Of FileValidator)(Func(Of FileValidator, FileValidator))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<FileValidator>
+    nameWithType: ExceptionExtension.FromHierarchy<FileValidator>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.FileValidator>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of FileValidator)
+    nameWithType: ExceptionExtension.FromHierarchy(Of FileValidator)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.FileValidator)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.FileValidator
+    name: FileValidator
+    nameWithType: FileValidator
+    fullName: BulkEmail.Services.Utilities.FileValidator
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Utilities.FileValidator.Instance*
+  commentId: Overload:BulkEmail.Services.Utilities.FileValidator.Instance
+  name: Instance
+  nameWithType: FileValidator.Instance
+  fullName: BulkEmail.Services.Utilities.FileValidator.Instance
+- uid: BulkEmail.Services.Utilities.FileValidator
+  commentId: T:BulkEmail.Services.Utilities.FileValidator
+  parent: BulkEmail.Services.Utilities
+  name: FileValidator
+  nameWithType: FileValidator
+  fullName: BulkEmail.Services.Utilities.FileValidator
+- uid: BulkEmail.Services.Utilities.FileValidator.Exist*
+  commentId: Overload:BulkEmail.Services.Utilities.FileValidator.Exist
+  name: Exist
+  nameWithType: FileValidator.Exist
+  fullName: BulkEmail.Services.Utilities.FileValidator.Exist
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

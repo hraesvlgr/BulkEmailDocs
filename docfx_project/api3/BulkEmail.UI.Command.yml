@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Command
+  commentId: N:BulkEmail.UI.Command
+  id: BulkEmail.UI.Command
+  children:
+  - BulkEmail.UI.Command.FormCommand
+  - BulkEmail.UI.Command.MessageStyle
+  langs:
+  - csharp
+  - vb
+  name: BulkEmail.UI.Command
+  nameWithType: BulkEmail.UI.Command
+  fullName: BulkEmail.UI.Command
+  type: Namespace
+  assemblies:
+  - BulkEmail.UI
+references:
+- uid: BulkEmail.UI.Command.FormCommand
+  commentId: T:BulkEmail.UI.Command.FormCommand
+  parent: BulkEmail.UI.Command
+  name: FormCommand
+  nameWithType: FormCommand
+  fullName: BulkEmail.UI.Command.FormCommand
+- uid: BulkEmail.UI.Command.MessageStyle
+  commentId: T:BulkEmail.UI.Command.MessageStyle
+  parent: BulkEmail.UI.Command
+  name: MessageStyle
+  nameWithType: MessageStyle
+  fullName: BulkEmail.UI.Command.MessageStyle
+- uid: BulkEmail.UI.Command
+  commentId: N:BulkEmail.UI.Command
+  name: BulkEmail.UI.Command
+  nameWithType: BulkEmail.UI.Command
+  fullName: BulkEmail.UI.Command

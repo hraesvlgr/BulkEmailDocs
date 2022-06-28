@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  commentId: T:BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  id: RequiredFieldValidatorActor
+  parent: BulkEmail.Services.Actors
+  children:
+  - BulkEmail.Services.Actors.RequiredFieldValidatorActor.#ctor(IActorRef)
+  langs:
+  - csharp
+  - vb
+  name: RequiredFieldValidatorActor
+  nameWithType: RequiredFieldValidatorActor
+  fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/RequiredFieldValidatorActor.cs
+    id: RequiredFieldValidatorActor
+    path: src2/BuikEmail.Services/Actors/RequiredFieldValidatorActor.cs
+    startLine: 33
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nAkka Actor for validating required field in excel\n"
+  remarks: "\nValidates excel cell if has content.\n<p></p>\nSends a success result to the Actor caller when cell has content, otherwise sends a failed message.\n<p></p>\nListens to <code>SubjectColumnsMapping</code> message type to process request \n"
+  example:
+  - "\n<pre><code class=\"lang-cs\">IActorRef actorRef;\npublic ActorConstructor(IActorRef actorRef)\n{\n    this.actorRef = actorRef;\n    //listens to message type\n    Receive&lt;SubjectColumnsMapping>(MethodToHandleMessage);\n}\npublic void MethodToHandleMessage(SubjectColumnsMapping message)\n{\n    //reply back to actor\n    actorRef.Tell(new MessageTypeThatParentListensTo());\n}</code></pre>\n"
+  syntax:
+    content: 'public class RequiredFieldValidatorActor : ReceiveActor'
+    content.vb: >-
+      Public Class RequiredFieldValidatorActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Actors.RequiredFieldValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.RequiredFieldValidatorActor,BulkEmail.Services.Actors.RequiredFieldValidatorActor},Func{BulkEmail.Services.Actors.RequiredFieldValidatorActor,System.Boolean})
+  - BulkEmail.Services.Actors.RequiredFieldValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.RequiredFieldValidatorActor,BulkEmail.Services.Actors.RequiredFieldValidatorActor})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor.#ctor(IActorRef)
+  commentId: M:BulkEmail.Services.Actors.RequiredFieldValidatorActor.#ctor(IActorRef)
+  id: '#ctor(IActorRef)'
+  parent: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  langs:
+  - csharp
+  - vb
+  name: RequiredFieldValidatorActor(IActorRef)
+  nameWithType: RequiredFieldValidatorActor.RequiredFieldValidatorActor(IActorRef)
+  fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor.RequiredFieldValidatorActor(IActorRef)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/RequiredFieldValidatorActor.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Actors/RequiredFieldValidatorActor.cs
+    startLine: 40
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.Services.Actors.RequiredFieldValidatorActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public RequiredFieldValidatorActor(IActorRef parent)
+    parameters:
+    - id: parent
+      type: IActorRef
+      description: The parent actor reference to reply back messages from validation.
+    content.vb: Public Sub New(parent As IActorRef)
+  overload: BulkEmail.Services.Actors.RequiredFieldValidatorActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Actors
+  commentId: N:BulkEmail.Services.Actors
+  name: BulkEmail.Services.Actors
+  nameWithType: BulkEmail.Services.Actors
+  fullName: BulkEmail.Services.Actors
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.RequiredFieldValidatorActor,BulkEmail.Services.Actors.RequiredFieldValidatorActor},Func{BulkEmail.Services.Actors.RequiredFieldValidatorActor,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<RequiredFieldValidatorActor>(Func<RequiredFieldValidatorActor, RequiredFieldValidatorActor>, Func<RequiredFieldValidatorActor, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<RequiredFieldValidatorActor>(Func<RequiredFieldValidatorActor, RequiredFieldValidatorActor>, Func<RequiredFieldValidatorActor, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.RequiredFieldValidatorActor>(Func<BulkEmail.Services.Actors.RequiredFieldValidatorActor, BulkEmail.Services.Actors.RequiredFieldValidatorActor>, Func<BulkEmail.Services.Actors.RequiredFieldValidatorActor, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of RequiredFieldValidatorActor)(Func(Of RequiredFieldValidatorActor, RequiredFieldValidatorActor), Func(Of RequiredFieldValidatorActor, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.RequiredFieldValidatorActor)(Func(Of BulkEmail.Services.Actors.RequiredFieldValidatorActor, BulkEmail.Services.Actors.RequiredFieldValidatorActor), Func(Of BulkEmail.Services.Actors.RequiredFieldValidatorActor, System.Boolean))
+  name.vb: FromHierarchy(Of RequiredFieldValidatorActor)(Func(Of RequiredFieldValidatorActor, RequiredFieldValidatorActor), Func(Of RequiredFieldValidatorActor, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<RequiredFieldValidatorActor>
+    nameWithType: ExceptionExtension.FromHierarchy<RequiredFieldValidatorActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.RequiredFieldValidatorActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of RequiredFieldValidatorActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of RequiredFieldValidatorActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.RequiredFieldValidatorActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.RequiredFieldValidatorActor,BulkEmail.Services.Actors.RequiredFieldValidatorActor})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<RequiredFieldValidatorActor>(Func<RequiredFieldValidatorActor, RequiredFieldValidatorActor>)
+  nameWithType: ExceptionExtension.FromHierarchy<RequiredFieldValidatorActor>(Func<RequiredFieldValidatorActor, RequiredFieldValidatorActor>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.RequiredFieldValidatorActor>(Func<BulkEmail.Services.Actors.RequiredFieldValidatorActor, BulkEmail.Services.Actors.RequiredFieldValidatorActor>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of RequiredFieldValidatorActor)(Func(Of RequiredFieldValidatorActor, RequiredFieldValidatorActor))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.RequiredFieldValidatorActor)(Func(Of BulkEmail.Services.Actors.RequiredFieldValidatorActor, BulkEmail.Services.Actors.RequiredFieldValidatorActor))
+  name.vb: FromHierarchy(Of RequiredFieldValidatorActor)(Func(Of RequiredFieldValidatorActor, RequiredFieldValidatorActor))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<RequiredFieldValidatorActor>
+    nameWithType: ExceptionExtension.FromHierarchy<RequiredFieldValidatorActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.RequiredFieldValidatorActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of RequiredFieldValidatorActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of RequiredFieldValidatorActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.RequiredFieldValidatorActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+    name: RequiredFieldValidatorActor
+    nameWithType: RequiredFieldValidatorActor
+    fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  commentId: T:BulkEmail.Services.Actors.RequiredFieldValidatorActor
+  name: RequiredFieldValidatorActor
+  nameWithType: RequiredFieldValidatorActor
+  fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor
+- uid: BulkEmail.Services.Actors.RequiredFieldValidatorActor.#ctor*
+  commentId: Overload:BulkEmail.Services.Actors.RequiredFieldValidatorActor.#ctor
+  name: RequiredFieldValidatorActor
+  nameWithType: RequiredFieldValidatorActor.RequiredFieldValidatorActor
+  fullName: BulkEmail.Services.Actors.RequiredFieldValidatorActor.RequiredFieldValidatorActor
+- uid: IActorRef
+  isExternal: true
+  name: IActorRef
+  nameWithType: IActorRef
+  fullName: IActorRef

@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog
+  commentId: T:BulkEmail.UI.Forms.formExcelValidationDialog
+  id: formExcelValidationDialog
+  parent: BulkEmail.UI.Forms
+  children:
+  - BulkEmail.UI.Forms.formExcelValidationDialog.#ctor(BulkEmail.UI.UIData)
+  - BulkEmail.UI.Forms.formExcelValidationDialog.Dispose(System.Boolean)
+  - BulkEmail.UI.Forms.formExcelValidationDialog.IsValid
+  - BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: formExcelValidationDialog
+  nameWithType: formExcelValidationDialog
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formExcelValidationDialog.Designer.cs
+    id: formExcelValidationDialog
+    path: src3/BulkEmail.UI/Forms/formExcelValidationDialog.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nForm that handles excel validation\n"
+  example: []
+  syntax:
+    content: 'public class formExcelValidationDialog : Form'
+    content.vb: >-
+      Public Class formExcelValidationDialog
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.IsValid
+  commentId: P:BulkEmail.UI.Forms.formExcelValidationDialog.IsValid
+  id: IsValid
+  parent: BulkEmail.UI.Forms.formExcelValidationDialog
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: formExcelValidationDialog.IsValid
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.IsValid
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formExcelValidationDialog.cs
+    id: IsValid
+    path: src3/BulkEmail.UI/Forms/formExcelValidationDialog.cs
+    startLine: 21
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: BulkEmail.UI.Forms.formExcelValidationDialog.IsValid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.#ctor(BulkEmail.UI.UIData)
+  commentId: M:BulkEmail.UI.Forms.formExcelValidationDialog.#ctor(BulkEmail.UI.UIData)
+  id: '#ctor(BulkEmail.UI.UIData)'
+  parent: BulkEmail.UI.Forms.formExcelValidationDialog
+  langs:
+  - csharp
+  - vb
+  name: formExcelValidationDialog(UIData)
+  nameWithType: formExcelValidationDialog.formExcelValidationDialog(UIData)
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.formExcelValidationDialog(BulkEmail.UI.UIData)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formExcelValidationDialog.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Forms/formExcelValidationDialog.cs
+    startLine: 26
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: public formExcelValidationDialog(UIData uiData)
+    parameters:
+    - id: uiData
+      type: BulkEmail.UI.UIData
+    content.vb: Public Sub New(uiData As UIData)
+  overload: BulkEmail.UI.Forms.formExcelValidationDialog.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed(EventArgs)
+  commentId: M:BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed(EventArgs)
+  id: OnClosed(EventArgs)
+  parent: BulkEmail.UI.Forms.formExcelValidationDialog
+  langs:
+  - csharp
+  - vb
+  name: OnClosed(EventArgs)
+  nameWithType: formExcelValidationDialog.OnClosed(EventArgs)
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formExcelValidationDialog.cs
+    id: OnClosed
+    path: src3/BulkEmail.UI/Forms/formExcelValidationDialog.cs
+    startLine: 54
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  syntax:
+    content: protected override void OnClosed(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnClosed(e As EventArgs)
+  overload: BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Forms.formExcelValidationDialog.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Forms.formExcelValidationDialog
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: formExcelValidationDialog.Dispose(Boolean)
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Forms/formExcelValidationDialog.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Forms/formExcelValidationDialog.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Forms
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Forms.formExcelValidationDialog.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI.Forms
+  commentId: N:BulkEmail.UI.Forms
+  name: BulkEmail.UI.Forms
+  nameWithType: BulkEmail.UI.Forms
+  fullName: BulkEmail.UI.Forms
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.IsValid*
+  commentId: Overload:BulkEmail.UI.Forms.formExcelValidationDialog.IsValid
+  name: IsValid
+  nameWithType: formExcelValidationDialog.IsValid
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.IsValid
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.#ctor*
+  commentId: Overload:BulkEmail.UI.Forms.formExcelValidationDialog.#ctor
+  name: formExcelValidationDialog
+  nameWithType: formExcelValidationDialog.formExcelValidationDialog
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.formExcelValidationDialog
+- uid: BulkEmail.UI.UIData
+  commentId: T:BulkEmail.UI.UIData
+  parent: BulkEmail.UI
+  name: UIData
+  nameWithType: UIData
+  fullName: BulkEmail.UI.UIData
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed*
+  commentId: Overload:BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed
+  name: OnClosed
+  nameWithType: formExcelValidationDialog.OnClosed
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.OnClosed
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs
+- uid: BulkEmail.UI.Forms.formExcelValidationDialog.Dispose*
+  commentId: Overload:BulkEmail.UI.Forms.formExcelValidationDialog.Dispose
+  name: Dispose
+  nameWithType: formExcelValidationDialog.Dispose
+  fullName: BulkEmail.UI.Forms.formExcelValidationDialog.Dispose

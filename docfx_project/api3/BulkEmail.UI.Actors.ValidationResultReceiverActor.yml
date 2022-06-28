@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.ValidationResultReceiverActor
+  commentId: T:BulkEmail.UI.Actors.ValidationResultReceiverActor
+  id: ValidationResultReceiverActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.ValidationResultReceiverActor.#ctor(ConcurrentBag{ValidatedFieldMap})
+  langs:
+  - csharp
+  - vb
+  name: ValidationResultReceiverActor
+  nameWithType: ValidationResultReceiverActor
+  fullName: BulkEmail.UI.Actors.ValidationResultReceiverActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/ValidationResultReceiverActor.cs
+    id: ValidationResultReceiverActor
+    path: src3/BulkEmail.UI/Actors/ValidationResultReceiverActor.cs
+    startLine: 10
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nAkka Actor that handles updates in frontend ValidatedFieldMap list\n"
+  example: []
+  syntax:
+    content: 'public class ValidationResultReceiverActor : ReceiveActor'
+    content.vb: >-
+      Public Class ValidationResultReceiverActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.ValidationResultReceiverActor.#ctor(ConcurrentBag{ValidatedFieldMap})
+  commentId: M:BulkEmail.UI.Actors.ValidationResultReceiverActor.#ctor(ConcurrentBag{ValidatedFieldMap})
+  id: '#ctor(ConcurrentBag{ValidatedFieldMap})'
+  parent: BulkEmail.UI.Actors.ValidationResultReceiverActor
+  langs:
+  - csharp
+  - vb
+  name: ValidationResultReceiverActor(ConcurrentBag<ValidatedFieldMap>)
+  nameWithType: ValidationResultReceiverActor.ValidationResultReceiverActor(ConcurrentBag<ValidatedFieldMap>)
+  fullName: BulkEmail.UI.Actors.ValidationResultReceiverActor.ValidationResultReceiverActor(ConcurrentBag<ValidatedFieldMap>)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/ValidationResultReceiverActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/ValidationResultReceiverActor.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  syntax:
+    content: public ValidationResultReceiverActor(ConcurrentBag<ValidatedFieldMap> emailBody)
+    parameters:
+    - id: emailBody
+      type: ConcurrentBag{ValidatedFieldMap}
+    content.vb: Public Sub New(emailBody As ConcurrentBag(Of ValidatedFieldMap))
+  overload: BulkEmail.UI.Actors.ValidationResultReceiverActor.#ctor*
+  nameWithType.vb: ValidationResultReceiverActor.ValidationResultReceiverActor(ConcurrentBag(Of ValidatedFieldMap))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BulkEmail.UI.Actors.ValidationResultReceiverActor.ValidationResultReceiverActor(ConcurrentBag(Of ValidatedFieldMap))
+  name.vb: ValidationResultReceiverActor(ConcurrentBag(Of ValidatedFieldMap))
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.ValidationResultReceiverActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.ValidationResultReceiverActor.#ctor
+  name: ValidationResultReceiverActor
+  nameWithType: ValidationResultReceiverActor.ValidationResultReceiverActor
+  fullName: BulkEmail.UI.Actors.ValidationResultReceiverActor.ValidationResultReceiverActor
+- uid: ConcurrentBag{ValidatedFieldMap}
+  commentId: '!:ConcurrentBag{ValidatedFieldMap}'
+  definition: ConcurrentBag`1
+  name: ConcurrentBag<ValidatedFieldMap>
+  nameWithType: ConcurrentBag<ValidatedFieldMap>
+  fullName: ConcurrentBag<ValidatedFieldMap>
+  nameWithType.vb: ConcurrentBag(Of ValidatedFieldMap)
+  fullName.vb: ConcurrentBag(Of ValidatedFieldMap)
+  name.vb: ConcurrentBag(Of ValidatedFieldMap)
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: ValidatedFieldMap
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ValidatedFieldMap
+    name: ValidatedFieldMap
+    nameWithType: ValidatedFieldMap
+    fullName: ValidatedFieldMap
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ConcurrentBag`1
+  isExternal: true
+  name: ConcurrentBag<>
+  nameWithType: ConcurrentBag<>
+  fullName: ConcurrentBag<>
+  nameWithType.vb: ConcurrentBag(Of )
+  fullName.vb: ConcurrentBag(Of )
+  name.vb: ConcurrentBag(Of )
+  spec.csharp:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ConcurrentBag`1
+    name: ConcurrentBag
+    nameWithType: ConcurrentBag
+    fullName: ConcurrentBag
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

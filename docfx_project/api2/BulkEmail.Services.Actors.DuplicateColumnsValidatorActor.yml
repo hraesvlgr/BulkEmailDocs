@@ -1,0 +1,534 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  commentId: T:BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  id: DuplicateColumnsValidatorActor
+  parent: BulkEmail.Services.Actors
+  children:
+  - BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.#ctor(IActorRef)
+  langs:
+  - csharp
+  - vb
+  name: DuplicateColumnsValidatorActor
+  nameWithType: DuplicateColumnsValidatorActor
+  fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/DuplicateColumnsValidatorActor.cs
+    id: DuplicateColumnsValidatorActor
+    path: src2/BuikEmail.Services/Actors/DuplicateColumnsValidatorActor.cs
+    startLine: 18
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nAkka Actor for validating duplicate column names in excel sheet\n"
+  remarks: "\nValidates excel column names if has duplicate by grouping columns by name.\n<p></p>\nSends a success result to the Actor caller when no duplicate is found, otherwise sends a failed message.\n<p></p>\nListens to <code>ExcelColumnsMapping</code> message type to process request \n"
+  example: []
+  syntax:
+    content: 'public class DuplicateColumnsValidatorActor : ReceiveActor'
+    content.vb: >-
+      Public Class DuplicateColumnsValidatorActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.DuplicateColumnsValidatorActor,BulkEmail.Services.Actors.DuplicateColumnsValidatorActor},Func{BulkEmail.Services.Actors.DuplicateColumnsValidatorActor,System.Boolean})
+  - BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.DuplicateColumnsValidatorActor,BulkEmail.Services.Actors.DuplicateColumnsValidatorActor})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.#ctor(IActorRef)
+  commentId: M:BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.#ctor(IActorRef)
+  id: '#ctor(IActorRef)'
+  parent: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  langs:
+  - csharp
+  - vb
+  name: DuplicateColumnsValidatorActor(IActorRef)
+  nameWithType: DuplicateColumnsValidatorActor.DuplicateColumnsValidatorActor(IActorRef)
+  fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.DuplicateColumnsValidatorActor(IActorRef)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Actors/DuplicateColumnsValidatorActor.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Actors/DuplicateColumnsValidatorActor.cs
+    startLine: 25
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Actors
+  summary: "\nInitializes a new instance of the <xref href=\"BulkEmail.Services.Actors.DuplicateColumnsValidatorActor\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public DuplicateColumnsValidatorActor(IActorRef parent)
+    parameters:
+    - id: parent
+      type: IActorRef
+      description: The parent actor reference to reply back messages from validation.
+    content.vb: Public Sub New(parent As IActorRef)
+  overload: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Actors
+  commentId: N:BulkEmail.Services.Actors
+  name: BulkEmail.Services.Actors
+  nameWithType: BulkEmail.Services.Actors
+  fullName: BulkEmail.Services.Actors
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.DuplicateColumnsValidatorActor,BulkEmail.Services.Actors.DuplicateColumnsValidatorActor},Func{BulkEmail.Services.Actors.DuplicateColumnsValidatorActor,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<DuplicateColumnsValidatorActor>(Func<DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor>, Func<DuplicateColumnsValidatorActor, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<DuplicateColumnsValidatorActor>(Func<DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor>, Func<DuplicateColumnsValidatorActor, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.DuplicateColumnsValidatorActor>(Func<BulkEmail.Services.Actors.DuplicateColumnsValidatorActor, BulkEmail.Services.Actors.DuplicateColumnsValidatorActor>, Func<BulkEmail.Services.Actors.DuplicateColumnsValidatorActor, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of DuplicateColumnsValidatorActor)(Func(Of DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor), Func(Of DuplicateColumnsValidatorActor, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.DuplicateColumnsValidatorActor)(Func(Of BulkEmail.Services.Actors.DuplicateColumnsValidatorActor, BulkEmail.Services.Actors.DuplicateColumnsValidatorActor), Func(Of BulkEmail.Services.Actors.DuplicateColumnsValidatorActor, System.Boolean))
+  name.vb: FromHierarchy(Of DuplicateColumnsValidatorActor)(Func(Of DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor), Func(Of DuplicateColumnsValidatorActor, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<DuplicateColumnsValidatorActor>
+    nameWithType: ExceptionExtension.FromHierarchy<DuplicateColumnsValidatorActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.DuplicateColumnsValidatorActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of DuplicateColumnsValidatorActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of DuplicateColumnsValidatorActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.DuplicateColumnsValidatorActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Actors.DuplicateColumnsValidatorActor,BulkEmail.Services.Actors.DuplicateColumnsValidatorActor})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<DuplicateColumnsValidatorActor>(Func<DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor>)
+  nameWithType: ExceptionExtension.FromHierarchy<DuplicateColumnsValidatorActor>(Func<DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.DuplicateColumnsValidatorActor>(Func<BulkEmail.Services.Actors.DuplicateColumnsValidatorActor, BulkEmail.Services.Actors.DuplicateColumnsValidatorActor>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of DuplicateColumnsValidatorActor)(Func(Of DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.DuplicateColumnsValidatorActor)(Func(Of BulkEmail.Services.Actors.DuplicateColumnsValidatorActor, BulkEmail.Services.Actors.DuplicateColumnsValidatorActor))
+  name.vb: FromHierarchy(Of DuplicateColumnsValidatorActor)(Func(Of DuplicateColumnsValidatorActor, DuplicateColumnsValidatorActor))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<DuplicateColumnsValidatorActor>
+    nameWithType: ExceptionExtension.FromHierarchy<DuplicateColumnsValidatorActor>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Actors.DuplicateColumnsValidatorActor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of DuplicateColumnsValidatorActor)
+    nameWithType: ExceptionExtension.FromHierarchy(Of DuplicateColumnsValidatorActor)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Actors.DuplicateColumnsValidatorActor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+    name: DuplicateColumnsValidatorActor
+    nameWithType: DuplicateColumnsValidatorActor
+    fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  commentId: T:BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+  name: DuplicateColumnsValidatorActor
+  nameWithType: DuplicateColumnsValidatorActor
+  fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor
+- uid: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.#ctor*
+  commentId: Overload:BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.#ctor
+  name: DuplicateColumnsValidatorActor
+  nameWithType: DuplicateColumnsValidatorActor.DuplicateColumnsValidatorActor
+  fullName: BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.DuplicateColumnsValidatorActor
+- uid: IActorRef
+  isExternal: true
+  name: IActorRef
+  nameWithType: IActorRef
+  fullName: IActorRef

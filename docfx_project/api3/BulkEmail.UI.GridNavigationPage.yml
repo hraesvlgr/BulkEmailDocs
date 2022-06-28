@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.GridNavigationPage
+  commentId: T:BulkEmail.UI.GridNavigationPage
+  id: GridNavigationPage
+  parent: BulkEmail.UI
+  children:
+  - BulkEmail.UI.GridNavigationPage.PageCount
+  - BulkEmail.UI.GridNavigationPage.PageIndex
+  - BulkEmail.UI.GridNavigationPage.PageSize
+  - BulkEmail.UI.GridNavigationPage.TotalCount
+  langs:
+  - csharp
+  - vb
+  name: GridNavigationPage
+  nameWithType: GridNavigationPage
+  fullName: BulkEmail.UI.GridNavigationPage
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/GridNavigationPage.cs
+    id: GridNavigationPage
+    path: src3/BulkEmail.UI/GridNavigationPage.cs
+    startLine: 5
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nNavigation class for email preview and grid.\n"
+  example: []
+  syntax:
+    content: 'public sealed class GridNavigationPage : object'
+    content.vb: >-
+      Public NotInheritable Class GridNavigationPage
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BulkEmail.UI.GridNavigationPage.PageSize
+  commentId: P:BulkEmail.UI.GridNavigationPage.PageSize
+  id: PageSize
+  parent: BulkEmail.UI.GridNavigationPage
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: GridNavigationPage.PageSize
+  fullName: BulkEmail.UI.GridNavigationPage.PageSize
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/GridNavigationPage.cs
+    id: PageSize
+    path: src3/BulkEmail.UI/GridNavigationPage.cs
+    startLine: 13
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets the size of the page.\n"
+  example: []
+  syntax:
+    content: public int PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe size of the page.\n"
+    content.vb: Public Property PageSize As Integer
+  overload: BulkEmail.UI.GridNavigationPage.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.GridNavigationPage.PageIndex
+  commentId: P:BulkEmail.UI.GridNavigationPage.PageIndex
+  id: PageIndex
+  parent: BulkEmail.UI.GridNavigationPage
+  langs:
+  - csharp
+  - vb
+  name: PageIndex
+  nameWithType: GridNavigationPage.PageIndex
+  fullName: BulkEmail.UI.GridNavigationPage.PageIndex
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/GridNavigationPage.cs
+    id: PageIndex
+    path: src3/BulkEmail.UI/GridNavigationPage.cs
+    startLine: 20
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets the index of the page.\n"
+  example: []
+  syntax:
+    content: public int PageIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe index of the page.\n"
+    content.vb: Public Property PageIndex As Integer
+  overload: BulkEmail.UI.GridNavigationPage.PageIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.GridNavigationPage.TotalCount
+  commentId: P:BulkEmail.UI.GridNavigationPage.TotalCount
+  id: TotalCount
+  parent: BulkEmail.UI.GridNavigationPage
+  langs:
+  - csharp
+  - vb
+  name: TotalCount
+  nameWithType: GridNavigationPage.TotalCount
+  fullName: BulkEmail.UI.GridNavigationPage.TotalCount
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/GridNavigationPage.cs
+    id: TotalCount
+    path: src3/BulkEmail.UI/GridNavigationPage.cs
+    startLine: 27
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets or sets the total count.\n"
+  example: []
+  syntax:
+    content: public int TotalCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe total count.\n"
+    content.vb: Public Property TotalCount As Integer
+  overload: BulkEmail.UI.GridNavigationPage.TotalCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.GridNavigationPage.PageCount
+  commentId: P:BulkEmail.UI.GridNavigationPage.PageCount
+  id: PageCount
+  parent: BulkEmail.UI.GridNavigationPage
+  langs:
+  - csharp
+  - vb
+  name: PageCount
+  nameWithType: GridNavigationPage.PageCount
+  fullName: BulkEmail.UI.GridNavigationPage.PageCount
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/GridNavigationPage.cs
+    id: PageCount
+    path: src3/BulkEmail.UI/GridNavigationPage.cs
+    startLine: 34
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nGets the page count.\n"
+  example: []
+  syntax:
+    content: public int PageCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe page count.\n"
+    content.vb: Public ReadOnly Property PageCount As Integer
+  overload: BulkEmail.UI.GridNavigationPage.PageCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.GridNavigationPage.PageSize*
+  commentId: Overload:BulkEmail.UI.GridNavigationPage.PageSize
+  name: PageSize
+  nameWithType: GridNavigationPage.PageSize
+  fullName: BulkEmail.UI.GridNavigationPage.PageSize
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BulkEmail.UI.GridNavigationPage.PageIndex*
+  commentId: Overload:BulkEmail.UI.GridNavigationPage.PageIndex
+  name: PageIndex
+  nameWithType: GridNavigationPage.PageIndex
+  fullName: BulkEmail.UI.GridNavigationPage.PageIndex
+- uid: BulkEmail.UI.GridNavigationPage.TotalCount*
+  commentId: Overload:BulkEmail.UI.GridNavigationPage.TotalCount
+  name: TotalCount
+  nameWithType: GridNavigationPage.TotalCount
+  fullName: BulkEmail.UI.GridNavigationPage.TotalCount
+- uid: BulkEmail.UI.GridNavigationPage.PageCount*
+  commentId: Overload:BulkEmail.UI.GridNavigationPage.PageCount
+  name: PageCount
+  nameWithType: GridNavigationPage.PageCount
+  fullName: BulkEmail.UI.GridNavigationPage.PageCount

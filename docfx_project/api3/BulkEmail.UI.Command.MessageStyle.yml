@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Command.MessageStyle
+  commentId: T:BulkEmail.UI.Command.MessageStyle
+  id: MessageStyle
+  parent: BulkEmail.UI.Command
+  children:
+  - BulkEmail.UI.Command.MessageStyle.Error
+  - BulkEmail.UI.Command.MessageStyle.Info
+  - BulkEmail.UI.Command.MessageStyle.Success
+  langs:
+  - csharp
+  - vb
+  name: MessageStyle
+  nameWithType: MessageStyle
+  fullName: BulkEmail.UI.Command.MessageStyle
+  type: Enum
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: MessageStyle
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 92
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nEnum Flags used for notification diplay\n"
+  example: []
+  syntax:
+    content: 'public enum MessageStyle : int'
+    content.vb: Public Enum MessageStyle As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: BulkEmail.UI.Command.MessageStyle.Error
+  commentId: F:BulkEmail.UI.Command.MessageStyle.Error
+  id: Error
+  parent: BulkEmail.UI.Command.MessageStyle
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: MessageStyle.Error
+  fullName: BulkEmail.UI.Command.MessageStyle.Error
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: Error
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 97
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nDisplay error theme in notification.\n"
+  example: []
+  syntax:
+    content: Error = 0
+    return:
+      type: BulkEmail.UI.Command.MessageStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BulkEmail.UI.Command.MessageStyle.Success
+  commentId: F:BulkEmail.UI.Command.MessageStyle.Success
+  id: Success
+  parent: BulkEmail.UI.Command.MessageStyle
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: MessageStyle.Success
+  fullName: BulkEmail.UI.Command.MessageStyle.Success
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: Success
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 101
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nDisplay success theme in notification.\n"
+  example: []
+  syntax:
+    content: Success = 1
+    return:
+      type: BulkEmail.UI.Command.MessageStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BulkEmail.UI.Command.MessageStyle.Info
+  commentId: F:BulkEmail.UI.Command.MessageStyle.Info
+  id: Info
+  parent: BulkEmail.UI.Command.MessageStyle
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: MessageStyle.Info
+  fullName: BulkEmail.UI.Command.MessageStyle.Info
+  type: Field
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Command/FormCommand.cs
+    id: Info
+    path: src3/BulkEmail.UI/Command/FormCommand.cs
+    startLine: 105
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Command
+  summary: "\nDisplay information theme in notification\n"
+  example: []
+  syntax:
+    content: Info = 2
+    return:
+      type: BulkEmail.UI.Command.MessageStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BulkEmail.UI.Command
+  commentId: N:BulkEmail.UI.Command
+  name: BulkEmail.UI.Command
+  nameWithType: BulkEmail.UI.Command
+  fullName: BulkEmail.UI.Command
+- uid: BulkEmail.UI.Command.MessageStyle
+  commentId: T:BulkEmail.UI.Command.MessageStyle
+  parent: BulkEmail.UI.Command
+  name: MessageStyle
+  nameWithType: MessageStyle
+  fullName: BulkEmail.UI.Command.MessageStyle

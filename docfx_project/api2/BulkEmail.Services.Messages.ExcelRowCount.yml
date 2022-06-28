@@ -1,0 +1,566 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Messages.ExcelRowCount
+  commentId: T:BulkEmail.Services.Messages.ExcelRowCount
+  id: ExcelRowCount
+  parent: BulkEmail.Services.Messages
+  children:
+  - BulkEmail.Services.Messages.ExcelRowCount.#ctor(System.Int32,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ExcelRowCount
+  nameWithType: ExcelRowCount
+  fullName: BulkEmail.Services.Messages.ExcelRowCount
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/ExcelRowMapping.cs
+    id: ExcelRowCount
+    path: src2/BuikEmail.Services/Messages/ExcelRowMapping.cs
+    startLine: 36
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  summary: "\nAkka ExcelColumnsMapping message type for Excel row count\n"
+  example: []
+  syntax:
+    content: 'public class ExcelRowCount : BaseExcelRowMapping'
+    content.vb: >-
+      Public Class ExcelRowCount
+          Inherits BaseExcelRowMapping
+  seealso:
+  - linkId: BulkEmail.Services.Messages.BaseExcelRowMapping
+    commentId: T:BulkEmail.Services.Messages.BaseExcelRowMapping
+  inheritance:
+  - System.Object
+  - BulkEmail.Services.Messages.BaseExcelRowMapping
+  inheritedMembers:
+  - BulkEmail.Services.Messages.BaseExcelRowMapping.Row
+  - BulkEmail.Services.Messages.BaseExcelRowMapping.Field
+  - BulkEmail.Services.Messages.BaseExcelRowMapping.Value
+  extensionMethods:
+  - BulkEmail.Services.Messages.ExcelRowCount.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ExcelRowCount,BulkEmail.Services.Messages.ExcelRowCount},Func{BulkEmail.Services.Messages.ExcelRowCount,System.Boolean})
+  - BulkEmail.Services.Messages.ExcelRowCount.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ExcelRowCount,BulkEmail.Services.Messages.ExcelRowCount})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.Services.Messages.ExcelRowCount.#ctor(System.Int32,System.String,System.String)
+  commentId: M:BulkEmail.Services.Messages.ExcelRowCount.#ctor(System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String)'
+  parent: BulkEmail.Services.Messages.ExcelRowCount
+  langs:
+  - csharp
+  - vb
+  name: ExcelRowCount(Int32, String, String)
+  nameWithType: ExcelRowCount.ExcelRowCount(Int32, String, String)
+  fullName: BulkEmail.Services.Messages.ExcelRowCount.ExcelRowCount(System.Int32, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Messages/ExcelRowMapping.cs
+    id: .ctor
+    path: src2/BuikEmail.Services/Messages/ExcelRowMapping.cs
+    startLine: 38
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Messages
+  syntax:
+    content: public ExcelRowCount(int row, string field, string fieldValue)
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: field
+      type: System.String
+    - id: fieldValue
+      type: System.String
+    content.vb: Public Sub New(row As Integer, field As String, fieldValue As String)
+  overload: BulkEmail.Services.Messages.ExcelRowCount.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Messages.BaseExcelRowMapping
+  commentId: T:BulkEmail.Services.Messages.BaseExcelRowMapping
+  parent: BulkEmail.Services.Messages
+  name: BaseExcelRowMapping
+  nameWithType: BaseExcelRowMapping
+  fullName: BulkEmail.Services.Messages.BaseExcelRowMapping
+- uid: BulkEmail.Services.Messages
+  commentId: N:BulkEmail.Services.Messages
+  name: BulkEmail.Services.Messages
+  nameWithType: BulkEmail.Services.Messages
+  fullName: BulkEmail.Services.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Messages.BaseExcelRowMapping.Row
+  commentId: P:BulkEmail.Services.Messages.BaseExcelRowMapping.Row
+  parent: BulkEmail.Services.Messages.BaseExcelRowMapping
+  name: Row
+  nameWithType: BaseExcelRowMapping.Row
+  fullName: BulkEmail.Services.Messages.BaseExcelRowMapping.Row
+- uid: BulkEmail.Services.Messages.BaseExcelRowMapping.Field
+  commentId: P:BulkEmail.Services.Messages.BaseExcelRowMapping.Field
+  parent: BulkEmail.Services.Messages.BaseExcelRowMapping
+  name: Field
+  nameWithType: BaseExcelRowMapping.Field
+  fullName: BulkEmail.Services.Messages.BaseExcelRowMapping.Field
+- uid: BulkEmail.Services.Messages.BaseExcelRowMapping.Value
+  commentId: P:BulkEmail.Services.Messages.BaseExcelRowMapping.Value
+  parent: BulkEmail.Services.Messages.BaseExcelRowMapping
+  name: Value
+  nameWithType: BaseExcelRowMapping.Value
+  fullName: BulkEmail.Services.Messages.BaseExcelRowMapping.Value
+- uid: BulkEmail.Services.Messages.ExcelRowCount.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ExcelRowCount,BulkEmail.Services.Messages.ExcelRowCount},Func{BulkEmail.Services.Messages.ExcelRowCount,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<ExcelRowCount>(Func<ExcelRowCount, ExcelRowCount>, Func<ExcelRowCount, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<ExcelRowCount>(Func<ExcelRowCount, ExcelRowCount>, Func<ExcelRowCount, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ExcelRowCount>(Func<BulkEmail.Services.Messages.ExcelRowCount, BulkEmail.Services.Messages.ExcelRowCount>, Func<BulkEmail.Services.Messages.ExcelRowCount, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ExcelRowCount)(Func(Of ExcelRowCount, ExcelRowCount), Func(Of ExcelRowCount, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ExcelRowCount)(Func(Of BulkEmail.Services.Messages.ExcelRowCount, BulkEmail.Services.Messages.ExcelRowCount), Func(Of BulkEmail.Services.Messages.ExcelRowCount, System.Boolean))
+  name.vb: FromHierarchy(Of ExcelRowCount)(Func(Of ExcelRowCount, ExcelRowCount), Func(Of ExcelRowCount, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<ExcelRowCount>
+    nameWithType: ExceptionExtension.FromHierarchy<ExcelRowCount>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ExcelRowCount>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of ExcelRowCount)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ExcelRowCount)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ExcelRowCount)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Messages.ExcelRowCount.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Messages.ExcelRowCount,BulkEmail.Services.Messages.ExcelRowCount})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<ExcelRowCount>(Func<ExcelRowCount, ExcelRowCount>)
+  nameWithType: ExceptionExtension.FromHierarchy<ExcelRowCount>(Func<ExcelRowCount, ExcelRowCount>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ExcelRowCount>(Func<BulkEmail.Services.Messages.ExcelRowCount, BulkEmail.Services.Messages.ExcelRowCount>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of ExcelRowCount)(Func(Of ExcelRowCount, ExcelRowCount))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ExcelRowCount)(Func(Of BulkEmail.Services.Messages.ExcelRowCount, BulkEmail.Services.Messages.ExcelRowCount))
+  name.vb: FromHierarchy(Of ExcelRowCount)(Func(Of ExcelRowCount, ExcelRowCount))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<ExcelRowCount>
+    nameWithType: ExceptionExtension.FromHierarchy<ExcelRowCount>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Messages.ExcelRowCount>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of ExcelRowCount)
+    nameWithType: ExceptionExtension.FromHierarchy(Of ExcelRowCount)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Messages.ExcelRowCount)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Messages.ExcelRowCount
+    name: ExcelRowCount
+    nameWithType: ExcelRowCount
+    fullName: BulkEmail.Services.Messages.ExcelRowCount
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Messages.ExcelRowCount.#ctor*
+  commentId: Overload:BulkEmail.Services.Messages.ExcelRowCount.#ctor
+  name: ExcelRowCount
+  nameWithType: ExcelRowCount.ExcelRowCount
+  fullName: BulkEmail.Services.Messages.ExcelRowCount.ExcelRowCount
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

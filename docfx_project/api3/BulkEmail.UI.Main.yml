@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Main
+  commentId: T:BulkEmail.UI.Main
+  id: Main
+  parent: BulkEmail.UI
+  children:
+  - BulkEmail.UI.Main.#ctor
+  - BulkEmail.UI.Main.Dispose(System.Boolean)
+  - BulkEmail.UI.Main.IsProcessing
+  - BulkEmail.UI.Main.LockMenu
+  - BulkEmail.UI.Main.OpenChildForm(Form)
+  - BulkEmail.UI.Main.Restart
+  - BulkEmail.UI.Main.UnlockMenu
+  langs:
+  - csharp
+  - vb
+  name: Main
+  nameWithType: Main
+  fullName: BulkEmail.UI.Main
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.Designer.cs
+    id: Main
+    path: src3/BulkEmail.UI/Main.Designer.cs
+    startLine: 3
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: 'public class Main : Form'
+    content.vb: >-
+      Public Class Main
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Main.IsProcessing
+  commentId: P:BulkEmail.UI.Main.IsProcessing
+  id: IsProcessing
+  parent: BulkEmail.UI.Main
+  langs:
+  - csharp
+  - vb
+  name: IsProcessing
+  nameWithType: Main.IsProcessing
+  fullName: BulkEmail.UI.Main.IsProcessing
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.cs
+    id: IsProcessing
+    path: src3/BulkEmail.UI/Main.cs
+    startLine: 25
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: public bool IsProcessing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsProcessing As Boolean
+  overload: BulkEmail.UI.Main.IsProcessing*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Main.Restart
+  commentId: P:BulkEmail.UI.Main.Restart
+  id: Restart
+  parent: BulkEmail.UI.Main
+  langs:
+  - csharp
+  - vb
+  name: Restart
+  nameWithType: Main.Restart
+  fullName: BulkEmail.UI.Main.Restart
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.cs
+    id: Restart
+    path: src3/BulkEmail.UI/Main.cs
+    startLine: 26
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: public bool Restart { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Restart As Boolean
+  overload: BulkEmail.UI.Main.Restart*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Main.#ctor
+  commentId: M:BulkEmail.UI.Main.#ctor
+  id: '#ctor'
+  parent: BulkEmail.UI.Main
+  langs:
+  - csharp
+  - vb
+  name: Main()
+  nameWithType: Main.Main()
+  fullName: BulkEmail.UI.Main.Main()
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Main.cs
+    startLine: 27
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: public Main()
+    content.vb: Public Sub New
+  overload: BulkEmail.UI.Main.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Main.OpenChildForm(Form)
+  commentId: M:BulkEmail.UI.Main.OpenChildForm(Form)
+  id: OpenChildForm(Form)
+  parent: BulkEmail.UI.Main
+  langs:
+  - csharp
+  - vb
+  name: OpenChildForm(Form)
+  nameWithType: Main.OpenChildForm(Form)
+  fullName: BulkEmail.UI.Main.OpenChildForm(Form)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.cs
+    id: OpenChildForm
+    path: src3/BulkEmail.UI/Main.cs
+    startLine: 47
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: public void OpenChildForm(Form childForm)
+    parameters:
+    - id: childForm
+      type: Form
+    content.vb: Public Sub OpenChildForm(childForm As Form)
+  overload: BulkEmail.UI.Main.OpenChildForm*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Main.LockMenu
+  commentId: M:BulkEmail.UI.Main.LockMenu
+  id: LockMenu
+  parent: BulkEmail.UI.Main
+  langs:
+  - csharp
+  - vb
+  name: LockMenu()
+  nameWithType: Main.LockMenu()
+  fullName: BulkEmail.UI.Main.LockMenu()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.cs
+    id: LockMenu
+    path: src3/BulkEmail.UI/Main.cs
+    startLine: 178
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: public void LockMenu()
+    content.vb: Public Sub LockMenu
+  overload: BulkEmail.UI.Main.LockMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Main.UnlockMenu
+  commentId: M:BulkEmail.UI.Main.UnlockMenu
+  id: UnlockMenu
+  parent: BulkEmail.UI.Main
+  langs:
+  - csharp
+  - vb
+  name: UnlockMenu()
+  nameWithType: Main.UnlockMenu()
+  fullName: BulkEmail.UI.Main.UnlockMenu()
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.cs
+    id: UnlockMenu
+    path: src3/BulkEmail.UI/Main.cs
+    startLine: 191
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  syntax:
+    content: public void UnlockMenu()
+    content.vb: Public Sub UnlockMenu
+  overload: BulkEmail.UI.Main.UnlockMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BulkEmail.UI.Main.Dispose(System.Boolean)
+  commentId: M:BulkEmail.UI.Main.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BulkEmail.UI.Main
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: Main.Dispose(Boolean)
+  fullName: BulkEmail.UI.Main.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Main.Designer.cs
+    id: Dispose
+    path: src3/BulkEmail.UI/Main.Designer.cs
+    startLine: 14
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI
+  summary: "\nClean up any resources being used.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: true if managed resources should be disposed; otherwise, false.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: BulkEmail.UI.Main.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BulkEmail.UI
+  commentId: N:BulkEmail.UI
+  name: BulkEmail.UI
+  nameWithType: BulkEmail.UI
+  fullName: BulkEmail.UI
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Main.IsProcessing*
+  commentId: Overload:BulkEmail.UI.Main.IsProcessing
+  name: IsProcessing
+  nameWithType: Main.IsProcessing
+  fullName: BulkEmail.UI.Main.IsProcessing
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BulkEmail.UI.Main.Restart*
+  commentId: Overload:BulkEmail.UI.Main.Restart
+  name: Restart
+  nameWithType: Main.Restart
+  fullName: BulkEmail.UI.Main.Restart
+- uid: BulkEmail.UI.Main.#ctor*
+  commentId: Overload:BulkEmail.UI.Main.#ctor
+  name: Main
+  nameWithType: Main.Main
+  fullName: BulkEmail.UI.Main.Main
+- uid: BulkEmail.UI.Main.OpenChildForm*
+  commentId: Overload:BulkEmail.UI.Main.OpenChildForm
+  name: OpenChildForm
+  nameWithType: Main.OpenChildForm
+  fullName: BulkEmail.UI.Main.OpenChildForm
+- uid: Form
+  commentId: '!:Form'
+  isExternal: true
+  name: Form
+  nameWithType: Form
+  fullName: Form
+- uid: BulkEmail.UI.Main.LockMenu*
+  commentId: Overload:BulkEmail.UI.Main.LockMenu
+  name: LockMenu
+  nameWithType: Main.LockMenu
+  fullName: BulkEmail.UI.Main.LockMenu
+- uid: BulkEmail.UI.Main.UnlockMenu*
+  commentId: Overload:BulkEmail.UI.Main.UnlockMenu
+  name: UnlockMenu
+  nameWithType: Main.UnlockMenu
+  fullName: BulkEmail.UI.Main.UnlockMenu
+- uid: BulkEmail.UI.Main.Dispose*
+  commentId: Overload:BulkEmail.UI.Main.Dispose
+  name: Dispose
+  nameWithType: Main.Dispose
+  fullName: BulkEmail.UI.Main.Dispose

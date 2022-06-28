@@ -1,0 +1,583 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  commentId: T:BulkEmail.Services.Utilities.RtfToHtmlConverter
+  id: RtfToHtmlConverter
+  parent: BulkEmail.Services.Utilities
+  children:
+  - BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert(System.String)
+  - BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance
+  langs:
+  - csharp
+  - vb
+  name: RtfToHtmlConverter
+  nameWithType: RtfToHtmlConverter
+  fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/RtfToHtmlConverter.cs
+    id: RtfToHtmlConverter
+    path: src2/BuikEmail.Services/Utilities/RtfToHtmlConverter.cs
+    startLine: 12
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nSingleton Pattern for <code>RtfToHtmlConverter</code>, contains operation for converting rtf to html format.\n"
+  example: []
+  syntax:
+    content: 'public sealed class RtfToHtmlConverter : IRtfToHtmlConverter'
+    content.vb: >-
+      Public NotInheritable Class RtfToHtmlConverter
+          Inherits IRtfToHtmlConverter
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BulkEmail.Services.Utilities.RtfToHtmlConverter.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.RtfToHtmlConverter,BulkEmail.Services.Utilities.RtfToHtmlConverter},Func{BulkEmail.Services.Utilities.RtfToHtmlConverter,System.Boolean})
+  - BulkEmail.Services.Utilities.RtfToHtmlConverter.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.RtfToHtmlConverter,BulkEmail.Services.Utilities.RtfToHtmlConverter})
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance
+  commentId: P:BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance
+  id: Instance
+  parent: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: RtfToHtmlConverter.Instance
+  fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance
+  type: Property
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/RtfToHtmlConverter.cs
+    id: Instance
+    path: src2/BuikEmail.Services/Utilities/RtfToHtmlConverter.cs
+    startLine: 26
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nGets the singleton instance of <code>RtfToHtmlConverter</code>.\n"
+  example: []
+  syntax:
+    content: public static RtfToHtmlConverter Instance { get; }
+    parameters: []
+    return:
+      type: BulkEmail.Services.Utilities.RtfToHtmlConverter
+      description: "\nInstance of <code>RtfToHtmlConverter</code>.\n"
+    content.vb: Public Shared ReadOnly Property Instance As RtfToHtmlConverter
+  overload: BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert(System.String)
+  commentId: M:BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert(System.String)
+  id: Convert(System.String)
+  parent: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  langs:
+  - csharp
+  - vb
+  name: Convert(String)
+  nameWithType: RtfToHtmlConverter.Convert(String)
+  fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert(System.String)
+  type: Method
+  source:
+    remote:
+      path: c:/projects/docfx_project/src2/BuikEmail.Services/Utilities/RtfToHtmlConverter.cs
+    id: Convert
+    path: src2/BuikEmail.Services/Utilities/RtfToHtmlConverter.cs
+    startLine: 33
+  assemblies:
+  - BulkEmail.Services
+  namespace: BulkEmail.Services.Utilities
+  summary: "\nConverts the specified RTF to an HTML string content.\nEmail body is composed of HTML.\n"
+  example: []
+  syntax:
+    content: public string Convert(string rtf)
+    parameters:
+    - id: rtf
+      type: System.String
+      description: The RTF template.
+    return:
+      type: System.String
+      description: return html string content
+    content.vb: Public Function Convert(rtf As String) As String
+  overload: BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.Services.Utilities
+  commentId: N:BulkEmail.Services.Utilities
+  name: BulkEmail.Services.Utilities
+  nameWithType: BulkEmail.Services.Utilities
+  fullName: BulkEmail.Services.Utilities
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.RtfToHtmlConverter,BulkEmail.Services.Utilities.RtfToHtmlConverter},Func{BulkEmail.Services.Utilities.RtfToHtmlConverter,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  name: FromHierarchy<RtfToHtmlConverter>(Func<RtfToHtmlConverter, RtfToHtmlConverter>, Func<RtfToHtmlConverter, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<RtfToHtmlConverter>(Func<RtfToHtmlConverter, RtfToHtmlConverter>, Func<RtfToHtmlConverter, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.RtfToHtmlConverter>(Func<BulkEmail.Services.Utilities.RtfToHtmlConverter, BulkEmail.Services.Utilities.RtfToHtmlConverter>, Func<BulkEmail.Services.Utilities.RtfToHtmlConverter, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of RtfToHtmlConverter)(Func(Of RtfToHtmlConverter, RtfToHtmlConverter), Func(Of RtfToHtmlConverter, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.RtfToHtmlConverter)(Func(Of BulkEmail.Services.Utilities.RtfToHtmlConverter, BulkEmail.Services.Utilities.RtfToHtmlConverter), Func(Of BulkEmail.Services.Utilities.RtfToHtmlConverter, System.Boolean))
+  name.vb: FromHierarchy(Of RtfToHtmlConverter)(Func(Of RtfToHtmlConverter, RtfToHtmlConverter), Func(Of RtfToHtmlConverter, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<RtfToHtmlConverter>
+    nameWithType: ExceptionExtension.FromHierarchy<RtfToHtmlConverter>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.RtfToHtmlConverter>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of RtfToHtmlConverter)
+    nameWithType: ExceptionExtension.FromHierarchy(Of RtfToHtmlConverter)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.RtfToHtmlConverter)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter.BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{BulkEmail.Services.Utilities.RtfToHtmlConverter,BulkEmail.Services.Utilities.RtfToHtmlConverter})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  parent: BulkEmail.Services.Extensions.ExceptionExtension
+  definition: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  name: FromHierarchy<RtfToHtmlConverter>(Func<RtfToHtmlConverter, RtfToHtmlConverter>)
+  nameWithType: ExceptionExtension.FromHierarchy<RtfToHtmlConverter>(Func<RtfToHtmlConverter, RtfToHtmlConverter>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.RtfToHtmlConverter>(Func<BulkEmail.Services.Utilities.RtfToHtmlConverter, BulkEmail.Services.Utilities.RtfToHtmlConverter>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of RtfToHtmlConverter)(Func(Of RtfToHtmlConverter, RtfToHtmlConverter))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.RtfToHtmlConverter)(Func(Of BulkEmail.Services.Utilities.RtfToHtmlConverter, BulkEmail.Services.Utilities.RtfToHtmlConverter))
+  name.vb: FromHierarchy(Of RtfToHtmlConverter)(Func(Of RtfToHtmlConverter, RtfToHtmlConverter))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy<RtfToHtmlConverter>
+    nameWithType: ExceptionExtension.FromHierarchy<RtfToHtmlConverter>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<BulkEmail.Services.Utilities.RtfToHtmlConverter>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(Func{``0,``0})
+    name: FromHierarchy(Of RtfToHtmlConverter)
+    nameWithType: ExceptionExtension.FromHierarchy(Of RtfToHtmlConverter)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of BulkEmail.Services.Utilities.RtfToHtmlConverter)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+    name: RtfToHtmlConverter
+    nameWithType: RtfToHtmlConverter
+    fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, Boolean>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>, Func<TSource, System.Boolean>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, System.Boolean))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource), Func(Of TSource, Boolean))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0},Func{``0,System.Boolean})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions.ExceptionExtension
+  commentId: T:BulkEmail.Services.Extensions.ExceptionExtension
+  parent: BulkEmail.Services.Extensions
+  name: ExceptionExtension
+  nameWithType: ExceptionExtension
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension
+- uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  commentId: M:BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+  isExternal: true
+  name: FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType: ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>(TSource, Func<TSource, TSource>)
+  nameWithType.vb: ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  fullName.vb: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  name.vb: FromHierarchy(Of TSource)(TSource, Func(Of TSource, TSource))
+  spec.csharp:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy<TSource>
+    nameWithType: ExceptionExtension.FromHierarchy<TSource>
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy<TSource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy``1(``0,Func{``0,``0})
+    name: FromHierarchy(Of TSource)
+    nameWithType: ExceptionExtension.FromHierarchy(Of TSource)
+    fullName: BulkEmail.Services.Extensions.ExceptionExtension.FromHierarchy(Of TSource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BulkEmail.Services.Extensions
+  commentId: N:BulkEmail.Services.Extensions
+  name: BulkEmail.Services.Extensions
+  nameWithType: BulkEmail.Services.Extensions
+  fullName: BulkEmail.Services.Extensions
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance*
+  commentId: Overload:BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance
+  name: Instance
+  nameWithType: RtfToHtmlConverter.Instance
+  fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter.Instance
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  commentId: T:BulkEmail.Services.Utilities.RtfToHtmlConverter
+  parent: BulkEmail.Services.Utilities
+  name: RtfToHtmlConverter
+  nameWithType: RtfToHtmlConverter
+  fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert*
+  commentId: Overload:BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert
+  name: Convert
+  nameWithType: RtfToHtmlConverter.Convert
+  fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter.Convert
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

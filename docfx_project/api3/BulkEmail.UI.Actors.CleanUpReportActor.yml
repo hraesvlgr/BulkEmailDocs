@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors.CleanUpReportActor
+  commentId: T:BulkEmail.UI.Actors.CleanUpReportActor
+  id: CleanUpReportActor
+  parent: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.CleanUpReportActor.#ctor
+  langs:
+  - csharp
+  - vb
+  name: CleanUpReportActor
+  nameWithType: CleanUpReportActor
+  fullName: BulkEmail.UI.Actors.CleanUpReportActor
+  type: Class
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/CleanUpReportActor.cs
+    id: CleanUpReportActor
+    path: src3/BulkEmail.UI/Actors/CleanUpReportActor.cs
+    startLine: 16
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  summary: "\nActor that handles deletion of excel report. Deletes the files older than 6 months.\n<p></p>\nExecute at application start\n"
+  example: []
+  syntax:
+    content: 'public class CleanUpReportActor : ReceiveActor'
+    content.vb: >-
+      Public Class CleanUpReportActor
+          Inherits ReceiveActor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BulkEmail.UI.Actors.CleanUpReportActor.#ctor
+  commentId: M:BulkEmail.UI.Actors.CleanUpReportActor.#ctor
+  id: '#ctor'
+  parent: BulkEmail.UI.Actors.CleanUpReportActor
+  langs:
+  - csharp
+  - vb
+  name: CleanUpReportActor()
+  nameWithType: CleanUpReportActor.CleanUpReportActor()
+  fullName: BulkEmail.UI.Actors.CleanUpReportActor.CleanUpReportActor()
+  type: Constructor
+  source:
+    remote:
+      path: c:/projects/docfx_project/src3/BulkEmail.UI/Actors/CleanUpReportActor.cs
+    id: .ctor
+    path: src3/BulkEmail.UI/Actors/CleanUpReportActor.cs
+    startLine: 18
+  assemblies:
+  - BulkEmail.UI
+  namespace: BulkEmail.UI.Actors
+  syntax:
+    content: public CleanUpReportActor()
+    content.vb: Public Sub New
+  overload: BulkEmail.UI.Actors.CleanUpReportActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BulkEmail.UI.Actors.CleanUpReportActor.#ctor*
+  commentId: Overload:BulkEmail.UI.Actors.CleanUpReportActor.#ctor
+  name: CleanUpReportActor
+  nameWithType: CleanUpReportActor.CleanUpReportActor
+  fullName: BulkEmail.UI.Actors.CleanUpReportActor.CleanUpReportActor

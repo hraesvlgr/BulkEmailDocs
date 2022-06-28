@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.UI.Actors
+  commentId: N:BulkEmail.UI.Actors
+  id: BulkEmail.UI.Actors
+  children:
+  - BulkEmail.UI.Actors.CleanUpReportActor
+  - BulkEmail.UI.Actors.EmailBodyReceiverActor
+  - BulkEmail.UI.Actors.EmailSentReceiverActor
+  - BulkEmail.UI.Actors.EmailToSendComposerActor
+  - BulkEmail.UI.Actors.LabelProgressActor
+  - BulkEmail.UI.Actors.ProgressActor
+  - BulkEmail.UI.Actors.UnlockFormActor
+  - BulkEmail.UI.Actors.ValidationResultReceiverActor
+  langs:
+  - csharp
+  - vb
+  name: BulkEmail.UI.Actors
+  nameWithType: BulkEmail.UI.Actors
+  fullName: BulkEmail.UI.Actors
+  type: Namespace
+  assemblies:
+  - BulkEmail.UI
+references:
+- uid: BulkEmail.UI.Actors.CleanUpReportActor
+  commentId: T:BulkEmail.UI.Actors.CleanUpReportActor
+  name: CleanUpReportActor
+  nameWithType: CleanUpReportActor
+  fullName: BulkEmail.UI.Actors.CleanUpReportActor
+- uid: BulkEmail.UI.Actors.EmailBodyReceiverActor
+  commentId: T:BulkEmail.UI.Actors.EmailBodyReceiverActor
+  name: EmailBodyReceiverActor
+  nameWithType: EmailBodyReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailBodyReceiverActor
+- uid: BulkEmail.UI.Actors.EmailSentReceiverActor
+  commentId: T:BulkEmail.UI.Actors.EmailSentReceiverActor
+  name: EmailSentReceiverActor
+  nameWithType: EmailSentReceiverActor
+  fullName: BulkEmail.UI.Actors.EmailSentReceiverActor
+- uid: BulkEmail.UI.Actors.EmailToSendComposerActor
+  commentId: T:BulkEmail.UI.Actors.EmailToSendComposerActor
+  name: EmailToSendComposerActor
+  nameWithType: EmailToSendComposerActor
+  fullName: BulkEmail.UI.Actors.EmailToSendComposerActor
+- uid: BulkEmail.UI.Actors.LabelProgressActor
+  commentId: T:BulkEmail.UI.Actors.LabelProgressActor
+  name: LabelProgressActor
+  nameWithType: LabelProgressActor
+  fullName: BulkEmail.UI.Actors.LabelProgressActor
+- uid: BulkEmail.UI.Actors.ProgressActor
+  commentId: T:BulkEmail.UI.Actors.ProgressActor
+  name: ProgressActor
+  nameWithType: ProgressActor
+  fullName: BulkEmail.UI.Actors.ProgressActor
+- uid: BulkEmail.UI.Actors.UnlockFormActor
+  commentId: T:BulkEmail.UI.Actors.UnlockFormActor
+  name: UnlockFormActor
+  nameWithType: UnlockFormActor
+  fullName: BulkEmail.UI.Actors.UnlockFormActor
+- uid: BulkEmail.UI.Actors.ValidationResultReceiverActor
+  commentId: T:BulkEmail.UI.Actors.ValidationResultReceiverActor
+  name: ValidationResultReceiverActor
+  nameWithType: ValidationResultReceiverActor
+  fullName: BulkEmail.UI.Actors.ValidationResultReceiverActor

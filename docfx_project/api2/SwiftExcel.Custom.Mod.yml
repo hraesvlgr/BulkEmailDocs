@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: SwiftExcel.Custom.Mod
+  commentId: N:SwiftExcel.Custom.Mod
+  id: SwiftExcel.Custom.Mod
+  children:
+  - SwiftExcel.Custom.Mod.DirectoryHelper
+  - SwiftExcel.Custom.Mod.ExcelWriter
+  - SwiftExcel.Custom.Mod.ExcelWriterCore
+  - SwiftExcel.Custom.Mod.Sheet
+  langs:
+  - csharp
+  - vb
+  name: SwiftExcel.Custom.Mod
+  nameWithType: SwiftExcel.Custom.Mod
+  fullName: SwiftExcel.Custom.Mod
+  type: Namespace
+  assemblies:
+  - BulkEmail.Services
+references:
+- uid: SwiftExcel.Custom.Mod.ExcelWriter
+  commentId: T:SwiftExcel.Custom.Mod.ExcelWriter
+  name: ExcelWriter
+  nameWithType: ExcelWriter
+  fullName: SwiftExcel.Custom.Mod.ExcelWriter
+- uid: SwiftExcel.Custom.Mod.Sheet
+  commentId: T:SwiftExcel.Custom.Mod.Sheet
+  name: Sheet
+  nameWithType: Sheet
+  fullName: SwiftExcel.Custom.Mod.Sheet
+- uid: SwiftExcel.Custom.Mod.ExcelWriterCore
+  commentId: T:SwiftExcel.Custom.Mod.ExcelWriterCore
+  parent: SwiftExcel.Custom.Mod
+  name: ExcelWriterCore
+  nameWithType: ExcelWriterCore
+  fullName: SwiftExcel.Custom.Mod.ExcelWriterCore
+- uid: SwiftExcel.Custom.Mod.DirectoryHelper
+  commentId: T:SwiftExcel.Custom.Mod.DirectoryHelper
+  name: DirectoryHelper
+  nameWithType: DirectoryHelper
+  fullName: SwiftExcel.Custom.Mod.DirectoryHelper
+- uid: SwiftExcel.Custom.Mod
+  commentId: N:SwiftExcel.Custom.Mod
+  name: SwiftExcel.Custom.Mod
+  nameWithType: SwiftExcel.Custom.Mod
+  fullName: SwiftExcel.Custom.Mod

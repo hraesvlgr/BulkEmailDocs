@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: BulkEmail.Services.Utilities
+  commentId: N:BulkEmail.Services.Utilities
+  id: BulkEmail.Services.Utilities
+  children:
+  - BulkEmail.Services.Utilities.AesOperation
+  - BulkEmail.Services.Utilities.EmailAddressValidator
+  - BulkEmail.Services.Utilities.ExcelFileReader
+  - BulkEmail.Services.Utilities.ExcelFileWriter
+  - BulkEmail.Services.Utilities.FileValidator
+  - BulkEmail.Services.Utilities.RtfToHtmlConverter
+  - BulkEmail.Services.Utilities.ZipTool
+  langs:
+  - csharp
+  - vb
+  name: BulkEmail.Services.Utilities
+  nameWithType: BulkEmail.Services.Utilities
+  fullName: BulkEmail.Services.Utilities
+  type: Namespace
+  assemblies:
+  - BulkEmail.Services
+references:
+- uid: BulkEmail.Services.Utilities.AesOperation
+  commentId: T:BulkEmail.Services.Utilities.AesOperation
+  name: AesOperation
+  nameWithType: AesOperation
+  fullName: BulkEmail.Services.Utilities.AesOperation
+- uid: BulkEmail.Services.Utilities.EmailAddressValidator
+  commentId: T:BulkEmail.Services.Utilities.EmailAddressValidator
+  parent: BulkEmail.Services.Utilities
+  name: EmailAddressValidator
+  nameWithType: EmailAddressValidator
+  fullName: BulkEmail.Services.Utilities.EmailAddressValidator
+- uid: BulkEmail.Services.Utilities.ExcelFileWriter
+  commentId: T:BulkEmail.Services.Utilities.ExcelFileWriter
+  parent: BulkEmail.Services.Utilities
+  name: ExcelFileWriter
+  nameWithType: ExcelFileWriter
+  fullName: BulkEmail.Services.Utilities.ExcelFileWriter
+- uid: BulkEmail.Services.Utilities.FileValidator
+  commentId: T:BulkEmail.Services.Utilities.FileValidator
+  parent: BulkEmail.Services.Utilities
+  name: FileValidator
+  nameWithType: FileValidator
+  fullName: BulkEmail.Services.Utilities.FileValidator
+- uid: BulkEmail.Services.Utilities.RtfToHtmlConverter
+  commentId: T:BulkEmail.Services.Utilities.RtfToHtmlConverter
+  parent: BulkEmail.Services.Utilities
+  name: RtfToHtmlConverter
+  nameWithType: RtfToHtmlConverter
+  fullName: BulkEmail.Services.Utilities.RtfToHtmlConverter
+- uid: BulkEmail.Services.Utilities.ExcelFileReader
+  commentId: T:BulkEmail.Services.Utilities.ExcelFileReader
+  parent: BulkEmail.Services.Utilities
+  name: ExcelFileReader
+  nameWithType: ExcelFileReader
+  fullName: BulkEmail.Services.Utilities.ExcelFileReader
+- uid: BulkEmail.Services.Utilities.ZipTool
+  commentId: T:BulkEmail.Services.Utilities.ZipTool
+  parent: BulkEmail.Services.Utilities
+  name: ZipTool
+  nameWithType: ZipTool
+  fullName: BulkEmail.Services.Utilities.ZipTool
+- uid: BulkEmail.Services.Utilities
+  commentId: N:BulkEmail.Services.Utilities
+  name: BulkEmail.Services.Utilities
+  nameWithType: BulkEmail.Services.Utilities
+  fullName: BulkEmail.Services.Utilities
