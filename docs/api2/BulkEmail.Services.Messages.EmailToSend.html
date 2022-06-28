@@ -1,0 +1,702 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EmailToSend
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EmailToSend
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BulkEmail.Services.Messages.EmailToSend">
+  
+  
+  <h1 id="BulkEmail_Services_Messages_EmailToSend" data-uid="BulkEmail.Services.Messages.EmailToSend" class="text-break">Class EmailToSend
+  </h1>
+  <div class="markdown level0 summary"><p>Akka EmailToSend message type for email to send</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EmailToSend</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BulkEmail.Services.Messages.html">BulkEmail.Services.Messages</a></h6>
+  <h6><strong>Assembly</strong>: BulkEmail.Services.dll</h6>
+  <h5 id="BulkEmail_Services_Messages_EmailToSend_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class EmailToSend : object</code></pre>
+  </div>
+  <h5 id="BulkEmail_Services_Messages_EmailToSend_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Use base Builder Pattern to construct email</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend__ctor_" data-uid="BulkEmail.Services.Messages.EmailToSend.#ctor*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend__ctor_System_Int32_" data-uid="BulkEmail.Services.Messages.EmailToSend.#ctor(System.Int32)">EmailToSend(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_AttachmentPath_" data-uid="BulkEmail.Services.Messages.EmailToSend.AttachmentPath*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_AttachmentPath" data-uid="BulkEmail.Services.Messages.EmailToSend.AttachmentPath">AttachmentPath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] AttachmentPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_BCC_" data-uid="BulkEmail.Services.Messages.EmailToSend.BCC*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_BCC" data-uid="BulkEmail.Services.Messages.EmailToSend.BCC">BCC</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] BCC { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_Body_" data-uid="BulkEmail.Services.Messages.EmailToSend.Body*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_Body" data-uid="BulkEmail.Services.Messages.EmailToSend.Body">Body</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailBody Body { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailBody.html">EmailBody</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_CC_" data-uid="BulkEmail.Services.Messages.EmailToSend.CC*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_CC" data-uid="BulkEmail.Services.Messages.EmailToSend.CC">CC</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] CC { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_From_" data-uid="BulkEmail.Services.Messages.EmailToSend.From*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_From" data-uid="BulkEmail.Services.Messages.EmailToSend.From">From</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string From { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_Id_" data-uid="BulkEmail.Services.Messages.EmailToSend.Id*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_Id" data-uid="BulkEmail.Services.Messages.EmailToSend.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_InlineImages_" data-uid="BulkEmail.Services.Messages.EmailToSend.InlineImages*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_InlineImages" data-uid="BulkEmail.Services.Messages.EmailToSend.InlineImages">InlineImages</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] InlineImages { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_Subject_" data-uid="BulkEmail.Services.Messages.EmailToSend.Subject*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_Subject" data-uid="BulkEmail.Services.Messages.EmailToSend.Subject">Subject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Subject { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_To_" data-uid="BulkEmail.Services.Messages.EmailToSend.To*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_To" data-uid="BulkEmail.Services.Messages.EmailToSend.To">To</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] To { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_SetAttachmentPath_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetAttachmentPath*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_SetAttachmentPath_System_String___" data-uid="BulkEmail.Services.Messages.EmailToSend.SetAttachmentPath(System.String[])">SetAttachmentPath(String[])</h4>
+  <div class="markdown level1 summary"><p>Sets the attachment path of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend SetAttachmentPath(string[] path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailToSend.html">EmailToSend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_SetBCC_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetBCC*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_SetBCC_System_String___" data-uid="BulkEmail.Services.Messages.EmailToSend.SetBCC(System.String[])">SetBCC(String[])</h4>
+  <div class="markdown level1 summary"><p>Sets the BCC of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend SetBCC(string[] bcc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">bcc</span></td>
+        <td><p>The BCC.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailToSend.html">EmailToSend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_SetBody_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetBody*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_SetBody_BulkEmail_Services_Messages_EmailBody_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetBody(BulkEmail.Services.Messages.EmailBody)">SetBody(EmailBody)</h4>
+  <div class="markdown level1 summary"><p>Sets the body of email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend SetBody(EmailBody emailBody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailBody.html">EmailBody</a></td>
+        <td><span class="parametername">emailBody</span></td>
+        <td><p>The email body.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailToSend.html">EmailToSend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_SetCC_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetCC*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_SetCC_System_String___" data-uid="BulkEmail.Services.Messages.EmailToSend.SetCC(System.String[])">SetCC(String[])</h4>
+  <div class="markdown level1 summary"><p>Sets the cc of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend SetCC(string[] cc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">cc</span></td>
+        <td><p>The cc.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailToSend.html">EmailToSend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_SetFrom_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetFrom*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_SetFrom_System_String_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetFrom(System.String)">SetFrom(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the From of the email. Default is the email registered in Sendgrid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend SetFrom(string from)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>From.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailToSend.html">EmailToSend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_SetSubject_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetSubject*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_SetSubject_System_String_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetSubject(System.String)">SetSubject(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the subject of email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend SetSubject(string subject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subject</span></td>
+        <td><p>The subject.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailToSend.html">EmailToSend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BulkEmail_Services_Messages_EmailToSend_SetTo_" data-uid="BulkEmail.Services.Messages.EmailToSend.SetTo*"></a>
+  <h4 id="BulkEmail_Services_Messages_EmailToSend_SetTo_System_String___" data-uid="BulkEmail.Services.Messages.EmailToSend.SetTo(System.String[])">SetTo(String[])</h4>
+  <div class="markdown level1 summary"><p>Sets To of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmailToSend SetTo(string[] to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">to</span></td>
+        <td><p>To.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BulkEmail.Services.Messages.EmailToSend.html">EmailToSend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="BulkEmail.Services.Extensions.ExceptionExtension.html#BulkEmail_Services_Extensions_ExceptionExtension_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">ExceptionExtension.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="BulkEmail.Services.Extensions.ExceptionExtension.html#BulkEmail_Services_Extensions_ExceptionExtension_FromHierarchy__1___0_Func___0___0__">ExceptionExtension.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

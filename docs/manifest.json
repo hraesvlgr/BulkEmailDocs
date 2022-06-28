@@ -1,0 +1,1442 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/marvic.aguirre/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.EmailStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.EmailStructure.html",
+          "hash": "lXrRQTDKgqGnytIjItVWRxqVERg0cdxuInR+VC7hIZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.Entity.ExcelField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.Entity.ExcelField.html",
+          "hash": "vM2AZm6Ikym4M1TglOqLT5O6SkKFGNmzYGhNLQ1QAo8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.Entity.ExcelRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.Entity.ExcelRow.html",
+          "hash": "lf3XCKAhxDukKV6nGdQipYAPoFoJd+AfvizqUJwSNfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.Entity.ExcellSheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.Entity.ExcellSheet.html",
+          "hash": "TN3fP0cNF88bwkEl2mxHhgoL79Dh0rjcORHUiq0cpuI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.Entity.html",
+          "hash": "h/Ac5tZsZofMaLuVM486hzyKWGeWUGqYCf531w0hqyI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.FieldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.FieldType.html",
+          "hash": "FXJ7aINo4Y0fORIptvDRbfjefxGjSPf2jQkljNhj8+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.IAesOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.IAesOperation.html",
+          "hash": "svH31bwkEEvT7Zb4Tk0soYuw/fPu9OD8CCwHTE2vpjY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.IEmailAddressValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.IEmailAddressValidator.html",
+          "hash": "uCSGA9uzZqB8FBNP/hYwgTAeWED0nkHGoqWBHGGXy7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.IExcelFileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.IExcelFileReader.html",
+          "hash": "/bEvEJfpxHibaeVZiwcN/dXAVFxb6qbLDm8pa/kk55A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.IExcelFileWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.IExcelFileWriter.html",
+          "hash": "+MBFAIlpHUm9B1YtuShPj2SHKvuJei1RY2SsQGkcWoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.IFileValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.IFileValidator.html",
+          "hash": "IKAirbeePgx6jCs1wTINZ8FqQHvCGr/vhzBIy6z0tpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.IRtfToHtmlConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.IRtfToHtmlConverter.html",
+          "hash": "9+wWkIAuydXc7NDMrbK2B6ElkiBBYo+ptPmxh5kWEYs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.IZipTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.IZipTool.html",
+          "hash": "lmtEGTFEI1AK8U9qEpRd1IkzL+2sYDfYpYvv1EMUq98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BulkEmail.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BulkEmail.Domain.html",
+          "hash": "7ow311ZfpuRqu1mQaEXswH/CmFTU2hTXbLjXcaQ95ok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "BraHbX28Iw4ngjCCb79u7xYsZRDqBMM5okmygNUpvss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "/gT0oaY0vMnP/u+ieaCoTvDTYjzogrLwCmXKHfeiNz4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.Constant.Dispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.Constant.Dispatcher.html",
+          "hash": "UUXkuYDBIA9w4ocBbJalJJg4I4R07QwDpfkvjOKvfLQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.Constant.html",
+          "hash": "pms+oK7xibshXb44pzhemLNUJjngozz9Sd4EDNsjDpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.DuplicateColumnsValidatorActor.html",
+          "hash": "B9DInmAiwwToWVUBA6gXsWGtkqFBKSzALJ7SsjpGWZQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.EmailAddressValidatorActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.EmailAddressValidatorActor.html",
+          "hash": "k54YPep6GhGWMiO6QP8aUMor6k0MWmwCvyssyffxTKs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.EmailComposerActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.EmailComposerActor.html",
+          "hash": "TzFTP/JQN610VwoCa7FY3V+MAnPj7/BNgplLZHwwZvk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.EmailRootActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.EmailRootActor.html",
+          "hash": "TAFUIY38reJdpEoeTdKYIaFi2ivW+KpT1zlgHYgbgxU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.EmailSenderActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.EmailSenderActor.html",
+          "hash": "c6AD7QEZw6Qawj1fgQyL55+yVNj0drt7Upokm/C0JLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.EmailValidatorRootActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.EmailValidatorRootActor.html",
+          "hash": "CiI/zlu4Rhi8jRuEjRKyJy8LEJL0FxWCEwEo6RYqdAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.FilePathValidatorActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.FilePathValidatorActor.html",
+          "hash": "rpx/kXqqT3kmC50rBKXKw70ceQJmFtjvQMUoy9lUJ/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.RequiredFieldValidatorActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.RequiredFieldValidatorActor.html",
+          "hash": "eRbg9JWtvuM4k5nxALmb8oAN6SoNgW50yXndZVQ8ENk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.RootSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.RootSystem.html",
+          "hash": "2jaJBKwM5HvH32THrc+pqVhPJavXdmvDfDIl6KOYaz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.RowCountValidatorActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.RowCountValidatorActor.html",
+          "hash": "kecCrshaNkTPBFGuUli1oCrD4VM/D8daDf+R3GJVHcs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.RtfToHTMLConverterActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.RtfToHTMLConverterActor.html",
+          "hash": "Se9Yvb2Af5e8cQd9NIINeqyKCWtTqsgolc9ZeSqNdQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.RtfToHTMLConverterRootActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.RtfToHTMLConverterRootActor.html",
+          "hash": "XZhKTnbT3BzTCmTfZCQPC+yB7a6zkncJEAjaQcUPMcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Actors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Actors.html",
+          "hash": "wbruyptDjUUrtTHnxSc3lVQETK6TYY/6dKyaWxe/qzc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Constant.Aes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Constant.Aes.html",
+          "hash": "TncUzu0BRg1zom4THqEi0jpH8TVY6r6K8Xi0CttJx3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Constant.Akka.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Constant.Akka.html",
+          "hash": "fD3mb2ci7/ugh7kkMGy3mldqrH8kKcAFcTQwPjjT9i4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Constant.AppSettingKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Constant.AppSettingKey.html",
+          "hash": "QkwK6+NOWoMRXlfeBTdotCYaFcivkM3vGWcMXgqnxKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Constant.SendGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Constant.SendGrid.html",
+          "hash": "Tnco5Ig7ubIlDFnGL30UbCA2kQyv5wVXF/7DtJX1x+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Constant.html",
+          "hash": "jD8mKfiFoHFva+5QczIs4gbS8bGJm1hRC9siCZcJQWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Extensions.ExceptionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Extensions.ExceptionExtension.html",
+          "hash": "rYDIhGg7XJahuLtDkY727EOpsgcFqiqdSWAvqJqsE7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Extensions.html",
+          "hash": "nt2kewXFQdGfO2/Gj5uBchVOSXsaeWJ06a7Pmte5UhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.IoC.TypeNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.IoC.TypeNamingConvention.html",
+          "hash": "7fyMP7inAAzOdWO5UWm/BvwRgtppgRI6s/btynWdTzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.IoC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.IoC.html",
+          "hash": "tjh9f1+VHZNquuLAtVyMiCKXT2ywNsr7bssxS9Ty764="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.BaseExcelRowMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.BaseExcelRowMapping.html",
+          "hash": "YIkA/rP8lmUa7QmLf9wkShF5MJGVJaWmar9tsx53PME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.BaseResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.BaseResult-1.html",
+          "hash": "BGSYrU248SxcTy9vSG1kq/28Zoor/qxYoQsPj89iUGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.BreakerClose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.BreakerClose.html",
+          "hash": "yrlax5t0KlL1bKEneY6wppUaPYROlYMLXfpoxVe4Na4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.BreakerOpen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.BreakerOpen.html",
+          "hash": "pmeKjLxLxk3mvaf659TQE5XjEZ4LVtCqOx5L1HWydTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.Complete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.Complete.html",
+          "hash": "a9eH4fwR+saCSLMIXLB1D37PO4q0U1K6Lp1kwgSBD6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.EmailBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.EmailBody.html",
+          "hash": "TKz0QAvB9doiCDL2juF+crXeywafqFCWTrUMHTwe4bw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.EmailFieldMapForValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.EmailFieldMapForValidation.html",
+          "hash": "aDt+pO/vvk2eoRS9JjdEdgzsROFYkLrYfTcli3buRMI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.EmailSent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.EmailSent.html",
+          "hash": "dHb5reJbi4rk31AEJ6OllGkAVqc7jUPPD1cKl0ollN4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.EmailToSend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.EmailToSend.html",
+          "hash": "TUyvAd+6L4btdNTEgXDLNYr4JRyr9q5oA7deaCnZWjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ExcelColumnsMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ExcelColumnsMapping.html",
+          "hash": "V46px2XBbpFizgQMMGQBYPkMZEKHZ67fiYwJFv6fLR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ExcelRowAndRtfTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ExcelRowAndRtfTemplate.html",
+          "hash": "r9BBWIADC63JnrHwR5pImLjTIeLu64IVZp9oU1QvXio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ExcelRowCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ExcelRowCount.html",
+          "hash": "P1sUhakx3KKlMGVPnu5Z7vPKxV3uqixX34A3TwH8bK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ExcelRowEmailAddressMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ExcelRowEmailAddressMapping.html",
+          "hash": "C+cBZfHxUlxPHl3NCwhT2CKOXmAe+NvSWNW1UKOwOQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ExcelRowFilePathMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ExcelRowFilePathMapping.html",
+          "hash": "uqso10/puIAbLKQqWSFVX+F0JK5ZfAXp47/I9fYk6SA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.Failed-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.Failed-1.html",
+          "hash": "prD1aUIDObos8ncAlZEgMeucHfXAnwmduYyX9oUUU3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.KillThis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.KillThis.html",
+          "hash": "3pIT0Fp7IAMZDFMP8n8yzU/1q8qAwbUxzqXDXM1+oDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.Progress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.Progress.html",
+          "hash": "gqt99W4XAGc9OiRykrDkkNIwWrM3KH0NLNoAr64l0D0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ReliableDeliveryAck-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ReliableDeliveryAck-1.html",
+          "hash": "Aochcxx/RRLYKiRs7UjUoEH0alEr9nbX1NX0A+qlFdI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ReliableDeliveryEnvelope-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ReliableDeliveryEnvelope-1.html",
+          "hash": "DSO5qjUM4vV1ZZbjP+nbvUY5bQwbUqcIvuBwY813n70="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.SetPrerequisite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.SetPrerequisite.html",
+          "hash": "vpIRqCtkYy2o2O3O1qTAoRGrwJFrxBtBt0K8T4MAqJI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.Start.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.Start.html",
+          "hash": "UrMUh8D9R6adOTgauKqYRlGVw+tVfoeWsvT7HjL0B5E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.SubjectColumnsMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.SubjectColumnsMapping.html",
+          "hash": "aFhY1/mxsFzxswOMtzQoLnSNaYc4TRCizRpk71xsSgA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.Success-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.Success-1.html",
+          "hash": "C9OoV26rF8TlcSBm+PR22LDmtD7wh8yiOoZZMcj8Hys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.ValidatedFieldMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.ValidatedFieldMap.html",
+          "hash": "iaQGLVuNnK4ycgaBTbKVXkqXv5ibvvLRdBKdLGaLTwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Messages.html",
+          "hash": "U0A8ImtgU5pUY33sqiTGZam+gYnfa4x3WviWANnj4hI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.AesOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.AesOperation.html",
+          "hash": "6EglWELgb81Wwff5Dsme6QoCs2vWYeB73BHmspiOk/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.EmailAddressValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.EmailAddressValidator.html",
+          "hash": "RQOegniJYqb5UubRFltZM15x+qHhzxzMa9k/QFRZa3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.ExcelFileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.ExcelFileReader.html",
+          "hash": "HAmIxERiMg+U7X3iZZ5JXb45K5mrQkSPn+crTsS7aas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.ExcelFileWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.ExcelFileWriter.html",
+          "hash": "+k+4mzPnk802R5qOW3Gy9zJZmmw5TW/Z9zmBsqpN4kg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.FileValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.FileValidator.html",
+          "hash": "dI+S58qDzPW/IWlT3M+RbgnQ/o4ZEB45ALUGnbsTMKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.RtfToHtmlConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.RtfToHtmlConverter.html",
+          "hash": "+RonZpXlF+YBr6YKLZi6qRvbonIqxsYwv46RkNnEsns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.ZipTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.ZipTool.html",
+          "hash": "TLvyIAoXUSUmGshJQl4yqABg+cu9WH9JkqpPPIorss4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.Utilities.html",
+          "hash": "GoKEezmeP4vQjiATL3RGVvANmaRQz9EsKrLHiF2QS7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/BulkEmail.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/BulkEmail.Services.html",
+          "hash": "VWUiWGZ+ak751Hn6SbhhzQmTYCrwkJoAmP2vtJphSYA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/SwiftExcel.Custom.Mod.DirectoryHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/SwiftExcel.Custom.Mod.DirectoryHelper.html",
+          "hash": "9EnwMe0OryXQU6Qre1Pdern8dMMtSIMlFMoEKoy8T+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/SwiftExcel.Custom.Mod.ExcelWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/SwiftExcel.Custom.Mod.ExcelWriter.html",
+          "hash": "82jMPClTLsG3ZTsgbmnGamv9ZoZDNvqwp7uWg9Pg6mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/SwiftExcel.Custom.Mod.ExcelWriterCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/SwiftExcel.Custom.Mod.ExcelWriterCore.html",
+          "hash": "+6Y9xPC66uyysyTyhEfDSPzSMxJtTUoZthwwsJRpwmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/SwiftExcel.Custom.Mod.Sheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/SwiftExcel.Custom.Mod.Sheet.html",
+          "hash": "47zmObnnYi9rPgwqsKmbX1X9qXjElYUbqw5UB8NM9S8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api2/SwiftExcel.Custom.Mod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/SwiftExcel.Custom.Mod.html",
+          "hash": "d+O4Ie+gcglB+VvS2a04xlE9tI3Mmsnduv9MGe1AV8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api2/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api2/toc.html",
+          "hash": "ihaBnW3e1dvnAtyILBMjBnE7c1CtyRFgtiZBtM7AuvY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.CleanUpReportActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.CleanUpReportActor.html",
+          "hash": "9eo9QlM19BPmX1fb4jws7y+6pw5+IYXO67i8YdUImG0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.EmailBodyReceiverActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.EmailBodyReceiverActor.html",
+          "hash": "ezXD9PuObJ2BRJ644yxDhoV7OUh29c2COm0jl27IMcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.EmailSentReceiverActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.EmailSentReceiverActor.html",
+          "hash": "bvBxwYRs4mUZtkX9iOF0Ahtn9PThuqTGr29ewmgfYoA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.EmailToSendComposerActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.EmailToSendComposerActor.html",
+          "hash": "YyOkK3XgvpDM1EGduqEUjhB73sMaMcSCTMseSYEo00E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.LabelProgressActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.LabelProgressActor.html",
+          "hash": "f19xyuIfllgUpl4+qg5T6Yixoc7mkF53eZa4TIfsKjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.ProgressActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.ProgressActor.html",
+          "hash": "3jw4oYkFWIYwqib0gaUdAe/VC9jaWnh09ZEvDRGhEdE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.UnlockFormActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.UnlockFormActor.html",
+          "hash": "OY8fgh/AmjfCK2mcyUR2JN/QClpiGLuEK5xE47hCLM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.ValidationResultReceiverActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.ValidationResultReceiverActor.html",
+          "hash": "NJK7Lme+nhjDvgT2vcI+N06xhKwyBBZXCgbinOOCGcY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Actors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Actors.html",
+          "hash": "o6ZnNIPjh28GzqTvtLPuposZvn647liP2d3bdxJsEOM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Command.FormCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Command.FormCommand.html",
+          "hash": "sR6A4YGXGCVXOMqnqqnV+6BBd9tIYUlfJF0JEfE71lU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Command.MessageStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Command.MessageStyle.html",
+          "hash": "c9nSqcjfmnlGsE/KiKSY9Y0+sQ+aZ2LQJxAXZdNV02o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Command.html",
+          "hash": "tD9Nip7R7ggh+5VWXOrazo1TQdjFPR6zH696WU81y9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.EnumAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.EnumAction.html",
+          "hash": "lAG/LIADTXapJSoFeTbcb2mBqdyyg2X9SMnTYIgwIhg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formAuthenticate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formAuthenticate.html",
+          "hash": "9904oDwCQvkOrTZ991dCjKV4R3zBo+7lhkztWYBNz4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formBrowse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formBrowse.html",
+          "hash": "P5TxYFFFuz8QkBNm9fCYsOABRurcEJ07k6Yk4gROtAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formEMailMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formEMailMapping.html",
+          "hash": "avxnwHYB+sVjzU0KdEAPpPT7QfJCi41sTicWAnUG2Ag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formEmailTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formEmailTemplate.html",
+          "hash": "HsATciGdXFFNqTwlvbyG9OwDKfj9QBrDxeXvvXUiY/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formEmailTemplateEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formEmailTemplateEdit.html",
+          "hash": "x0eLNvT+cqJlzPqK7k5BKxpGFxCTYS/mJRjTknUugjw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formExcelValidationDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formExcelValidationDialog.html",
+          "hash": "157IOo33Lzvd1ta3eP2iEvf2pdmDLl3lpMEZa1L2iMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formNotification.html",
+          "hash": "HR7Y26Q20+nDKgdma2nPlVYAmg2eQz+PSBiZ721kF14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formPreviewAndSend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formPreviewAndSend.html",
+          "hash": "aP5bNkqydSz7jWZFR24kE9e+VIF4bSbZlnGKDWUuNQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formReport.html",
+          "hash": "tPZJoU6JTXZR1hvlAgzu7qqP3S5mWN7hLa4/ZVmbUSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formSaveAsDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formSaveAsDialog.html",
+          "hash": "jFakbmxrhIzWVhJguxwrVnjIkpg8UbHInx1jaIgx6kk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.formSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.formSettings.html",
+          "hash": "jZLLlzkE5uU9YoSgeOv9yN6YuW3Fda6tJaPM40PNEMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Forms.html",
+          "hash": "yJ51d1ESQHw0NIM/m38CBa4gDaZzewdPG0z5JqEX1cw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.GridNavigationPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.GridNavigationPage.html",
+          "hash": "D8fe2NLKT6lCnnNys815pLJ95PHcMyhskjnW6DQ5vOY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.Main.html",
+          "hash": "u8IlEYLz3ZnqtgKO0ARntUyA8lGR3zUUUXgzy/PiWqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.UIData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.UIData.html",
+          "hash": "a6ZGtgMYt2w9ixd8+22n5YCiRJhMSH4PmC/hvtbE+W4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api3/BulkEmail.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/BulkEmail.UI.html",
+          "hash": "Lp0/CyKN1lyFRGe+c4IYktlYp42QwEOJaqISEeCmfVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api3/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api3/toc.html",
+          "hash": "E/jRjjmGzSS7xTeLCuOdGBC55J9fOlk7itFv8iomyU8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "aOy2sep6UZV26oOkupcIBXuDgHQsCVz7R3i+I6vFl6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/BatchMailApp.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/BatchMailApp.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "c8cXaBEAzRl+k5VElvjjZhrAssOLBb5lFleAq8Uzh8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "uQAIFsv276NiA/aF1Rlaxiwq6b1oCd4gYdeYGPQPcCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 106,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

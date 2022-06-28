@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExcelWriter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExcelWriter
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SwiftExcel.Custom.Mod.ExcelWriter">
+  
+  
+  <h1 id="SwiftExcel_Custom_Mod_ExcelWriter" data-uid="SwiftExcel.Custom.Mod.ExcelWriter" class="text-break">Class ExcelWriter
+  </h1>
+  <div class="markdown level0 summary"><p>Concrete class inherited from <code>SwiftExcel.Custom.Mod.ExcelWriterCore</code> to add support for writing multiple sheets in one excel file.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html">ExcelWriterCore</a></div>
+    <div class="level2"><span class="xref">ExcelWriter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_Finalized">ExcelWriterCore.Finalized</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_FilePath">ExcelWriterCore.FilePath</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_Sheets">ExcelWriterCore.Sheets</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_OutputPath">ExcelWriterCore.OutputPath</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_TempOutputPath">ExcelWriterCore.TempOutputPath</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_Init">ExcelWriterCore.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_Save">ExcelWriterCore.Save()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_CreateFolders">ExcelWriterCore.CreateFolders()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_CreateRels">ExcelWriterCore.CreateRels()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_CreateDocProps">ExcelWriterCore.CreateDocProps()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_CreateContentTypes">ExcelWriterCore.CreateContentTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_CreateTheme">ExcelWriterCore.CreateTheme()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_CreateWorkbook">ExcelWriterCore.CreateWorkbook()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_CreateExcelStyles">ExcelWriterCore.CreateExcelStyles()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_StartSheets">ExcelWriterCore.StartSheets()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_FinishSheets">ExcelWriterCore.FinishSheets()</a>
+    </div>
+    <div>
+      <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html#SwiftExcel_Custom_Mod_ExcelWriterCore_DisposeCore">ExcelWriterCore.DisposeCore()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SwiftExcel.Custom.Mod.html">SwiftExcel.Custom.Mod</a></h6>
+  <h6><strong>Assembly</strong>: BulkEmail.Services.dll</h6>
+  <h5 id="SwiftExcel_Custom_Mod_ExcelWriter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ExcelWriter : ExcelWriterCore</code></pre>
+  </div>
+  <h5 id="SwiftExcel_Custom_Mod_ExcelWriter_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Added support for multiple sheet write. Modified code copied from GitHub <a href="https://github.com/RomanPavelko/SwiftExcel">https://github.com/RomanPavelko/SwiftExcel</a></p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="SwiftExcel_Custom_Mod_ExcelWriter__ctor_" data-uid="SwiftExcel.Custom.Mod.ExcelWriter.#ctor*"></a>
+  <h4 id="SwiftExcel_Custom_Mod_ExcelWriter__ctor_System_String_SwiftExcel_Custom_Mod_Sheet___" data-uid="SwiftExcel.Custom.Mod.ExcelWriter.#ctor(System.String,SwiftExcel.Custom.Mod.Sheet[])">ExcelWriter(String, Sheet[])</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriter.html">ExcelWriter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExcelWriter(string filePath, params Sheet[] sheets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SwiftExcel.Custom.Mod.Sheet.html">Sheet</a>[]</td>
+        <td><span class="parametername">sheets</span></td>
+        <td><p>The sheets.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SwiftExcel_Custom_Mod_ExcelWriter_Write_" data-uid="SwiftExcel.Custom.Mod.ExcelWriter.Write*"></a>
+  <h4 id="SwiftExcel_Custom_Mod_ExcelWriter_Write_System_String_System_Int32_System_Int32_System_Int32_DataType_" data-uid="SwiftExcel.Custom.Mod.ExcelWriter.Write(System.String,System.Int32,System.Int32,System.Int32,DataType)">Write(String, Int32, Int32, Int32, DataType)</h4>
+  <div class="markdown level1 summary"><p>Writes the specified value in an excel cell in a specific sheet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(string value, int col, int row, int sheetIndex, DataType dataType = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">col</span></td>
+        <td><p>The col.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sheetIndex</span></td>
+        <td><p>Index of the sheet.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DataType</span></td>
+        <td><span class="parametername">dataType</span></td>
+        <td><p>Type of the data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SwiftExcel_Custom_Mod_ExcelWriter_WriteFormula_" data-uid="SwiftExcel.Custom.Mod.ExcelWriter.WriteFormula*"></a>
+  <h4 id="SwiftExcel_Custom_Mod_ExcelWriter_WriteFormula_FormulaType_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="SwiftExcel.Custom.Mod.ExcelWriter.WriteFormula(FormulaType,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">WriteFormula(FormulaType, Int32, Int32, Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes the formula in an excel cell in a specific sheet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteFormula(FormulaType type, int col, int row, int sourceCol, int sourceRowStart, int sourceRowEnd, int sheetIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FormulaType</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">col</span></td>
+        <td><p>The col.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sourceCol</span></td>
+        <td><p>The source col.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sourceRowStart</span></td>
+        <td><p>The source row start.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sourceRowEnd</span></td>
+        <td><p>The source row end.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sheetIndex</span></td>
+        <td><p>Index of the sheet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="BulkEmail.Services.Extensions.ExceptionExtension.html#BulkEmail_Services_Extensions_ExceptionExtension_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">ExceptionExtension.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="BulkEmail.Services.Extensions.ExceptionExtension.html#BulkEmail_Services_Extensions_ExceptionExtension_FromHierarchy__1___0_Func___0___0__">ExceptionExtension.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="SwiftExcel.Custom.Mod.ExcelWriterCore.html">ExcelWriterCore</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
